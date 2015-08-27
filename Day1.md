@@ -16,8 +16,8 @@ You'll notice the `//...` used quite often in the examples. These (`//`) and eve
 ##  Variables
 In algebra, we have problems that look like this: `x + y`. Here, `x` and `y` are variables. They are called as such becuase their values can vary. For instance, if `x = 3` and `y = 2`, then `x + y` would equal 5. Let's do it in JavaScript:
 ```javascript
-var x = 3
-var y = 2
+var x = 3;
+var y = 2;
 x + y
 //=> 5
 ```
@@ -61,7 +61,7 @@ Pretty basic data type. Can either be `true` or `false`
 ## Null
 `null` is an assignment value. So if I want a variable to exist, but don't want to necessarily assign a meaningful value to it, I can just assign it to `null`. It's sort of like a placeholder.
 ```javascript
-var todoItem = null
+var todoItem = null;
 ```
 
 ## Undefined
@@ -83,10 +83,10 @@ In JavaScript, the idea of number is very far reaching. It includes:
   * and even `NaN` (not-a-number)
   
 ## String
-Strings are basically anything you can put between double-quotes (`""`) or  single-quotes (`''`)`.
+Strings are basically anything you can put between single-quotes (`''`) or double-quotes (`""`).
 ```javascript
-var str1 = 'Hello'
-var str2 = 'World'
+var str1 = 'Hello';
+var str2 = 'World';
 ```
 
 You can add them:
@@ -95,21 +95,13 @@ str1 + str2
 //=> 'HelloWorld'
 ```
 
-Hint: It is convention to always try to use single-quotes (`''`)` when possible. In other languages and some "flavors" of javascript, double-quotes (`""`) and  single-quotes (`''`) have different features.
-
-You can even compare them! It will take the first character of each string and compare their "location" in the letter order.
-```javascript
-str1 < str2
-//=> true
-
-str1 >= str2
-//=> false
-```
+Hint: It is convention to always try to use single-quotes (`''`) when possible. In other languages and some "flavors" of javascript, single-quotes (`''`) and double-quotes (`""`) have different features.
 
 You have two options to wrap a string, double-quotes (`""`) and  single-quotes (`''`), becuase you may want to use one of those symbols in the string itself. JavaScript will always accept the *outer* symbols.
 
 ```javascript
-var str3 = "He said 'What is going on here?'"
+var str3 = "He said 'What is going on here?'";
+var str4 = 'She replied "I have no idea"';
 ```
 
 ## Operators
