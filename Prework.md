@@ -3,11 +3,11 @@
 ## Codecademy
 [Codecademy](https://www.codecademy.com/) is a great resource for learning the syntax of different popular laguages, as well as familiarizing yourself with important tools. Make an account and get started coding now. Do a little bit every day and pace yourself. If you pass a lesson and don't fully understand why, that is fine for now. Your understanding will be cemented in later lessons. Just get through them all. 
 
-For your prework you are to complete:
+For your prework (**work done before class starts**) you are to do:
 
 ### 1. [Learn the Command Line](https://www.codecademy.com/courses/learn-the-command-line)
-Complete this course 100%. Without these skills you will fall behind not only in class, but in any developer position anywhere.
-
+Without these skills you will fall behind not only in class, but in any developer position anywhere. Complete the 
+`Navigation` and `Manipulation` lessons.
 ### 2. [Javacript](https://www.codecademy.com/tracks/javascript)
 Your future bread and butter. **Complete all lessons before `Objects I`**
 
