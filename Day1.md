@@ -95,14 +95,15 @@ str1 + str2
 //=> 'HelloWorld'
 ```
 
-Hint: It is convention to always try to use single-quotes (`''`) when possible. In other languages and some "flavors" of javascript, single-quotes (`''`) and double-quotes (`""`) have different features.
-
-You have two options to wrap a string, double-quotes (`""`) and  single-quotes (`''`), becuase you may want to use one of those symbols in the string itself. JavaScript will always accept the *outer* symbols.
+You have two options to wrap a string, double-quotes (`""`) and  single-quotes (`''`), becuase you may want to use one of those symbols in the string itself, among other reasons. JavaScript will always accept the *outer* symbols.
 
 ```javascript
 var str3 = "He said 'What is going on here?'";
 var str4 = 'She replied "I have no idea"';
 ```
+
+It is convention to always try to use single-quotes (`''`) when possible. In other languages and some "flavors" of javascript, single-quotes (`''`) and double-quotes (`""`) have different features.
+
 
 ## Operators
 The AND (`&&`) and OR (`||`) operators will return the result of multiple boolean values.
@@ -156,7 +157,9 @@ true || true || false
 Truthiness is a powerful concept in JavaScript. It's a little strange at first, but you will come to love and depend on it in time. It basically breaks down to this:
 
 If it exists and is an "emotionally positive" value, it's considered "truthy":
-`true` `"hello"` `"false"` `1` `-4`
+`true` `'hello'` `'false'` `1` `-4`
+
+Notice 'false' used here is a string, not a boolean.
 
 If it is not assigned a value or is an "emotionally negative" value, it's considered "falsy":
 `false` `0` `null` `undefined`
