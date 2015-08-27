@@ -157,6 +157,7 @@ true || true || true
 //=> true
 
 true || true || false
+//=> true
 ```
 
 ## Truthiness: Truthy vs Falsy
