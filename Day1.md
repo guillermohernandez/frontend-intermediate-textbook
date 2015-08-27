@@ -41,11 +41,11 @@ Let's see it in JavaScript:
 //=> false
 
 
-// We compare equality with a ==
-4 == 4
+// We compare equality with ===
+4 === 4
 //=> true
 
--2 == 10
+-2 === 10
 //=> false
 ```
 
