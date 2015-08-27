@@ -159,11 +159,35 @@ true || true || true
 true || true || false
 ```
 
-## Truthy vs Falsy
-Truthy vs Falsy is a powerful concept in JavaScript. It's a little strange at first, but you will come to love and depend on it in time. It basically breaks down to this:
+## Truthiness: Truthy vs Falsy
+Truthiness is a powerful concept in JavaScript. It's a little strange at first, but you will come to love and depend on it in time. It basically breaks down to this:
 
 If it exists and is an "emotionally positive" value, it's considered "truthy":
 `true` `"hello"` `"false"` `1` `-4`
 
 If it is not assigned a value or is an "emotionally negative" value, it's considered "falsy":
 `false` `0` `null` `undefined`
+
+## Bang (`!`)
+The bang (`!`) operator returns the opposite truthiness value.
+```javascript
+true
+//=> true
+
+!true
+//=> false
+
+!undefined
+//=> true
+
+!"Hello"
+//=> false
+
+// I sometimes use a double bang (!!) to determine the truthiness of a value. It can come in very handy
+
+!!"Hello"
+//=> true
+
+!!null
+//=> false
+```
