@@ -11,6 +11,9 @@ To load a Node.js enviroment, simply type `node` in your terminal. You can follo
 ### Comments
 You'll notice the `//...` used quite often in the examples. These (`//`) and everything after it are meant for commentary or notes for developers (like yourself) to read. They do not need to be typed into the terminal.
 
+### Strict Mode
+As of ECMAScript 5 (like saying JavaScript v5), "strict mode" became available to developers. This mode **voluntarily** restricts some of JavaScripts powers that were pretty much always used by accident. We won't get into the specifics, but you can read about it [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). We will be using it by simply placing `'use strict';` at the top of our scripts. It is recommended that you always (even profesionally) use "strict mode", as it can save you time, frustration, and possibly a few security concerns. I will leave it out of the examples below for the sake of brevity, but will always be used in coding later.
+
 # JavaScript: The Language, The Legend
 
 ##  Variables
@@ -91,7 +94,7 @@ var str2 = 'World';
 
 You can add them:
 ```javascript
-str1 + str2
+str1 + str2;
 //=> 'HelloWorld'
 ```
 
