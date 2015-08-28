@@ -156,7 +156,7 @@ true || true || false
 //=> true
 ```
 
-## Truthiness: Truthy vs Falsy
+## Truthiness: Truthy vs Falsey
 Truthiness is a powerful concept in JavaScript. It's a little strange at first, but you will come to love and depend on it in time. It basically breaks down to this:
 
 If it exists and is an "emotionally positive" value, it's considered "truthy":
@@ -164,8 +164,10 @@ If it exists and is an "emotionally positive" value, it's considered "truthy":
 
 Notice 'false' used here is a string, not a boolean.
 
-If it is not assigned a value or is an "emotionally negative" value, it's considered "falsy":
-`false` `0` `null` `undefined`
+If it is not assigned a value or is an "emotionally negative" value, it's considered "falsey":
+`false` `0` `null` `undefined` `NaN`
+
+Notice `0` is the only number (that is a number) considered "falsey".
 
 ## Bang (`!`)
 The bang (`!`) operator returns the opposite truthiness value.
@@ -182,7 +184,7 @@ true
 !"Hello"
 //=> false
 
-// I sometimes use a double bang (!!) to determine the truthiness of a value. It can come in very handy
+// I sometimes use a double bang (!!) to determine the truthiness of a value. It can comes in handy
 
 !!"Hello"
 //=> true
@@ -190,3 +192,44 @@ true
 !!null
 //=> false
 ```
+
+# Exercises:
+
+## Taking Notes on Github
+1. Go to github.com and sign in.
+2. Add a repository and name it whatever you want **using `_` or `-` (ex. ACA-Class-Notes)
+3. Copy the HTTPS clone URL
+4. In your terminal, navigate (using `cd`) into a directory where you want to start keeping your repositories.
+5. Clone your new repository by type `git clone <HTTPS clone URL>` (without carets "<>") 
+6. Navigate into the directory `cd <repository name>` (without carets "<>")
+7. Open up a Sublime window by typing `subl .`
+8. Start typing to create a new file. Save it (`ctrl-s` or `command-s`) as DayOne.js
+9. Copy all examples above (with any comments `//...`) and save the file.
+10. In your terminal. Type `git status`
+11. See that you have added one file.
+12. Type `git add -A`. This will stage the file to be committed.
+13. Type `git commit -m "Add any message here like maybe 'Day One Examples"`
+14. Type `git push origin master` to push it up to GitHub
+
+From now on, all of your notes from class will be in this repo. Become friends with GitHub, it will become your newest social network, resume, portfolio, and encyclopedia.
+
+## Let's pass some tests!
+Tests are a great way to make sure you code works the way you planned it would, and to make sure you don't break something in the future. We will be using them to test our understanding of the lesson.
+
+1. Our test repository is located at https://github.com/mistakevin/acatests.
+2. Click the 'Fork' button (choose your account if prompted). 
+3. Once forked, repeat steps 3 - 7 above.
+4. Type `sudo npm install -g mocha` in your terminal. Enter your password if prompted.
+5. Navigate into LessonZero in your terminal (`cd LessonZero`)
+6. Run `mocha`
+7. Hopefully the test passes!
+8. Now navigate backwards (`cd ..`) then into the LessonOne directory (`cd LessonOne`)
+9. Run `mocha` and watch the tests fail :(
+10. In Sublime Text, open LessonOne.js
+11. Below each comment, try to do what it is asking. Be sure to always `return` your answer.
+12. Run `mocha` after each attempt to watch the functions pass or fail.
+
+
+## Bonus!!! 
+### Set up your SSH Keys for Github
+Having to type in your GitHub credentials everytime you push to GitHub from the terminal will get old and time consuming. Follow the instructions at [Generating SSH Keys](https://help.github.com/articles/generating-ssh-keys/) to authorize your computer, keeping you from having to always type in your GitHub Credentials.
