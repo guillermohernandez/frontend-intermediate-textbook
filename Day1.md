@@ -182,7 +182,7 @@ true
 !"Hello"
 //=> false
 
-// I sometimes use a double bang (!!) to determine the truthiness of a value. It can comes in handy
+// I sometimes use a double bang (!!) to determine the truthiness of a value. It can come in handy
 
 !!"Hello"
 //=> true
