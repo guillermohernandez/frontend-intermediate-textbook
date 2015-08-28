@@ -231,5 +231,5 @@ Tests are a great way to make sure you code works the way you planned it would, 
 
 
 ## Bonus!!! 
-### Set up your SSH Keys for Github
+### Set up your SSH Keys for GitHub
 Having to type in your GitHub credentials everytime you push to GitHub from the terminal will get old and time consuming. Follow the instructions at [Generating SSH Keys](https://help.github.com/articles/generating-ssh-keys/) to authorize your computer, keeping you from having to always type in your GitHub Credentials.
