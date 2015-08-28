@@ -1,4 +1,6 @@
-# Server-side JavaScript
+# Lesson One
+
+## Server-side JavaScript
 JavaScript was born in the browser. It was created by Netscape to add dynamic code inside Netscape Navigator. Nearly all JavaScript was written in, designed for, and limited to the browser. Today is a different time. 
 
 Recently, the popularity of JavaScript has exploded, and many coders wanted to use a unified language on the front-end and back-end. [Node.js](https://nodejs.org/) is a result of this effort. We will begin our JavaScript journey using `node` in your terminal on your machine (aka. server-side / back-end).
@@ -6,13 +8,13 @@ Recently, the popularity of JavaScript has exploded, and many coders wanted to u
 ## Using Node
 To load a Node.js enviroment, simply type `node` in your terminal. You can follow along by typing the example below into your command prompt.
 
-### Comments
+# JavaScript: The Language, The Legend
+
+## Comments
 You'll notice the `//...` used quite often in the examples. These (`//`) and everything after it are meant for commentary or notes for developers (like yourself) to read. They do not need to be typed into the terminal.
 
-### Strict Mode
+## Strict Mode
 As of ECMAScript 5 (like saying JavaScript v5), "strict mode" became available to developers. This mode **voluntarily** restricts some of JavaScripts powers that were pretty much always used by accident. We won't get into the specifics, but you can read about it [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). We will be using it by simply placing `'use strict';` at the top of our scripts. It is recommended that you always (even profesionally) use "strict mode", as it can save you time, frustration, and possibly a few security concerns. I will leave it out of the examples below for the sake of brevity, but will always be used in coding later.
-
-# JavaScript: The Language, The Legend
 
 ##  Variables
 In algebra, we have problems that look like this: `x + y`. Here, `x` and `y` are variables. They are called as such becuase their values can vary. For instance, if `x = 3` and `y = 2`, then `x + y` would equal 5. Let's do it in JavaScript:
