@@ -193,6 +193,16 @@ true
 //=> false
 ```
 
+The bang can also test whether something is **not** equal to something else.
+
+```javascript
+var x = 7;
+var y = 5;
+
+x !== y;
+//=> true
+```
+
 # Exercises:
 
 ## Taking Notes on Github
