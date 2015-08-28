@@ -14,8 +14,9 @@
   
 ### Lesson Two
 * Conditionals
-* Named Functions
+* Modulo Operator
 * Generating Random Numbers
+* Named Functions
 * Prompting for Input
 * Exercises
   * Rock, Paper, Scissors
