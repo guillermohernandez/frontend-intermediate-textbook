@@ -5,6 +5,6 @@ Instructions on how to install the tools you need for class: Git, Sublime Text 3
 ## [Pre Work](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/Prework.md)
 Work to be completed **before** the first class begins.
 
-## [Lesson One](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/Day1.md)
+## [Lesson One](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonOne.md)
 
 ## [Lesson Two](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonTwo.md)
