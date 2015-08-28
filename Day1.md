@@ -4,8 +4,6 @@ JavaScript was born in the browser. It was created by Netscape to add dynamic co
 Recently, the popularity of JavaScript has exploded, and many coders wanted to use a unified language on the front-end and back-end. [Node.js](https://nodejs.org/) is a result of this effort. We will begin our JavaScript journey using `node` in your terminal on your machine (aka. server-side / back-end).
 
 ## Using Node
-(after installing node.js as detailed [here]())
-
 To load a Node.js enviroment, simply type `node` in your terminal. You can follow along by typing the example below into your command prompt.
 
 ### Comments
