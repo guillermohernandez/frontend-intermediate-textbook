@@ -56,16 +56,16 @@ Takeaways: JavaScript does math
 
 There are six primitive data types. We will talk about five of them here:
 
-## Booleans
+### Booleans
 Pretty basic data type. Can either be `true` or `false`
 
-## Null
+### Null
 `null` is an assignment value. So if I want a variable to exist, but don't want to necessarily assign a meaningful value to it, I can just assign it to `null`. It's sort of like a placeholder.
 ```javascript
 var todoItem = null;
 ```
 
-## Undefined
+### Undefined
 `undefined` means that a variable has been declared, but nothing, not even `null`, has been assigned.
 ```javascript
 var greatIdea;
@@ -73,7 +73,7 @@ greatIdea
 //=> undefined
 ```
 
-## Number
+### Number
 In JavaScript, the idea of number is very far reaching. It includes:
 * Actual numbers between -(2 * 10^53 - 1) and 2 * 10^53 - 1
   * Integers `1` `-2`
@@ -83,7 +83,7 @@ In JavaScript, the idea of number is very far reaching. It includes:
   * `-Infinity`
   * and even `NaN` (not-a-number)
   
-## String
+### String
 Strings are basically anything you can put between single-quotes (`''`) or double-quotes (`""`).
 ```javascript
 var str1 = 'Hello';
