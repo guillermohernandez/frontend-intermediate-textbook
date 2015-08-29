@@ -6,8 +6,12 @@
   * `if`/ `else if`/ `else` pattern
   * nested conditionals
 2. Modulo Operator
+3. Named functions
+  * understand decomposition method
+4. Input Prompting
+  * demonstrate use of "prompt" npm package 
 
-Let's be sure to add this to our notes repository. navigate into your repository using `cd`, and create a new file titled something like _LessonTwoNotes.js_ by typing `subl LessonTwoNotes.js`. Type examples (and make comments) in here.
+Let's be sure to add this to our notes repository. Navigate into your repository using `cd`, and create a new file titled something like _LessonTwoNotes.js_ by typing `subl LessonTwoNotes.js`. Type examples (and make comments) in here.
 
 ## Instructional Plan
 
