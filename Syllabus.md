@@ -1,6 +1,8 @@
-# Syllabus - Austin Code Academy HTML Intermediate - Section 02
+# Syllabus
 
-## [Lesson One](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonOne.md)
+## Austin Code Academy HTML Intermediate - Section 02
+
+### [Lesson One](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonOne.md)
 
 #### Objectives
 1. Familarity with Git/GitHub
@@ -34,7 +36,9 @@
 
 #### Assessments
 1. Lesson One Tests
-  
+
+---
+
 ### [Lesson Two](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonTwo.md)
 #### Objectives
 1. Conditionals
