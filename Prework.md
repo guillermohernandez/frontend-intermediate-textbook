@@ -8,9 +8,12 @@ For your prework (**work done before class starts**) you are to do:
 ### 1. [Learn the Command Line](https://www.codecademy.com/courses/learn-the-command-line)
 Without these skills you will fall behind not only in class, but in any developer position anywhere. Complete the 
 `Navigation` and `Manipulation` lessons.
+
 ### 2. [Javacript](https://www.codecademy.com/tracks/javascript)
 Your future bread and butter. **Complete all lessons before `Objects I`**
 
+### 3. You are to read the lesson before the class everytime. We will spend very little time on lecturing, the vast majority on actual coding. You can play with the examples beforehand, but please do not attempt the exercises. You will have some time to work solo on it in class, then you will be randomly paired up to work together. So in accordance, read through all of [Lesson One](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonOne.md) before the first day of class.
+
 ## Bonus!
-### 3. [jQuery](https://www.codecademy.com/tracks/jquery)
+### 4. [jQuery](https://www.codecademy.com/tracks/jquery)
 You want to be a web developer? Welcome to the world of jQuery. This is not a one-off skill, this may be your life when you get that dream job. This is what you can do in your spare time, which, I promise, will be filled with coding-for-fun once you are developer. Also, you'll be asked at your job interviews if you are familiar with jQuery. As a front-end developer, you better be.
