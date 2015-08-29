@@ -6,6 +6,7 @@ Instructions on how to install the tools you need for class: Git, Sublime Text 3
 Work to be completed **before** the first class begins.
 
 ## [Syllabus](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/Syllabus.md)
+**Guaranteed** to change.
 
 ## [Lesson One](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonOne.md)
 
