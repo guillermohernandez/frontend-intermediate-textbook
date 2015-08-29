@@ -1,5 +1,24 @@
 # Lesson One
 
+## Taking Notes on Github
+We will be saving all of our notes and examples on GitHub (in addition to anyway you like). Here's how to get started.
+
+1. Go to github.com and sign in.
+2. Add a repository and name it whatever you want (ex. ACA-Lesson-Notes)
+3. Copy the HTTPS clone URL
+4. In your terminal, navigate (using `cd`) into a directory where you want to start keeping your repositories.
+5. Clone your new repository by type `git clone <HTTPS clone URL>` (without carets "<>", applies to future examples) 
+6. Navigate into the directory `cd <repository name>`
+7. Open up a Sublime window by typing `subl LessonOneNotes.js`
+8. Save it (`ctrl-s` or `command-s`)
+10. In your terminal. Type `git status`
+11. See that you have added one file.
+12. Type `git add -A`. This will stage the file to be committed.
+13. Type `git commit -m "Added LessonOneNotes"`
+14. Type `git push origin master` to push it up to GitHub
+
+From now on, all of your notes from class will be in this repo. Become friends with GitHub, it will become your newest social network, resume, portfolio, and encyclopedia.
+
 ## Server-side JavaScript
 JavaScript was born in the browser. It was created by Netscape to add dynamic code inside Netscape Navigator. Nearly all JavaScript was written in, designed for, and limited to the browser. Today is a different time. 
 
@@ -204,24 +223,6 @@ x !== y;
 ```
 
 # Exercises:
-
-## Taking Notes on Github
-1. Go to github.com and sign in.
-2. Add a repository and name it whatever you want **using `_` or `-` (ex. ACA-Class-Notes)
-3. Copy the HTTPS clone URL
-4. In your terminal, navigate (using `cd`) into a directory where you want to start keeping your repositories.
-5. Clone your new repository by type `git clone <HTTPS clone URL>` (without carets "<>") 
-6. Navigate into the directory `cd <repository name>` (without carets "<>")
-7. Open up a Sublime window by typing `subl .`
-8. Start typing to create a new file. Save it (`ctrl-s` or `command-s`) as DayOne.js
-9. Copy all examples above (with any comments `//...`) and save the file.
-10. In your terminal. Type `git status`
-11. See that you have added one file.
-12. Type `git add -A`. This will stage the file to be committed.
-13. Type `git commit -m "Add any message here like maybe 'Day One Examples"`
-14. Type `git push origin master` to push it up to GitHub
-
-From now on, all of your notes from class will be in this repo. Become friends with GitHub, it will become your newest social network, resume, portfolio, and encyclopedia.
 
 ## Let's pass some tests!
 Tests are a great way to make sure you code works the way you planned it would, and to make sure you don't break something in the future. We will be using them to test our understanding of the lesson.
