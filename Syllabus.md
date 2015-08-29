@@ -54,6 +54,7 @@
 1. Three or Five?
 2. Rock, Paper, Scissors
 3. Lesson Two Tests
+
 ---
 ### [Lesson Three](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonThree.md)
 #### Objectives
@@ -64,6 +65,7 @@
 
 #### Assessments
   * Tic Tac Toe
+
 ----
 ### [Lesson Four](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonFour.md)
 #### Objectives
@@ -76,14 +78,18 @@
 
 #### Assessments
   * Towers of Hanoi
-  
+
+----  
 ### [Lesson Five](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonFive.md)
+#### Objectives
 * Switch Statements
 
 #### Assessments
   * Mastermind
-  
+
+----  
 ### [Lesson Six](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonSix.md)
+#### Objectives
 * For Loops
 * While Loops
 
@@ -91,25 +97,33 @@
  1. Fizzbuzz
  2. Euler problems
 
+----
 ### [Lesson Seven](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonSeven.md)
+#### Objectives
 * Objects and OOP
 
 #### Assessments
   * Checkers
 
+----
 ### [Lesson Eight](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonEight.md)
+#### Objectives
 * Objects and OOP
 
 #### Assessments
   * Chess
 
+----
 ### [Lesson Nine](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonNine.md)
+#### Objectives
 * Objects and OOP
 
 #### Assessments
   * Chess
 
+----
 ### [Lesson Ten](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonTen.md)
+#### Objectives
 * Coding in the Browser
 * Debugging
 * HTML and CSS review
@@ -119,7 +133,9 @@
 
 #### Assessments
 
+----
 ### [Lesson Eleven](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonEleven.md)
+#### Objectives
 * jQuery
   * Events and Callbacks
 
@@ -127,49 +143,66 @@
   * Tic Tac Toe
   
 ### [Lesson Twelve](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonTwelve.md)
+#### Objectives
 
 #### Assessments
   * Towers of Hanoi
-  
+
+----  
 ### [Lesson Thirteen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonThirteen.md)
+#### Objectives
 
 #### Assessments
   * Mastermind
-  
+
+----  
 ### [Lesson Fourteen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonFourteen.md)
+#### Objectives
 
 #### Assessments
   * Snake
-  
+
+----  
 ### [Lesson Fifteen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonFifteen.md)
+#### Objectives
 * JSON
 * jQuery Ajax
 
 #### Assessments
 
+----
 ### [Lesson Sixteen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonSixteen.md)
+#### Objectives
 * Gulp
 * Browserify
 * package.json
 
 #### Assessments
 
+----
 ### [Lesson Seventeen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonSeventeen.md)
+#### Objectives
 * Underscore.js
 
 #### Assessments
 
+----
 ### [Lesson Eighteen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonEighteen.md)
+#### Objectives
 * Backbone.js
 
 #### Assessments
 
+----
 ### [Lesson Nineteen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonNineteen.md)
+#### Objectives
 * Backbone.js
 
 #### Assessments
 
+----
 ### [Lesson Twenty](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonTwenty.md)
+#### Objectives
 * ES6
 
 #### Assessments
