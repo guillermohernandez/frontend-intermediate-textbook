@@ -1,19 +1,8 @@
 # Lesson Two
 
-## Objectives
-1. Conditionals
-  * `if` / `else` pattern
-  * `if`/ `else if`/ `else` pattern
-  * nested conditionals
-2. Modulo Operator
-3. Named functions
-  * understand decomposition method
-4. Input Prompting
-  * demonstrate use of "prompt" npm package 
-
 Let's be sure to add this to our notes repository. Navigate into your repository using `cd`, and create a new file titled something like _LessonTwoNotes.js_ by typing `subl LessonTwoNotes.js`. Type examples (and make comments) in here.
 
-## Instructional Plan
+## JavaScript
 
 ### Conditionals
 Conditionals are a cornerstone in the logic of programming. `if` something then, do this, `else` do something else, unless `if` something `else` is true. A conditional statement in JavaScript can read like this:
@@ -151,9 +140,9 @@ prompt.get(['first', 'second'], function (error, result) {
 });
 ```
 
-# Assessment
+## Assessment
 
-## Three or Five?
+### Three or Five?
 Build a simple command line tool that takes a number as an input, and tells whether it is divisible by three or five. 
 
 Create a file `subl ThreeOrFive.js`
@@ -166,7 +155,7 @@ git add ThreeOrFive.js
 git commit -m "First Commit!"
 ```
 
-### Step 1 - `require` your dependencies
+#### Step 1 - `require` your dependencies
 ```javascript
 'use strict';
 
@@ -175,7 +164,7 @@ var prompt = require('prompt');
 prompt.start()
 ```
 
-### Step 2 - Test that the script works
+#### Step 2 - Test that the script works
 Let's try to `console.log()` something out.
 ```javascript
 'use strict';
@@ -188,7 +177,7 @@ console.log("Let's get started!");
 ```
 Now in your terminal, run `node ThreeOrFive.js`. You should see your output.
 
-### Step 3 - Let's attempt a prompt
+#### Step 3 - Let's attempt a prompt
 Let's start interfacing with the user.
 ```javascript
 'use strict';
@@ -203,7 +192,7 @@ prompt.get(['number'], function (error, result) {
 ```
 Test it out `node ThreeOrFive.js`.
 
-### Step 4 - Parse the input
+#### Step 4 - Parse the input
 The issue we will run into is the input colelcted will always be a string. For instance, if the user enters `42` into the prompt, it will be collected as `'42'`. One way we can parse this is by using JavaScript's [parseInt(string, radix)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt) method. It takes two arguments: a string, and a radix (a counting base, such as 10).
 ```javascript
 console.log(parseInt('42', 10));
@@ -222,7 +211,7 @@ prompt.get(['number'], function (error, result) {
 });
 ```
 
-### Step 5 - Test for 3 and 5 divisibility
+#### Step 5 - Test for 3 and 5 divisibility
 The logic necessary is as follows:
 1. If it is divisible by 3, log '<num> is divisible by 3!'
 2. If it is divisible by 5, log '<num> is divisible by 5!'
@@ -250,11 +239,11 @@ prompt.get(['number'], function (error, result) {
 
 Run your script and see if it works!
 
-### (optional) Step 6 - Only return one log if divisible by 3 and 5
+#### (optional) Step 6 - Only return one log if divisible by 3 and 5
 Write your conditionals so that it only returns `'<num> is divisible by 3 and 5'` if the number is divisible by both. 
 Hint: try nested conditionals
 
-## Rock, Paper, Scissors
+### Rock, Paper, Scissors
 Build a command line game that takes two (`hand1`, `hand2`) inputs (hands: `rock`, `paper`, or `scissors`) and outputs who the winner is, or if it's a tie.
 
 Create a file `subl RockPaperScissors.js`
@@ -267,10 +256,10 @@ git add RockPaperScissors.js
 git commit -m "Building Rock Paper Scissors in Javascript!"
 ```
 
-### Steps 1 & 2 - Repeat from above
+#### Steps 1 & 2 - Repeat from above
 Now in your terminal, run `node RockPaperScissors.js`. You should see your output.
 
-### Step 3 - Let's attempt a prompt
+#### Step 3 - Let's attempt a prompt
 Let's start interfacing with the user.
 ```javascript
 'use strict';
@@ -286,7 +275,7 @@ prompt.get(['hand1', 'hand2'], function (error, result) {
 ```
 Test it out `node RockPaperScissors.js`.
 
-### Step 4 - Game logic
+#### Step 4 - Game logic
 Let's think about the logic of Rock Paper Scissors:
 
 1. If both hands are the same, "It's a tie!"
@@ -325,7 +314,7 @@ if (hand1 == 'scissors') {
 }
 ```
 
-### Step 5 - Put logic into script
+#### Step 5 - Put logic into script
 ```javascript
 'use strict';
 
@@ -358,7 +347,7 @@ prompt.get(['hand1', 'hand2'], function (error, result) {
 });
 ```
 
-### Step 6 - Refactor
+#### Step 6 - Refactor
 Our `prompt.get()` method is bloated. Let's move it out into it's own "helper" function called `compareHands(hand1, hand2)` by using the decomposition method.
 ```javascript
 'use strict';
@@ -397,7 +386,7 @@ prompt.get(['hand1', 'hand2'], function (error, result) {
 ```
 Now test it out so far!
 
-### (optional) Step 7 - Edge Cases
+#### (optional) Step 7 - Edge Cases
 Our little app is not very robust. For instance, it's not accounting for some "edge cases" like what if we enter something other than 'rock', 'paper', or 'scissors'? Write another helper function `acceptableInput(hand)` that `return true` if the input is either `rock`, `paper`, or `scissors`
 ```javascript
 function acceptableInput(hand) {
@@ -415,7 +404,7 @@ prompt.get(['hand1', 'hand2'], function (error, result) {
 });
 ```
 
-### (optional) Step 8 - Input Scrubbing
+#### (optional) Step 8 - Input Scrubbing
 We should probably also except different variations of the words, like 'ROCK', 'Scissors', 'pApEr' just to make  users happy. We can use the `''.toLowerCase()` method ([docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)) to help "scrub" our input by always assuring that it is lowercase.
 ```javascript
 prompt.get(['hand1', 'hand2'], function (error, result) {
