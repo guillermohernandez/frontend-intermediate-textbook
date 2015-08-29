@@ -1,5 +1,7 @@
 # Lesson Two
 
+### Let's be sure to add this to our notes repository. navigate into your repository using `cd`, and create a new file titled something like _LessonTwoNotes.j_ by typing `subl LessonTwoNotes.js`. Type examples (and make comments) in here.
+
 ## Conditionals
 Conditionals are a cornerstone in the logic of programming. `if` something then, do this, `else` do something else, unless `if` something `else` is true. A conditional statement in JavaScript can read like this:
 ```javascript
@@ -26,6 +28,10 @@ if (something truthy) {
   // do something
 } else if (something else truthy) {
   // do this instead
+  // you can even nest conditionals inside each other!
+  if (something truthy) {
+    //do something here
+  }
 else {
   // if neither above are truthy, do what's in here
 }
@@ -86,7 +92,31 @@ x;
 
 //=> 8
 ```
-If you don't want to return anything, you can simply say `return false;`, `return;`, or leave it out.
+If you don't want to return anything, you can simply say `return false;`, `return;`, or leave it out. `return` will break out of the function, so it's important to take careful consideration where to place them.
+
+```javascript
+function helloWorld() {
+  return "Hello";
+  return "World";
+}
+
+helloWorld();
+
+//=> "Hello"
+
+function conditionalReturn() {
+  var num = 3;
+  if (num < 5) {
+    return num * 5;
+  }
+  
+  return num;
+}
+
+conditionalReturn();
+
+//=> 15
+```
 
 ## Prompting for user input in the terminal
 We will be using an [npm](https://www.npmjs.com/) package called [prompt](https://www.npmjs.com/package/prompt) to record user input for some of our exercises. We install npm pacakges by navigating into the folder we want to create 
@@ -109,5 +139,221 @@ prompt.start()
 prompt.get(['first', 'second'], function (error, result) {
   console.log('First Input: ' + result['first']);
   console.log('Second Input: ' + result['second']);
+});
+```
+
+# Exersize
+## Rock, Paper, Scissors
+Build a command line game that takes two (`hand1`, `hand2`) inputs (hands: `rock`, `paper`, or `scissors`) and outputs who the winner is, or if it's a tie.
+
+Here is some example output
+```bash
+prompt: hand1:  rock
+prompt: hand2:  paper
+Player 2 has won!
+prompt: hand1:  scissors
+prompt: hand2:  scissors
+It's a tie!
+```
+
+Create a file `subl RockPaperScissors.js`
+Save the file.
+
+Try to commit in between steps. 
+```bash
+subl RockPaperScissors.js
+git add RockPaperScissors.js
+git commit -m "Building Rock Paper Scissors in Javascript!"
+```
+
+## Step 1 - `require` your dependencies
+```javascript
+// RockPaperScissors.js
+'use strict';
+
+var prompt = require('prompt');
+
+// For this particular package, we need to "start" it
+prompt.start()
+
+```
+
+## Step 2 - Test that the script works
+Let's try to `console.log()` something out.
+```javascript
+// RockPaperScissors.js
+'use strict';
+
+var prompt = require('prompt');
+
+// For this particular package, we need to "start" it
+prompt.start()
+
+console.log("Let's get started!");
+
+```
+Now in your terminal, run `node RockPaperScissors.js`. You should see your output.
+
+## Step 3 - Let's attempt a prompt
+Let's start interfacing with the user.
+```javascript
+// RockPaperScissors.js
+'use strict';
+
+var prompt = require('prompt');
+
+// For this particular package, we need to "start" it
+prompt.start()
+
+prompt.get(['hand1', 'hand2'], function (error, result) {
+  console.log('First Hand: ' + result['hand1']);
+  console.log('Second Hand: ' + result['hand2']);
+});
+```
+Test it out `node RockPaperScissors.js`.
+
+## Step 4 - Game logic
+Let's think about the logic of Rock Paper Scissors:
+
+1. If both hands are the same, "It's a tie!"
+2. If the first hand is 'rock'
+    * If the second hand is 'scissors', then 'Player 1 wins!'
+    * Otherwise (which basically means the second hand is 'paper', since we have already ruled out a tie and 'scissors), 'Player 2 wins!'
+3. If the first hand is 'paper`
+  * If the second hand is 'rock', then 'Player 1 wins!'
+  * Otherwise (second hand must be 'scissors'), 'Player 2 Wins!'
+4. If the first hand is 'scissors'
+  * If the second hand is 'paper', then 'Player 1 wins!'
+  * Otherwise (second hand must be 'rock'), 'Player 2 Wins!'
+
+Now write that into a conditional:
+```javascript
+if (hand1 == hand2) {
+  return "It's a tie!";
+}
+
+if (hand1 == 'rock') {
+  if (hand2 == 'scissors') {
+    return 'Player 1 wins!';
+  }
+  // If we reach here, player 2 must have dealt paper
+  return 'Player 2 wins!';
+}
+
+if (hand1 == 'paper') {
+  // fill this in using the logic above
+
+}
+
+if (hand1 == 'scissors') {
+  // fill this in using the logic above  
+  
+}
+```
+
+## Step 5 - Put logic into script
+```javascript
+// RockPaperScissors.js
+'use strict';
+
+var prompt = require('prompt');
+
+// For this particular package, we need to "start" it
+prompt.start()
+
+prompt.get(['hand1', 'hand2'], function (error, result) {
+  if (result['hand1'] == result['hand2']) {
+    return "It's a tie!";
+  }
+
+  if (result['hand1'] == 'rock') {
+    if (result['hand2'] == 'scissors') {
+      return 'Player 1 wins!';
+    }
+    // If we reach here, player 2 must have dealt paper
+    return 'Player 2 wins!';
+  }
+
+  if (result['hand1'] == 'paper') {
+    // fill this in using the logic above
+
+  }
+
+  if (result['hand1'] == 'scissors') {
+    // fill this in using the logic above  
+  
+  }
+});
+```
+
+## Step 6 - Refactor
+Our `prompt.get()` method is bloated. Let's move it out into it's own "helper" function called `compareHands(hand1, hand2)` by using the decomposition method.
+```javascript
+// RockPaperScissors.js
+'use strict';
+
+var prompt = require('prompt');
+
+// For this particular package, we need to "start" it
+prompt.start()
+
+function compareHands(hand1, hand2) {
+  if (hand1 == hand2) {
+    return "It's a tie!";
+  }
+
+  if (hand1 == 'rock') {
+    if (hand2 == 'scissors') {
+      return 'Player 1 wins!';
+    }
+    // If we reach here, player 2 must have dealt paper
+    return 'Player 2 wins!';
+  }
+
+  if (hand1 == 'paper') {
+    // fill this in using the logic above
+
+  }
+
+  if (hand1 == 'scissors') {
+    // fill this in using the logic above  
+  
+  }
+}
+
+prompt.get(['hand1', 'hand2'], function (error, result) {
+  console.log(compareHands(result['hand1'], result['hand2']));
+});
+```
+Now test it out so far!
+
+## Step 7 - Edge Cases
+Our little app is not very robust. For instance, it's not accounting for some "edge cases" like what if we enter something other than 'rock', 'paper', or 'scissors'? Write another helper function `acceptableInput(hand)` that `return true` if the input is either `rock`, `paper`, or `scissors`
+```javascript
+function acceptableInput(hand) {
+  if (hand === 'rock' || hand === 'paper' .....) {
+    // should return true, which will break out of function here
+  }
+  // otherwise return false by default here
+}
+
+prompt.get(['hand1', 'hand2'], function (error, result) {
+  if (acceptableInput(result['hand1']) && acceptableInput(result['hand2'])) {
+    console.log(compareHands(result['hand1'], result['hand2']));
+  } else {
+    console.log('Only "rock", "paper", or "scissors" is acceptable');
+});
+```
+
+## Step 8 - Input Scrubbing
+We should probably also except different variations of the words, like 'ROCK', 'Scissors', 'pApEr' just to make the user happy. We can use the `''.toLowerCase()` method ([docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)) to help "scrub" our input by always assuring that it is lowercase.
+```javascript
+prompt.get(['hand1', 'hand2'], function (error, result) {
+  var lowerHand1 = result['hand1'].toLowerCase();
+  var lowerHand2 = result['hand2'].toLowerCase();
+  if (acceptableInput(lowerHand1) && acceptableInput(lowerHand2)) {
+    console.log(compareHands(lowerHand1, lowerHand2));
+  } else {
+    console.log('Only "rock", "paper", or "scissors" is acceptable');
 });
 ```
