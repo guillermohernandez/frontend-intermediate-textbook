@@ -12,7 +12,8 @@ Without these skills you will fall behind not only in class, but in any develope
 ### 2. [Javacript](https://www.codecademy.com/tracks/javascript)
 Your future bread and butter. **Complete all lessons before `Objects I`**
 
-### 3. You are to read the lesson before the class everytime. We will spend very little time on lecturing, the vast majority on actual coding. You can play with the examples beforehand, but please do not attempt the exercises. You will have some time to work solo on it in class, then you will be randomly paired up to work together. So in accordance, read through all of [Lesson One](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonOne.md) before the first day of class.
+### 3. Read through all of [Lesson One](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonOne.md)
+You are to read the lesson before the class everytime. We will spend very little time on lecturing, the vast majority on actual coding. You can play with the examples beforehand, but please do not attempt the exercises. You will have some time to work solo on them in class, then you will be randomly paired up to work together with a partner.
 
 ## Bonus!
 ### 4. [jQuery](https://www.codecademy.com/tracks/jquery)
