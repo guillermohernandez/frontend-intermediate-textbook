@@ -29,10 +29,9 @@
   * basic understanding of "truthiness" concept
 
 ##### Running tests with mocha
-  * globally install mocha via npm
-  * forking/cloning/navigating tests repository
+  * globally install npm pacakges
+  * forking/cloning/navigating repositories
   * reading test specs and coding solutions
-  * save/commit/push changes to GitHub
 
 #### Assessments
   1. Lesson One Tests
