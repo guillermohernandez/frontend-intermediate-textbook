@@ -1,35 +1,5 @@
 # Lesson One
-## Objectives
-  1. Familarity with Git/GitHub
-    * creating/cloning a GitHub repository
-    * navigating in the terninal using `cd`
-    * creating/saving a file in Sublime Text 3
-    * checking the status/staging/commtting changes using Git
-    * pushing commits to GitHub
-    * set up SSH keys
-  2. Coding Server-Side JavaScript
-    * using `node` to open REPL or load a script
-  3. JavaScript
-    * stress use of "strict mode" and comments
-    * logging output
-    * assign values to variables
-    * make comparisons between values and variables
-    * overview of popular data types
-      * boolean
-      * undefined
-      * null
-      * number
-      * string
-    * `&&`, `||`, and `!` operators
-    * basic understanding of "truthiness" concept
-  4. Running tests with mocha
-    * globally install mocha via npm
-    * forking/cloning/navigating tests repository
-    * reading test specs and coding solutions
-    * save/commit/push changes to GitHub
-
-## Instructional Plan
-
+## Familiarizing yourself with GitHub
 ### Taking Notes on Github
 We will be saving all of our notes and examples on GitHub (in addition to anyway you like). Here's how to get started.
 
@@ -52,7 +22,7 @@ From now on, all of your notes from class will be in this repo. Become friends w
 ### Set up your SSH Keys for GitHub
 Having to type in your GitHub credentials everytime you push to GitHub from the terminal will get old and time consuming. Follow the instructions at [Generating SSH Keys](https://help.github.com/articles/generating-ssh-keys/) to authorize your computer, keeping you from having to always type in your GitHub Credentials.
 
-### Server-side JavaScript
+## Server-side JavaScript
 JavaScript was born in the browser. It was created by Netscape to add dynamic code inside Netscape Navigator. Nearly all JavaScript was written in, designed for, and limited to the browser. Today is a different time. 
 
 Recently, the popularity of JavaScript has exploded, and many coders wanted to use a unified language on the front-end and back-end. [Node.js](https://nodejs.org/) is a result of this effort. We will begin our JavaScript journey using `node` in your terminal on your machine (aka. server-side / back-end).
@@ -60,15 +30,15 @@ Recently, the popularity of JavaScript has exploded, and many coders wanted to u
 ### Using Node
 To load a Node.js enviroment, simply type `node` in your terminal to open a REPL (Read-Eval-Print-Loop: or, an interactive JavaScript environment in your terminal). You can also write JavaScript to a file (ex. _LessonOneNotes.js_) and run the script with `node LessonOneNotes.js`.
 
-### JavaScript: The Language
+## JavaScript: The Language
 
-#### Comments
+### Comments
 You'll notice the `//...` used quite often in the examples. These (`//`) and everything after it are meant for commentary or notes for developers (like yourself) to read. They do not need to be typed into the terminal.
 
-#### Strict Mode
+### Strict Mode
 As of ECMAScript 5 (like saying JavaScript v5), "strict mode" became available to developers. This mode **voluntarily** restricts some of JavaScripts powers that were pretty much always used by accident. We won't get into the specifics, but you can read about it [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). We will be using it by simply placing `'use strict';` at the top of our scripts. It is recommended that you always (even profesionally) use "strict mode", as it can save you time, frustration, and possibly a few security concerns. I will leave it out of the examples below for the sake of brevity, but will always be used in coding later.
 
-#### Logging Output
+### Logging Output
 In JavaScript, the way we log output for the coder to read/debug is `console.log()`. Try it in your node REPL
 ```javascript
 console.log('Hello');
@@ -78,7 +48,7 @@ console.log('World');
 //=>'World'
 ```
 
-####  Variables
+###  Variables
 In algebra, we have problems that look like this: `x + y`. Here, `x` and `y` are variables. They are called as such becuase their values can vary. For instance, if `x = 3` and `y = 2`, then `x + y` would equal 5. Let's do it in JavaScript:
 ```javascript
 var x = 3;
@@ -90,7 +60,7 @@ console.log(x + y);
 Variables can be assigned to just about anything, but the names have a few rules, such as you can't start it with a number, and you can't/shouldn't use any of these [reserved words](http://www.w3schools.com/js/js_reserved.asp).
 
 
-#### Comparisons
+### Comparisons
 In arithmetic, we have the concept of comparisons.
 * 3 is greater than 4: `3 > 4`
 * 5 is less than or equal to 7: `5 <= 7`
@@ -116,20 +86,20 @@ console.log(-2 === 10);
 
 Takeaways: JavaScript does math
 
-#### Primitive Data Types
+### Primitive Data Types
 
 There are six primitive data types. We will talk about five of them here:
 
-##### Booleans
+#### Booleans
 Pretty basic data type. Can either be `true` or `false`
 
-##### Null
+#### Null
 `null` is an assignment value. So if I want a variable to exist, but don't want to necessarily assign a meaningful value to it, I can just assign it to `null`. It's sort of like a placeholder.
 ```javascript
 var todoItem = null;
 ```
 
-##### Undefined
+#### Undefined
 `undefined` means that a variable has been declared, but nothing, not even `null`, has been assigned.
 ```javascript
 var greatIdea;
@@ -137,7 +107,7 @@ console.log(greatIdea);
 //=> undefined
 ```
 
-##### Number
+#### Number
 In JavaScript, the idea of number is very far reaching. It includes:
 * Actual numbers between -(2 * 10^53 - 1) and 2 * 10^53 - 1
   * Integers `1` `-2`
@@ -147,7 +117,7 @@ In JavaScript, the idea of number is very far reaching. It includes:
   * `-Infinity`
   * and even `NaN` (not-a-number)
   
-##### String
+#### String
 Strings are basically anything you can put between single-quotes (`''`) or double-quotes (`""`).
 ```javascript
 var str1 = 'Hello';
@@ -170,10 +140,10 @@ var str4 = 'She replied "I have no idea"';
 It is convention to always try to use single-quotes (`''`) when possible. In other languages and some "flavors" of javascript, single-quotes (`''`) and double-quotes (`""`) have different features.
 
 
-#### Operators
+### Operators
 The AND (`&&`) and OR (`||`) operators will return the result of multiple boolean values.
 
-##### AND (`&&`)
+#### AND (`&&`)
 AND (`&&`) will test whether the value on the left is `true`, and if so, test whether the item on the right is `true`. If both are `true`, then it will return true, if either one is false, it will return false. You can even chain more than one operator together!
 
 ```javascript
@@ -195,7 +165,7 @@ console.log(true && true && true
 console.log(true && true && false
 ```
 
-##### OR (`||`)
+#### OR (`||`)
 OR (`||`) will test whether each item on either side is `true` and if at least one side is `true`, it will reason both together as `true`.
 
 ```javascript
@@ -218,7 +188,7 @@ console.log(true || true || false);
 //=> true
 ```
 
-#### Truthiness: Truthy vs Falsey
+### Truthiness: Truthy vs Falsey
 Truthiness is a powerful concept in JavaScript. It's a little strange at first, but you will come to love and depend on it in time. It basically breaks down to this:
 
 If it exists and is an "emotionally positive" value, it's considered "truthy":
@@ -231,7 +201,7 @@ If it is not assigned a value or is an "emotionally negative" value, it's consid
 
 Notice `0` is the only number (that is a number) considered "falsey".
 
-#### Bang (`!`)
+### Bang (`!`)
 The bang (`!`) operator returns the opposite truthiness value.
 ```javascript
 console.log(true);
@@ -265,9 +235,9 @@ console.log(x !== y);
 //=> true
 ```
 
-# Assessment
+## Assessment
 
-## Let's pass some tests!
+### Let's pass some tests!
 Tests are a great way to make sure you code works the way you planned it would, and to make sure you don't break something in the future. We will be using them to test our understanding of the lesson.
 
 1. Our test repository is located at https://github.com/mistakevin/acatests.
