@@ -49,6 +49,9 @@ We will be saving all of our notes and examples on GitHub (in addition to anyway
 
 From now on, all of your notes from class will be in this repo. Become friends with GitHub, it will become your newest social network, resume, portfolio, and encyclopedia.
 
+### Set up your SSH Keys for GitHub
+Having to type in your GitHub credentials everytime you push to GitHub from the terminal will get old and time consuming. Follow the instructions at [Generating SSH Keys](https://help.github.com/articles/generating-ssh-keys/) to authorize your computer, keeping you from having to always type in your GitHub Credentials.
+
 ### Server-side JavaScript
 JavaScript was born in the browser. It was created by Netscape to add dynamic code inside Netscape Navigator. Nearly all JavaScript was written in, designed for, and limited to the browser. Today is a different time. 
 
@@ -279,8 +282,3 @@ Tests are a great way to make sure you code works the way you planned it would, 
 10. In Sublime Text, open _LessonOne.js_
 11. Below each comment, try to do what it is asking. Be sure to always `return` your answer.
 12. Run `mocha` after each attempt to watch the functions pass or fail.
-
-
-## Bonus!!! 
-### Set up your SSH Keys for GitHub
-Having to type in your GitHub credentials everytime you push to GitHub from the terminal will get old and time consuming. Follow the instructions at [Generating SSH Keys](https://help.github.com/articles/generating-ssh-keys/) to authorize your computer, keeping you from having to always type in your GitHub Credentials.
