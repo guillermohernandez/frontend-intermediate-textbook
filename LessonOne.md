@@ -234,9 +234,6 @@ var y = 5;
 console.log(x !== y);
 //=> true
 ```
-
-## Assessments
-
 ### Let's pass some tests!
 Tests are a great way to make sure you code works the way you planned it would, and to make sure you don't break something in the future. We will be using them to test our understanding of the lesson.
 
@@ -246,9 +243,13 @@ Tests are a great way to make sure you code works the way you planned it would, 
 4. Type `sudo npm install -g mocha` in your terminal. Enter your password if prompted.
 5. Navigate into LessonZero in your terminal (`cd LessonZero`)
 6. Run `mocha`
-7. Hopefully the test passes!
-8. Now navigate backwards (`cd ..`) then into the LessonOne directory (`cd LessonOne`)
-9. Run `mocha` and watch the tests fail :(
-10. In Sublime Text, open _LessonOne.js_
-11. Below each comment, try to do what it is asking. Be sure to always `return` your answer.
-12. Run `mocha` after each attempt to watch the functions pass or fail.
+7. Watch the test fail test fail :(
+8. Change the `return false;` statement to `return true;`
+9. Run `mocha` again and watch the test pass!
+
+## Assessments
+1. Now navigate backwards (`cd ..`) then into the LessonOne directory (`cd LessonOne`)
+2. Run `mocha` and watch the tests fail :(
+3. In Sublime Text, open _LessonOne.js_
+4. Below each comment, try to do what it is asking. Be sure to always `return` your answer.
+5. Run `mocha` after each attempt to watch the functions pass or fail.
