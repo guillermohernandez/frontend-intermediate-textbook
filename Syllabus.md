@@ -9,8 +9,10 @@
   * checking the status/staging/commtting changes using Git
   * pushing commits to GitHub
   * set up SSH keys
+
 ##### Coding Server-Side JavaScript
   * using `node` to open REPL or load a script
+
 ##### JavaScript
   * "strict mode"
   * comments
@@ -25,6 +27,7 @@
     * string
   * `&&`, `||`, and `!` operators
   * basic understanding of "truthiness" concept
+
 ##### Running tests with mocha
   * globally install mocha via npm
   * forking/cloning/navigating tests repository
@@ -32,7 +35,7 @@
   * save/commit/push changes to GitHub
 
 #### Assessments
-1. Lesson One Tests
+  1. Lesson One Tests
 ---
 ### [Lesson Two](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonTwo.md)
 #### Objectives
