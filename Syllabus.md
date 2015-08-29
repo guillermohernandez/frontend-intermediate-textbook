@@ -57,6 +57,7 @@
 ---
 ### [Lesson Three](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonThree.md)
 #### Objectives
+* Scope
 * Ternary Operator
 * Arrays
   * Locating Items
@@ -64,6 +65,7 @@
 
 #### Assessments
   * Tic Tac Toe
+  * Lesson Two Tests
 
 ----
 ### [Lesson Four](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonFour.md)
