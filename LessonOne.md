@@ -248,8 +248,17 @@ Tests are a great way to make sure you code works the way you planned it would, 
 9. Run `mocha` again and watch the test pass!
 
 ## Assessments
-1. Now navigate backwards (`cd ..`) then into the LessonOne directory (`cd LessonOne`)
+### Lesson One Tests
+1. Navigate into the LessonOne directory
 2. Run `mocha` and watch the tests fail :(
-3. In Sublime Text, open _LessonOne.js_
-4. Below each comment, try to do what it is asking. Be sure to always `return` your answer.
-5. Run `mocha` after each attempt to watch the functions pass or fail.
+3. In Sublime Text, open _LessonOne.js_ `subl LessonOne.js`
+4. Below each comment with the specs, try to do what it is asking. Be sure to always `return` your answer.
+5. You can also look at the tests in `test/LessonOneTest.js` to try and read the test examples.
+6. Run `mocha` after each attempt to see if the tests pass.
+7. When finished, commit your changes and push to GitHub
+```bash
+git status
+git add LessonOne.js
+git commit -m "Tests passing!"
+git push origin master
+```
