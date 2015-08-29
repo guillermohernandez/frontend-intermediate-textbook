@@ -1,4 +1,4 @@
-# Welcome to Austin Code Academy HTML Intermediate - Section 02 Course!
+#Austin Code Academy HTML Intermediate - Section 02
 ## [Install Guide](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/InstallGuide.md)
 Instructions on how to install the tools you **need** for class.
 
