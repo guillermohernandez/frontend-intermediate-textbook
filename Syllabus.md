@@ -1,25 +1,58 @@
 # Syllabus
+
 ## Austin Code Academy HTML Intermediate - Section 02
 
 ### [Lesson One](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonOne.md)
-* Server-side Javascript with Node.js
-* Variables
-* Comparisons
-* Primitive Data Types
-* Operators
-* Truthiness
-* Bang/Not Operator
-* Exercises
-  * Taking Notes with GitHub
-  * Running Mocha tests
+
+#### Objectives
+1. Familarity with Git/GitHub
+  * creating/cloning a GitHub repository
+  * navigating in the terninal using `cd`
+  * creating/saving a file in Sublime Text 3
+  * checking the status/staging/commtting changes using Git
+  * pushing commits to GitHub
+  * set up SSH keys
+2. Coding Server-Side JavaScript
+  * using `node` to open REPL or load a script
+3. JavaScript
+  * "strict mode"
+  * comments
+  * logging output
+  * assign values to variables
+  * make comparisons between values and variables
+  * overview of popular data types
+    * boolean
+    * undefined
+    * null
+    * number
+    * string
+  * `&&`, `||`, and `!` operators
+  * basic understanding of "truthiness" concept
+4. Running tests with mocha
+  * globally install mocha via npm
+  * forking/cloning/navigating tests repository
+  * reading test specs and coding solutions
+  * save/commit/push changes to GitHub
+
+#### Assessments
+1. Lesson One Tests
   
 ### [Lesson Two](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonTwo.md)
-* Conditionals
-* Modulo Operator
-* Named Functions
-* Prompting for Input
-* Exercises
-  * Rock, Paper, Scissors
+#### Objectives
+1. Conditionals
+  * `if` / `else` pattern
+  * `if`/ `else if`/ `else` pattern
+  * nested conditionals
+2. Modulo Operator
+3. Named functions
+  * understand decomposition method
+4. Input Prompting
+  * demonstrate use of "prompt" npm package
+
+#### Assessments
+1. Three or Five?
+2. Rock, Paper, Scissors
+3. Lesson Two Tests
 
 ### [Lesson Three](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonThree.md)
 * Ternary Operator
