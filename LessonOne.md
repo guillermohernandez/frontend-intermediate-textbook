@@ -117,7 +117,7 @@ Takeaways: JavaScript does math
 
 There are six primitive data types. We will talk about five of them here:
 
-###33 Booleans
+##### Booleans
 Pretty basic data type. Can either be `true` or `false`
 
 ##### Null
