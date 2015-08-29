@@ -10,7 +10,7 @@
   * pushing commits to GitHub
   * set up SSH keys
 
-##### Coding Server-Side JavaScript
+##### Server-Side JavaScript
   * using `node` to open REPL or load a script
 
 ##### JavaScript
