@@ -15,7 +15,6 @@
 ### Lesson Two
 * Conditionals
 * Modulo Operator
-* Generating Random Numbers
 * Named Functions
 * Prompting for Input
 * Exercises
