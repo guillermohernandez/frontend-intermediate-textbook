@@ -36,6 +36,7 @@
 
 #### Assessments
   1. Lesson One Tests
+
 ---
 ### [Lesson Two](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonTwo.md)
 #### Objectives
