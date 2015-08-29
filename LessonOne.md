@@ -262,7 +262,7 @@ console.log(x !== y);
 //=> true
 ```
 
-# Assessment:
+# Assessment
 
 ## Let's pass some tests!
 Tests are a great way to make sure you code works the way you planned it would, and to make sure you don't break something in the future. We will be using them to test our understanding of the lesson.
