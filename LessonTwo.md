@@ -1,6 +1,6 @@
 # Lesson Two
 
-### Let's be sure to add this to our notes repository. navigate into your repository using `cd`, and create a new file titled something like _LessonTwoNotes.j_ by typing `subl LessonTwoNotes.js`. Type examples (and make comments) in here.
+Let's be sure to add this to our notes repository. navigate into your repository using `cd`, and create a new file titled something like _LessonTwoNotes.js_ by typing `subl LessonTwoNotes.js`. Type examples (and make comments) in here.
 
 ## Conditionals
 Conditionals are a cornerstone in the logic of programming. `if` something then, do this, `else` do something else, unless `if` something `else` is true. A conditional statement in JavaScript can read like this:
