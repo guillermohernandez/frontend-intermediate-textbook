@@ -14,5 +14,3 @@ Your future bread and butter. **Complete all lessons before `Objects I`**
 ## Bonus!
 ### 3. [jQuery](https://www.codecademy.com/tracks/jquery)
 You want to be a web developer? Welcome to the world of jQuery. This is not a one-off skill, this may be your life when you get that dream job. This is what you can do in your spare time, which, I promise, will be filled with coding-for-fun once you are developer. Also, you'll be asked at your job interviews if you are familiar with jQuery. As a front-end developer, you better be.
-
-### 4. Pass the Tests!
