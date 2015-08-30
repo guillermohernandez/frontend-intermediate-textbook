@@ -380,32 +380,33 @@ function getPrompt() {
 
 #### Step 5 - Check for a win
 Think about playing a game of tic tac toe, how do you check for a win? You most likely can tell ahead of time if a win is coming up, but the computer can't. It must scan the board after every mark to check for a win. So let's tell the computer what a win looks like.
-* Three of the same marks in a row wins
+* Three of the same marks in a "row" wins
 * Can be horizontal, vertical, or diagonal
- Now let's describe to the computer what a win **could** be
+ Now let's describe to the computer what a "row" is
 ```
 * horizontally
-  * board[0][0] === board[0][1] === board[0][2] (top row)
-  * board[1][0] === board[1][1] === board[1][2] (middle row)
-  * board[2][0] === board[2][1] === board[2][2] (bottom row)
+  * board[0][0] board[0][1] board[0][2] (top row)
+  * board[1][0] board[1][1] board[1][2] (middle row)
+  * board[2][0] board[2][1] board[2][2] (bottom row)
 * vertically
-  * board[0][0] === board[1][0] === board[2][0] (left column)
-  * board[0][1] === board[1][1] === board[2][1] (middle column)
-  * board[0][2] === board[1][2] === board[2][2] (right column)
+  * board[0][0] board[1][0] board[2][0] (left column)
+  * board[0][1] board[1][1] board[2][1] (middle column)
+  * board[0][2] board[1][2] board[2][2] (right column)
 * diagonally
-  * board[0][0] === board[1][1] === board[2][2] (top-left, center, bottom-right)
-  * board[2][0] === board[1][1] === board[0][2] (top-right, center, bottom-left)
+  * board[0][0] board[1][1] board[2][2] (top-left, center, bottom-right)
+  * board[2][0] board[1][1] board[0][2] (top-right, center, bottom-left)
 ```
 
 Write this into a function `checkForWin()` and run it after a mark is place.
 ```javascript
 //...
 
-function checkForWin() {
-  if ( board[0][0] === board[0][1] === board[0][2] ||
-    board[1][0] === board[1][1] === board[1][2] ||
-    board[2][0] === board[2][1] === board[2][2] ||
-    .... ) {
+function checkForWin(mark) {
+  if ( (board[0][0] === mark && board[0][1] === mark && board[0][2] === mark) ||
+       (board[1][0] === mark && board[1][1] === mark && board[1][2] === mark ) ||
+       (board[2][0] === mark && board[2][1] === mark && board[2][2] === mark) ||
+        ....
+  ) {
     console.log('Player ' +  playerTurn + ' Won!'); // announce to the world
     showBoard(); // show the board for bragging rights
     return true;
@@ -419,7 +420,7 @@ function getPrompt() {
   console.log("It's Player " + playerTurn + "turn.");
   prompt.get(['row', 'column'], function (error, result) {
     placeMark(result);
-    if (checkForWin()) { // if checkForWin() returns truthy
+    if (checkForWin(playerTurn)) { // if checkForWin(playerTurn) returns truthy
       return; // exit out of the prompt loop
     }
     playerTurn = (playerTurn === 'X') ? 'O' : 'X'; // we'll use the ternary operator here to toggle between players
