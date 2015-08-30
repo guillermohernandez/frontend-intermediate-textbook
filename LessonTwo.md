@@ -386,7 +386,7 @@ prompt.get(['hand1', 'hand2'], function (error, result) {
 ```
 Now test it out so far!
 
-#### (optional) Step 7 - Edge Cases
+#### Step 7 - Edge Cases
 Our little app is not very robust. For instance, it's not accounting for some "edge cases" like what if we enter something other than 'rock', 'paper', or 'scissors'? Write another helper function `acceptableInput(hand)` that `return true` if the input is either `rock`, `paper`, or `scissors`
 ```javascript
 function acceptableInput(hand) {
@@ -404,7 +404,7 @@ prompt.get(['hand1', 'hand2'], function (error, result) {
 });
 ```
 
-#### (optional) Step 8 - Input Scrubbing
+#### Step 8 - Input Scrubbing
 We should probably also except different variations of the words, like 'ROCK', 'Scissors', 'pApEr' just to make  users happy. We can use the `''.toLowerCase()` method ([docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)) to help "scrub" our input by always assuring that it is lowercase.
 ```javascript
 prompt.get(['hand1', 'hand2'], function (error, result) {
