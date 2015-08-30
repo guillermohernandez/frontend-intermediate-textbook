@@ -78,13 +78,16 @@
 ### [Lesson Four](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonFour.md)
 #### Objectives
 * Popular Array Methods
-  * Adding and Removing Items in Array
+  * pop/push
+  * shift/unshift
 * Associative Arrays
-  * Keys and Values
-  * Finding Value by Key
+  * keys and values
+  * finding value by key
+  * adding key/value
 
 #### Assessments
   * Towers of Hanoi
+  * Lesson Four Tests
 
 ----  
 ### [Lesson Five](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonFive.md)
