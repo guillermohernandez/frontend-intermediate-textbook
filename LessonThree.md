@@ -265,7 +265,7 @@ function getPrompt() {
   });
 }
 
-showBoard(); //make sure to show the prompt at the beginning of the game
+showBoard(); //make sure to show the board at the beginning of the game
 getPrompt();
 ```
 
