@@ -11,7 +11,7 @@ var year = 1975;
 var fashion;
 
 if (year >= 1960 && year <= 1969) {
-  fashion = 'Bell Bottom';
+  fashion = 'Bell Bottoms';
 } else if (year >= 1970 && year <= 1979) {
   fashion = 'Afros and Lip Gloss';
 } else if (year >= 1980 && year <= 1989) {
