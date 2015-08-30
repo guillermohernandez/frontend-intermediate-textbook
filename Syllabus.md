@@ -34,38 +34,45 @@
   * reading test specs and coding solutions
 
 #### Assessments
-  1. Lesson One Tests
+  * Lesson One Tests
 
 ---
 ### [Lesson Two](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonTwo.md)
 #### Objectives
-1. Conditionals
+##### Javascript
+* Conditionals
   * `if` / `else` pattern
   * `if`/ `else if`/ `else` pattern
   * nested conditionals
-2. Modulo Operator
-3. Named functions
+* Modulo Operator
+* Named functions
   * understand decomposition method
-4. Input Prompting
+
+##### Tools
+* Input Prompting
   * demonstrate use of "prompt" npm package
 
 #### Assessments
-1. Three or Five?
-2. Rock, Paper, Scissors
-3. Lesson Two Tests
+* Three or Five?
+* Rock, Paper, Scissors
+* Lesson Two Tests
 
 ---
 ### [Lesson Three](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonThree.md)
 #### Objectives
+##### Javascript
 * Scope
 * Ternary Operator
 * Arrays
   * Locating Items
   * Assigning and Replaceing Items
 
+##### Tools
+ * Prompting more than once.
+
 #### Assessments
   * Tic Tac Toe
-  * Lesson Two Tests
+  * Lesson Three Tests
 
 ----
 ### [Lesson Four](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonFour.md)
