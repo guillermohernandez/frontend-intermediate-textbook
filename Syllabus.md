@@ -82,7 +82,6 @@
 * Associative Arrays
   * Keys and Values
   * Finding Value by Key
-* Callbacks and Anonymous Functions
 
 #### Assessments
   * Towers of Hanoi
