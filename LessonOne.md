@@ -262,3 +262,5 @@ git add LessonOne.js
 git commit -m "Tests passing!"
 git push origin master
 ```
+8. Now go to your forked repository on GitHub. A little yellow box should have popped up asking you to make a Pull Request. Click to review.
+9. Click "Create Pull Request"
