@@ -65,7 +65,7 @@
 * Ternary Operator
 * Arrays
   * Locating Items
-  * Assigning and Replaceing Items
+  * Assigning and Replacing Items
 
 ##### Tools
  * Prompting more than once.
