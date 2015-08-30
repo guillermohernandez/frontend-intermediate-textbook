@@ -52,9 +52,11 @@
 * Input Prompting
   * demonstrate use of "prompt" npm package
 
-#### Assessments
+#### Apps
 * Three or Five?
 * Rock, Paper, Scissors
+
+#### Assessments
 * Lesson Two Tests
 
 ---
@@ -70,8 +72,10 @@
 ##### Tools
  * Prompting more than once.
 
-#### Assessments
+#### Apps
   * Tic Tac Toe
+
+#### Assessments
   * Lesson Three Tests
 
 ----
@@ -85,8 +89,10 @@
   * finding value by key
   * adding key/value
 
-#### Assessments
+#### Apps
   * Towers of Hanoi
+
+#### Assessments
   * Lesson Four Tests
 
 ----  
@@ -94,7 +100,7 @@
 #### Objectives
 * Switch Statements
 
-#### Assessments
+#### Apps
   * Mastermind
 
 ----  
@@ -103,8 +109,10 @@
 * For Loops
 * While Loops
 
+#### Apps
+ * Fizzbuzz
+
 #### Assessments
- 1. Fizzbuzz
  2. Euler problems
 
 ----
@@ -112,7 +120,7 @@
 #### Objectives
 * Objects and OOP
 
-#### Assessments
+#### Apps
   * Checkers
 
 ----
@@ -120,7 +128,7 @@
 #### Objectives
 * Objects and OOP
 
-#### Assessments
+#### Apps
   * Chess
 
 ----
@@ -128,8 +136,8 @@
 #### Objectives
 * Objects and OOP
 
-#### Assessments
-  * Chess
+#### Apps
+  * Chess (continued)
 
 ----
 ### [Lesson Ten](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonTen.md)
@@ -141,7 +149,7 @@
   * Locating, Creating, Manipulating DOM Elements
 * Github Portfolio and Javascript Hosting
 
-#### Assessments
+#### Apps
 
 ----
 ### [Lesson Eleven](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonEleven.md)
@@ -149,64 +157,63 @@
 * jQuery
   * Events and Callbacks
 
-#### Assessments
-  * Tic Tac Toe
+#### Apps
+  * Tic Tac Toe (GUI)
   
 ### [Lesson Twelve](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonTwelve.md)
 #### Objectives
 
-#### Assessments
-  * Towers of Hanoi
+#### Apps
+  * Towers of Hanoi (GUI)
 
 ----  
 ### [Lesson Thirteen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonThirteen.md)
 #### Objectives
 
-#### Assessments
-  * Mastermind
+#### Apps
+  * Mastermind (GUI)
 
 ----  
 ### [Lesson Fourteen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonFourteen.md)
 #### Objectives
 
-#### Assessments
+#### Apps
   * Snake
 
 ----  
 ### [Lesson Fifteen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonFifteen.md)
 #### Objectives
-* JSON
-* jQuery Ajax
-
-#### Assessments
-
-----
-### [Lesson Sixteen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonSixteen.md)
-#### Objectives
 * Gulp
 * Browserify
 * package.json
 
-#### Assessments
+#### Apps
+
+
+
+----
+### [Lesson Sixteen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonSixteen.md)
+#### Objectives
+* JSON
+* jQuery Ajax
+
+#### Apps
 
 ----
 ### [Lesson Seventeen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonSeventeen.md)
 #### Objectives
-* Underscore.js
 
-#### Assessments
+#### Apps
 
 ----
 ### [Lesson Eighteen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonEighteen.md)
 #### Objectives
-* Backbone.js
 
 #### Assessments
 
 ----
 ### [Lesson Nineteen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonNineteen.md)
 #### Objectives
-* Backbone.js
 
 #### Assessments
 
