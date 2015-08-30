@@ -162,7 +162,7 @@ This will ask for input only once, but how do you ask for input multiple times? 
 'use strict';
 
 var prompt = require('prompt');
-prompt.start()
+prompt.start();
 
 // Here's our custom named function
 function getPrompt() {
@@ -182,7 +182,7 @@ But this loop will continue forever! We can put in a "break condition", maybe by
 'use strict';
 
 var prompt = require('prompt');
-prompt.start()
+prompt.start();
 
 function getPrompt() {
   // Here's where we grab our input  
@@ -210,14 +210,10 @@ Since this is a game, we'll want to use our method of asking for multiple inputs
 'use strict';
 
 var prompt = require('prompt');
-prompt.start()
+prompt.start();
 
 function getPrompt() {
   prompt.get(['input'], function (error, result) {
-    if (result['input'] === 'exit') {
-      return false;
-    }
-    console.log(result['input']);
     getPrompt();
   });
 }
@@ -254,7 +250,7 @@ Now let's throw that into a function so we can call it whenever we feel like it.
 'use strict';
 
 var prompt = require('prompt');
-prompt.start()
+prompt.start();
 
 function showBoard() {
   console.log(board[0]);
@@ -264,10 +260,6 @@ function showBoard() {
 
 function getPrompt() {
   prompt.get(['input'], function (error, result) {
-    if (result['input'] === 'exit') {
-      return false;
-    }
-    console.log(result['input']);
     showBoard(); //we want to see the board before every prompt
     getPrompt();
   });
@@ -305,24 +297,13 @@ console.log(board[2]); //=> [ ' ', ' ', ' ' ]
 
 So let's collect that input from our prompt.
 ```javascript
-'use strict';
 
-var prompt = require('prompt');
-prompt.start()
-
-function showBoard() {
-  console.log(board[0]);
-  console.log(board[1]);
-  console.log(board[2]);
-}
+//...
 
 function getPrompt() {
-  prompt.get(['row', 'column], function (error, result) {
-    if (result['input'] === 'exit') {
-      return false;
-    }
-    row_idx = parseInt(result['row'], 10); // the input comes in a string, so we
-    col_idx = parseInt(result['col'], 10); // must parse it to a base-10 integer
+  prompt.get(['row', 'column'], function (error, result) {
+    var row_idx = parseInt(result['row'], 10); // the input comes in a string, so we
+    var col_idx = parseInt(result['column'], 10); // must parse it to a base-10 integer
     board[row_idx][col_idx] == 'X';
     showBoard();
     getPrompt();
@@ -339,7 +320,13 @@ That's kind of clogging up our `getPrompt()` function, let's separete that logic
 'use strict';
 
 var prompt = require('prompt');
-prompt.start()
+prompt.start();
+
+var board = [
+  [ ' ', ' ', ' ' ],
+  [ ' ', ' ', ' ' ],
+  [ ' ', ' ', ' ' ]
+];
 
 function showBoard() {
   console.log(board[0]);
@@ -348,16 +335,13 @@ function showBoard() {
 }
 
 function placeMark(result) {
-  row_idx = parseInt(result['row'], 10);
-  col_idx = parseInt(result['col'], 10);
-  board[row_idx][col_idx] == 'X';
+  var row_idx = parseInt(result['row'], 10);
+  var col_idx = parseInt(result['column'], 10);
+  board[row_idx][col_idx] == 'mark';
 }
 
 function getPrompt() {
-  prompt.get(['row', 'column], function (error, result) {
-    if (result['input'] === 'exit') {
-      return false;
-    }
+  prompt.get(['row', 'column'], function (error, result) {
     placeMark(result); // we'll pass in our result (contains our captured input) as an argument
     showBoard();
     getPrompt();
@@ -371,30 +355,19 @@ getPrompt();
 #### Step 4 - Who's Turn?
 We want be able to keep track of who's turn it is. So let's set that as a variable.
 ```javascript
-'use strict';
-
-var prompt = require('prompt');
-prompt.start()
+//...
 
 var playerTurn = 'X'; // We'll let Player X go first
 
-function showBoard() {
-  console.log(board[0]);
-  console.log(board[1]);
-  console.log(board[2]);
-}
-
 function placeMark(result) {
-  row_idx = parseInt(result['row'], 10);
-  col_idx = parseInt(result['col'], 10);
+  var row_idx = parseInt(result['row'], 10);
+  var col_idx = parseInt(result['column'], 10);
   board[row_idx][col_idx] == playerTurn; // and we'll use it here
 }
 
 function getPrompt() {
-  prompt.get(['row', 'column], function (error, result) {
-    if (result['input'] === 'exit') {
-      return false;
-    }
+  console.log("It's Player " + playerTurn + "turn."); // Let's remind the players who's turn it is
+  prompt.get(['row', 'column'], function (error, result) {
     placeMark(result);
     playerTurn = (playerTurn === 'X') ? 'O' : 'X'; // we'll use the ternary operator here to toggle between players
     showBoard();
@@ -402,11 +375,10 @@ function getPrompt() {
   });
 }
 
-showBoard();
-getPrompt();
+//...
 ```
 
-####(Optional) Step 5 - Check for a win
+#### Step 5 - Check for a win
 Think about playing a game of tic tac toe, how do you check for a win? You most likely can tell ahead of time if a win is coming up, but the computer can't. It must scan the board after every mark to check for a win. So let's tell the computer what a win looks like.
 * Three of the same marks in a row wins
 * Can be horizontal, vertical, or diagonal
@@ -427,30 +399,28 @@ Think about playing a game of tic tac toe, how do you check for a win? You most 
 
 Write this into a function `checkForWin()` and run it after a mark is place.
 ```javascript
+//...
+
 function checkForWin() {
   if ( board[0][0] === board[0][1] === board[0][2] ||
     board[1][0] === board[1][1] === board[1][2] ||
     board[2][0] === board[2][1] === board[2][2] ||
     .... ) {
+    console.log('Player ' +  playerTurn + ' Won!'); // announce to the world
+    showBoard(); // show the board for bragging rights
     return true;
   }
   return false;
 }
 
-.
-.
-.
+// ...
 
 function getPrompt() {
-  prompt.get(['row', 'column], function (error, result) {
-    if (result['input'] === 'exit') {
-      return false;
-    }
+  console.log("It's Player " + playerTurn + "turn.");
+  prompt.get(['row', 'column'], function (error, result) {
     placeMark(result);
     if (checkForWin()) { // if checkForWin() returns truthy
-      console.log('Player ' +  playerTurn + ' Won!'); // announce to the world
-      showBoard(); // show the board for bragging rights
-      return false; // exit out of the prompt loop
+      return; // exit out of the prompt loop
     }
     playerTurn = (playerTurn === 'X') ? 'O' : 'X'; // we'll use the ternary operator here to toggle between players
     showBoard();
@@ -458,8 +428,15 @@ function getPrompt() {
   });
 }
 
-showBoard();
-getPrompt();
+//..
 ```
 
-
+#### Step 6 - Pretty Print
+So our board, while legible, still looks like a stack of arrays. We can use the [`[].join(separator)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join) to make it a little prettier.
+```javscript
+console.log([ 'X', 'O', 'X' ].join(' | '));
+console.log('---------');
+console.log([ 'O', 'X', 'O' ].join(' | '));
+// ...
+```
+Try changing your `showBoard()` function to show a  prettier board.
