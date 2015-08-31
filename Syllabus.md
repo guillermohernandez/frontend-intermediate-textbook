@@ -1,6 +1,6 @@
 # Syllabus
 ## Austin Code Academy HTML Intermediate - Section 02
-### [Lesson One](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonOne.md)
+### [Lesson One](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonOne.md)
 #### Objectives
 ##### Familarity with Git/GitHub
   * creating/cloning a GitHub repository
@@ -37,7 +37,7 @@
   * Lesson One Tests
 
 ---
-### [Lesson Two](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonTwo.md)
+### [Lesson Two](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonTwo.md)
 #### Objectives
 ##### Javascript
 * Conditionals
@@ -60,7 +60,7 @@
 * Lesson Two Tests
 
 ---
-### [Lesson Three](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonThree.md)
+### [Lesson Three](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonThree.md)
 #### Objectives
 ##### Javascript
 * Scope

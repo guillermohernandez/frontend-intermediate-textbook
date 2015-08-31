@@ -6,13 +6,13 @@
 For your prework (**work done before class starts**) you are to do:
 
 ### 1. [Codecademy: Learn the Command Line](https://www.codecademy.com/courses/learn-the-command-line)
-Without these skills you will fall behind not only in class, but in any developer position anywhere. Complete the 
+Without these skills you will fall behind not only in class, but in any developer position anywhere. Complete the
 `Navigation` and `Manipulation` lessons.
 
 ### 2. [Codecademy: Javacript](https://www.codecademy.com/tracks/javascript)
 Your future bread and butter. **Complete all lessons before `Objects I`**
 
-### 3. Read through all of [Lesson One](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonOne.md)
+### 3. Read through all of [Lesson One](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonOne.md)
 You are to read the lesson before the class everytime. We will spend very little time on lecturing, the vast majority being spent on actual coding. You can play with the examples beforehand, but please do not attempt the exercises. You will have some time to work solo on them in class, then you will be randomly paired up to work together with a partner. If there is something in class you feel like you did not fully grasp, do not wait to read on. It may be used differently and/or better explained in the next lesson.
 
 ## Bonus!
