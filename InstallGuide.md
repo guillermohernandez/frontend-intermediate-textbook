@@ -10,7 +10,7 @@
 
 ## Sublime Text 3
 * Download from http://www.sublimetext.com/3
-* Bonus: try running `sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/bin/subl` in your terminal (you'll have to enter your computer password). 
+* (Mac) Bonus: try running `sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/bin/subl` in your terminal (you'll have to enter your computer password). 
   * If successful, you will be able to access Sublime Text from the commmand line by typing `subl .` . If not, we will troubleshoot the first day of class.
 
 ## Node.js
