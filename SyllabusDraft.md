@@ -156,7 +156,10 @@
   * Lesson Twenty Tests
 
 
-* Debugging
+## Remaining Objectives
+* case statements
+* loose equality
+* debugging
 * HTML and CSS review
 * package.json
 * Bower
@@ -164,14 +167,21 @@
 * jQuery
   * Locating, Creating, Manipulating DOM Elements
   * AJAX requests / JSON
+   * Restful API calls w/ http://reqr.es/
   * Events and Callbacks
 * jQuery UI
-* Github Portfolio and Javascript Hosting
+* github.io hosting with submodules
 * Gulp
 * Browserify
+* unit testing
 * ES6
 * Transpilers
  * CoffeeScript
  * Babel
  * TypeScript
 * Backbone.js
+* React.js
+* CSS Frameworks Survey
+  * Bootstrap
+  * Foundation
+  * Material Design
