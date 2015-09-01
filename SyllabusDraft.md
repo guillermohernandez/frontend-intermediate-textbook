@@ -15,9 +15,13 @@
 
 #### Apps
  * Fizzbuzz
+ * MasterMind
+   * Infinite
+   * Code Cracker
 
 #### Assessments
- * Euler problems
+  * Lesson Six Tests
+    * Euler problems
 
 ----
 ### [Lesson Seven](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonSeven.md)
