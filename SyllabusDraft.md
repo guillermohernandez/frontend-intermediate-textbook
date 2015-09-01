@@ -1,11 +1,11 @@
 ### [Lesson Five](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonFive.md)
 #### Objectives
-* Switch Statements
 
 #### Apps
   * Mastermind
 
 #### Assessments
+  * Lesson Five Tests
 
 ----
 ### [Lesson Six](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonSix.md)
@@ -15,13 +15,10 @@
 
 #### Apps
  * Fizzbuzz
- * MasterMind
-   * Infinite
-   * Code Cracker
+ * MasterMind Revisited
 
 #### Assessments
   * Lesson Six Tests
-    * Euler problems
 
 ----
 ### [Lesson Seven](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonSeven.md)
@@ -32,6 +29,7 @@
   * Checkers
 
 #### Assessments
+  * Lesson Seven Tests
 
 ----
 ### [Lesson Eight](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonEight.md)
@@ -42,6 +40,7 @@
   * Chess
 
 #### Assessments
+  * Lesson Eight Tests
 
 ----
 ### [Lesson Nine](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonNine.md)
@@ -52,31 +51,26 @@
   * Chess (continued)
 
 #### Assessments
+  * Lesson Nine Tests
 
 ----
 ### [Lesson Ten](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonTen.md)
 #### Objectives
-* Coding in the Browser
-* Debugging
-* HTML and CSS review
-* Intro to jQuery
-  * Locating, Creating, Manipulating DOM Elements
-* Github Portfolio and Javascript Hosting
 
 #### Apps
 
 #### Assessments
+  * Lesson Ten Tests
 
 ----
 ### [Lesson Eleven](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonEleven.md)
 #### Objectives
-* jQuery
-  * Events and Callbacks
 
 #### Apps
   * Tic Tac Toe (GUI)
 
 #### Assessments
+  * Lesson Eleven Tests
 
 ### [Lesson Twelve](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonTwelve.md)
 #### Objectives
@@ -85,6 +79,7 @@
   * Towers of Hanoi (GUI)
 
 #### Assessments
+  * Lesson Twelve Tests
 
 ----
 ### [Lesson Thirteen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonThirteen.md)
@@ -94,6 +89,7 @@
   * Mastermind (GUI)
 
 #### Assessments
+  * Lesson Thirteen Tests
 
 ----
 ### [Lesson Fourteen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonFourteen.md)
@@ -103,27 +99,25 @@
   * Snake
 
 #### Assessments
+  * Lesson Fourteen Tests
 
 ----
 ### [Lesson Fifteen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonFifteen.md)
 #### Objectives
-* Gulp
-* Browserify
-* package.json
 
 #### Apps
 
 #### Assessments
+  * Lesson Fifteen Tests
 
 ----
 ### [Lesson Sixteen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonSixteen.md)
 #### Objectives
-* JSON
-* jQuery Ajax
 
 #### Apps
 
 #### Assessments
+  * Lesson Sixteen Tests
 
 ----
 ### [Lesson Seventeen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonSeventeen.md)
@@ -132,6 +126,7 @@
 #### Apps
 
 #### Assessments
+  * Lesson Seventeen Tests
 
 ----
 ### [Lesson Eighteen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonEighteen.md)
@@ -140,6 +135,7 @@
 #### Apps
 
 #### Assessments
+  * Lesson Eighteen Tests
 
 ----
 ### [Lesson Nineteen](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonNineteen.md)
@@ -148,12 +144,34 @@
 #### Apps
 
 #### Assessments
+  * Lesson Nineteen Tests
 
 ----
 ### [Lesson Twenty](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonTwenty.md)
 #### Objectives
-* ES6
 
 #### Apps
 
 #### Assessments
+  * Lesson Twenty Tests
+
+
+* Debugging
+* HTML and CSS review
+* package.json
+* Bower
+  * bower.json
+* jQuery
+  * Locating, Creating, Manipulating DOM Elements
+  * AJAX requests / JSON
+  * Events and Callbacks
+* jQuery UI
+* Github Portfolio and Javascript Hosting
+* Gulp
+* Browserify
+* ES6
+* Transpilers
+ * CoffeeScript
+ * Babel
+ * TypeScript
+* Backbone.js
