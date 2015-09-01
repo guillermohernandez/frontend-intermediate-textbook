@@ -77,3 +77,20 @@
 
 #### Assessments
   * Lesson Three Tests
+
+----
+### [Lesson Four](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonFour.md)
+#### Objectives
+* Popular Array Methods
+  * pop/push
+  * shift/unshift
+* Associative Arrays
+  * keys and values
+  * finding value by key
+  * adding key/value
+
+#### Apps
+  * Towers of Hanoi
+
+#### Assessments
+  * Lesson Four Tests
