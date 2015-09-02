@@ -1,7 +1,10 @@
 # Prework
 
 ## Codecademy
-[Codecademy](https://www.codecademy.com/) is a great resource for learning the syntax of different popular laguages, as well as familiarizing yourself with important tools. Make an account and get started coding now. Try to do at lease little bit every day, but don't be afraid to go on a binge. If you pass a lesson and don't fully understand why, that is OK. Your understanding will be cemented in later lessons, as these lessons are simply for exposure to the language. Just pass the tests and move forward.
+[Codecademy](https://www.codecademy.com/) is a great resource for learning the syntax of different popular laguages, as well as familiarizing yourself with important tools. Make an account and get started coding now. Try to do at lease little bit every day, but don't be afraid to go on a binge.
+
+## Code School
+[Code School](https://www.codeschool.com/) is another great resource for exposure to different subjects. Although not all subjects are free, the first lesson or two usually is.
 
 For your prework (**work done before class starts**) you are to do:
 
@@ -12,8 +15,11 @@ Without these skills you will fall behind not only in class, but in any develope
 ### 2. [Codecademy: Javacript](https://www.codecademy.com/tracks/javascript)
 Your future bread and butter. **Complete all lessons before `Objects I`**
 
-### 3. Read through all of [Lesson One](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonOne.md)
-You are to read the lesson before the class everytime. We will spend very little time on lecturing, the vast majority being spent on actual coding. You can play with the examples beforehand, but please do not attempt the exercises. You will have some time to work solo on them in class, then you will be randomly paired up to work together with a partner. If there is something in class you feel like you did not fully grasp, do not wait to read on. It may be used differently and/or better explained in the next lesson.
+### 3. [Code School: Try Git](https://try.github.io)
+You entire programming career will be recorded, versioned, and shared with Git. Get familiar with it and GitHub here on Code School.
+
+### 4. Read through all of [Lesson One](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonOne.md)
+You are to read the lesson before the class everytime. We will spend very little time on lecturing, the vast majority being spent on actual coding. You will have some time to work solo on them in class, and sometimes will be randomly paired up to work together with a partner. If there is something in class you feel like you did not fully grasp, do not wait to read on to the next lesson, where it may be used again and/or better explained.
 
 ## Bonus!
 ### 4. [Codecademy: jQuery](https://www.codecademy.com/tracks/jquery)
