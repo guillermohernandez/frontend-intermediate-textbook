@@ -106,7 +106,7 @@ console.log(assoc_arr2.pi);
 And to add a key/value pair to an associative array
 ```javascript
 // Example A
-assoc_arr['key3'] = 'value3;
+assoc_arr['key3'] = 'value3';
 
 // Example B
 // Or in dot notation
