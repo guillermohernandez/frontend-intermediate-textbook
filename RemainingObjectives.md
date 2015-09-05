@@ -1,12 +1,11 @@
 # Remaining Objectives
 ## Syntax
-* case statements *
-* loose equality *
+* case statements (Codecademy)
+* loose equality (Codecademy)
 
 ## Tools
 * debugging
-* HTML and CSS review
-* package.json
+* npm/package.json
 * Bower
   * bower.json
 * jQuery
@@ -15,17 +14,6 @@
    * Restful API calls w/ http://reqr.es/
   * Events and Callbacks
 * jQuery UI
-* github.io hosting with submodules
-* Gulp
-* Browserify
-* unit testing
-
-## Javascript Flavors
-* ES6
-* Transpilers
- * CoffeeScript
- * Babel
- * TypeScript
 
 ## Frameworks
 * JavaScript
@@ -35,6 +23,22 @@
   * Bootstrap
   * Foundation
   * Material Design
+
+## Build Tools
+* Gulp/Browserify
+* UglifyJS
+* Unit Testing with Mocha
+
+## Javascript Flavors
+* Transpilers
+ * CoffeeScript
+ * ES6/Babel
+ * TypeScript
+
+## Portfolio Tools
+* github.io hosting
+* submodules
+
 
 # Remaining Apps
 ## Games
