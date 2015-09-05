@@ -3,38 +3,38 @@
 ### [Lesson One](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonOne.md)
 #### Objectives
 ##### Familarity with Git/GitHub
-  * creating/cloning a GitHub repository
-  * navigating in the terninal using `cd`
-  * creating/saving a file in Sublime Text 3
-  * checking the status/staging/commtting changes using Git
-  * pushing commits to GitHub
-  * set up SSH keys
+* creating/cloning a GitHub repository
+* navigating in the terninal using `cd`
+* creating/saving a file in Sublime Text 3
+* checking the status/staging/commtting changes using Git
+* pushing commits to GitHub
+* set up SSH keys
 
 ##### Server-Side JavaScript
-  * using `node` to open REPL or load a script
+* using `node` to open REPL or load a script
 
 ##### JavaScript
-  * "strict mode"
-  * comments
-  * logging output
-  * assign values to variables
-  * make comparisons between values and variables
-  * overview of popular data types
-    * boolean
-    * undefined
-    * null
-    * number
-    * string
-  * `&&`, `||`, and `!` operators
-  * basic understanding of "truthiness" concept
+* "strict mode"
+* comments
+* logging output
+* assign values to variables
+* make comparisons between values and variables
+* overview of popular data types
+  * boolean
+  * undefined
+  * null
+  * number
+  * string
+* `&&`, `||`, and `!` operators
+* basic understanding of "truthiness" concept
 
 ##### Running tests with mocha
-  * globally install npm pacakges
-  * forking/cloning/navigating repositories
-  * reading test specs and coding solutions
+* globally install npm pacakges
+* forking/cloning/navigating repositories 
+* reading test specs and coding solutions
 
 #### Assessments
-  * Lesson One Tests
+* Lesson One Tests
 
 ---
 ### [Lesson Two](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonTwo.md)
@@ -70,15 +70,15 @@
   * Assigning and Replacing Items
 
 ##### Tools
- * Prompting more than once.
+* Prompting more than once.
 
 #### Apps
-  * Tic Tac Toe
+* Tic Tac Toe
 
 #### Assessments
-  * Lesson Three Tests
+* Lesson Three Tests
 
-----
+---
 ### [Lesson Four](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonFour.md)
 #### Objectives
 * Popular Array Methods
@@ -90,7 +90,23 @@
   * adding key/value
 
 #### Apps
-  * Towers of Hanoi
+* Towers of Hanoi
 
 #### Assessments
-  * Lesson Four Tests
+* Lesson Four Tests
+
+---
+### [Lesson Five](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonFive.md)
+#### Objectives
+* JavaScript
+  * More Operators
+    * `++` / `--`   
+    * `+=`, `-=`, `*=`, `/=`
+  * Loops
+    * `for` / `while`
+
+#### Apps
+* Mastermind
+
+#### Assessments
+* Lesson Five Tests
