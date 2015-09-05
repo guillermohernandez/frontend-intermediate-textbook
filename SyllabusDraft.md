@@ -1,13 +1,3 @@
-### [Lesson Five](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonFive.md)
-#### Objectives
-
-#### Apps
-  * Mastermind
-
-#### Assessments
-  * Lesson Five Tests
-
-----
 ### [Lesson Six](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonSix.md)
 #### Objectives
 * For Loops
