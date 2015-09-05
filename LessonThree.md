@@ -401,10 +401,10 @@ Write this into a function `checkForWin()` and run it after a mark is place.
 ```javascript
 //...
 
-function checkForWin(mark) {
-  if ( (board[0][0] === mark && board[0][1] === mark && board[0][2] === mark) ||
-       (board[1][0] === mark && board[1][1] === mark && board[1][2] === mark ) ||
-       (board[2][0] === mark && board[2][1] === mark && board[2][2] === mark) ||
+function checkForWin() {
+  if ( (board[0][0] === playerTurn && board[0][1] === playerTurn && board[0][2] === playerTurn) ||
+       (board[1][0] === playerTurn && board[1][1] === playerTurn && board[1][2] === playerTurn ) ||
+       (board[2][0] === playerTurn && board[2][1] === playerTurn && board[2][2] === playerTurn) ||
         ....
   ) {
     console.log('Player ' +  playerTurn + ' Won!'); // announce to the world
@@ -420,7 +420,7 @@ function getPrompt() {
   console.log("It's Player " + playerTurn + "turn.");
   prompt.get(['row', 'column'], function (error, result) {
     placeMark(result);
-    if (checkForWin(playerTurn)) { // if checkForWin(playerTurn) returns truthy
+    if (checkForWin()) { // if checkForWin(playerTurn) returns truthy
       return; // exit out of the prompt loop
     }
     playerTurn = (playerTurn === 'X') ? 'O' : 'X'; // we'll use the ternary operator here to toggle between players
@@ -434,7 +434,7 @@ function getPrompt() {
 
 #### Step 6 - Pretty Print
 So our board, while legible, still looks like a stack of arrays. We can use the [`[].join(separator)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join) to make it a little prettier.
-```javscript
+```javascript
 console.log([ 'X', 'O', 'X' ].join(' | '));
 console.log('---------');
 console.log([ 'O', 'X', 'O' ].join(' | '));
