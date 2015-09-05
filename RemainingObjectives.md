@@ -1,6 +1,9 @@
 # Remaining Objectives
-* case statements
-* loose equality
+## Syntax
+* case statements *
+* loose equality *
+
+## Tools
 * debugging
 * HTML and CSS review
 * package.json
@@ -16,14 +19,33 @@
 * Gulp
 * Browserify
 * unit testing
+
+## Javascript Flavors
 * ES6
 * Transpilers
  * CoffeeScript
  * Babel
  * TypeScript
-* Backbone.js
-* React.js
-* CSS Frameworks Survey
+
+## Frameworks
+* JavaScript
+  * Backbone.js
+  * React.js
+* CSS
   * Bootstrap
   * Foundation
   * Material Design
+
+# Remaining Apps
+## Games
+* Snake
+* Tic Tac Toe (GUI)
+* Towers of Hanoi (GUI)
+* Snake
+* Checkers (GUI)
+* Mastermind(GUI)
+
+## Other
+* Blog
+* Todo
+* People Cards
