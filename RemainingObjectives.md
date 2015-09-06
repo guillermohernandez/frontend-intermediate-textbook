@@ -40,12 +40,15 @@
 * github.io hosting
 * submodules
 
+## Homeworks
+* Regexone
+* Codecademy Objects
+* Codeschool CoffeeScript
+* Project Euler 1-10
 
-# Remaining Apps
+# Apps
 ## Games
 * Snake
-* Tic Tac Toe (GUI)
-* Towers of Hanoi (GUI)
 * Snake
 * Checkers (GUI)
 * Mastermind(GUI)
