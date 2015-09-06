@@ -89,7 +89,7 @@
 * Lesson Three Tests
 
 ---
-### [Lesson Four](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonFour.md)
+### [Lesson Four](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonFour.md)
 #### Objectives
 * Popular Array Methods
   * pop/push
@@ -110,7 +110,7 @@
 * Lesson Four Tests
 
 ---
-### [Lesson Five](https://github.com/mistakevin/HTMLIntermediateSection2/blob/master/LessonFive.md)
+### [Lesson Five](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonFive.md)
 #### Objectives
 * JavaScript
   * More Operators
