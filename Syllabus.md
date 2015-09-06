@@ -27,16 +27,11 @@
 * `&&`, `||`, and `!` operators
 * basic understanding of "truthiness" concept
 
-#### Running tests with mocha
-* globally install npm pacakges
-* forking/cloning/navigating repositories 
-* reading test specs and coding solutions
-
 ### Homework
 * Finish [Prework](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/Prework.md)
 
 ### Assessments
-* Lesson One Tests
+* [Lesson One Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/LessonOne/LessonOne.js)
 
 ---
 ### [Lesson Two](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonTwo.md)
@@ -61,7 +56,7 @@
 * Finish [Rock, Paper, Scissors](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/RockPaperScissors.md)
 
 ### Assessments
-* Lesson Two Tests
+* [Lesson Two Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/LessonTwo/LessonTwo.js)
 
 ---
 ### [Lesson Three](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonThree.md)
@@ -83,7 +78,7 @@
 * Finish any past uncomplete apps
 
 ### Assessments
-* Lesson Three Tests
+* [Lesson Three Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/LessonThree/LessonThree.js)
 
 ---
 ### [Lesson Four](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonFour.md)
@@ -104,7 +99,7 @@
 * Finish any past uncomplete apps
 
 ### Assessments
-* Lesson Four Tests
+* [Lesson Four Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/LessonFour/LessonFour.js)
 
 ---
 ### [Lesson Five](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonFive.md)
@@ -124,4 +119,4 @@
 * Finish any past uncomplete apps
 
 ### Assessments
-* Lesson Five Tests
+* [Lesson Five Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/LessonFive/LessonFive.js)
