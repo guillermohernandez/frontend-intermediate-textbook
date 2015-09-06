@@ -82,7 +82,8 @@
 * Tic Tac Toe
 
 #### Homework
-* Finish Rock, Paper, Scissors
+* Finish Tic Tac Toe
+* Finish any past uncomplete apps
 
 #### Assessments
 * Lesson Three Tests
@@ -103,6 +104,7 @@
 
 #### Homework
 * Finish Towers of Hanoi
+* Finish any past uncomplete apps
 
 #### Assessments
 * Lesson Four Tests
@@ -122,6 +124,7 @@
 
 #### Homework
 * Finish Mastermind
+* Finish any past uncomplete apps
 
 #### Assessments
 * Lesson Five Tests
