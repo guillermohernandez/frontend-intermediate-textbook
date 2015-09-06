@@ -57,3 +57,11 @@
 * Blog
 * Todo
 * People Cards
+
+# Lesson Structure
+## Five E's
+1. Explain (Lesson Objectives)
+2. Engage (Building Apps)
+3. Elaborate (One-on-one "app coaching" in class)
+4. Explore (Homework and Peer-programming)
+5. Evaluate (Assessments)
