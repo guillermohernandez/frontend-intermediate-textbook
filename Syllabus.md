@@ -97,10 +97,10 @@
   * adding key/value
 
 ### Apps
-* Towers of Hanoi
+* [Towers of Hanoi](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/TowersOfHanoi.md)
 
 ### Homework
-* Finish Towers of Hanoi
+* Finish [Towers of Hanoi](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/TowersOfHanoi.md)
 * Finish any past uncomplete apps
 
 ### Assessments
