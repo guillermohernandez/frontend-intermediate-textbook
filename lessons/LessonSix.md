@@ -1,7 +1,7 @@
 # Lesson Six
 ## Object Oriented Programming (OOP) Part I
 ### The object
-Object oriented programming is the "real deal" of programming. It's a little weird to wrap yor head around at first, and the syntax, reserved words, and vocabulary can be a little intimidating. But once you "get" it, your ability to program and pick up new skills and tools will skyrocket. Let's get started with a "explain-like-I'm-5" explanation:
+Object oriented programming is the "real deal" of programming. It's a little weird to wrap yor head around at first, and the syntax, reserved words, and vocabulary can be a little intimidating. But once you "get it", your ability to program and pick up new skills and tools will skyrocket. Let's get started with a simple example:
 
 A human is a **class**. There is not physical example of a human, just a list of charastics that, if an **object** has these characteristics, it is considered to be of **class** human. Some general characteristics of a human could be:
 * can say "I'm a human!"
