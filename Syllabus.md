@@ -1,8 +1,7 @@
 # Syllabus
 ## Austin Code Academy HTML Intermediate - Section 02
 ### [Lesson One](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonOne.md)
-#### Objectives
-##### Familarity with Git/GitHub
+#### Familarity with Git/GitHub
 * creating/cloning a GitHub repository
 * navigating in the terninal using `cd`
 * creating/saving a file in Sublime Text 3
@@ -10,10 +9,10 @@
 * pushing commits to GitHub
 * set up SSH keys
 
-##### Server-Side JavaScript
+#### Server-Side JavaScript
 * using `node` to open REPL or load a script
 
-##### JavaScript
+#### JavaScript
 * "strict mode"
 * comments
 * logging output
@@ -28,21 +27,20 @@
 * `&&`, `||`, and `!` operators
 * basic understanding of "truthiness" concept
 
-##### Running tests with mocha
+#### Running tests with mocha
 * globally install npm pacakges
 * forking/cloning/navigating repositories 
 * reading test specs and coding solutions
 
-#### Homework
+### Homework
 * Finish [Prework](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/Prework.md)
 
-#### Assessments
+### Assessments
 * Lesson One Tests
 
 ---
 ### [Lesson Two](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonTwo.md)
-#### Objectives
-##### Javascript
+#### Javascript
 * Conditionals
   * `if` / `else` pattern
   * `if`/ `else if`/ `else` pattern
@@ -51,46 +49,45 @@
 * Named functions
   * understand decomposition method
 
-##### Tools
+#### Tools
 * Input Prompting
   * demonstrate use of "prompt" npm package
 
-#### Apps
+### Apps
 * [Three or Five?](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/ThreeOrFive.md)
 * [Rock, Paper, Scissors](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/RockPaperScissors.md)
 
-#### Homework
+### Homework
 * Finish [Rock, Paper, Scissors](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/RockPaperScissors.md)
 
-#### Assessments
+### Assessments
 * Lesson Two Tests
 
 ---
 ### [Lesson Three](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonThree.md)
-#### Objectives
-##### Javascript
+#### Javascript
 * Scope
 * Ternary Operator
 * Arrays
   * Locating Items
   * Assigning and Replacing Items
 
-##### Tools
+#### Tools
 * Prompting more than once.
 
-#### Apps
+### Apps
 * Tic Tac Toe
 
-#### Homework
+### Homework
 * Finish Tic Tac Toe
 * Finish any past uncomplete apps
 
-#### Assessments
+### Assessments
 * Lesson Three Tests
 
 ---
 ### [Lesson Four](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonFour.md)
-#### Objectives
+#### Javascript
 * Popular Array Methods
   * pop/push
   * shift/unshift
@@ -99,33 +96,32 @@
   * finding value by key
   * adding key/value
 
-#### Apps
+### Apps
 * Towers of Hanoi
 
-#### Homework
+### Homework
 * Finish Towers of Hanoi
 * Finish any past uncomplete apps
 
-#### Assessments
+### Assessments
 * Lesson Four Tests
 
 ---
 ### [Lesson Five](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonFive.md)
-#### Objectives
-* JavaScript
+#### JavaScript
   * More Operators
     * `++` / `--`
     * `+=`, `-=`, `*=`, `/=`
   * Loops
     * `for` / `while`
 
-#### Apps
+### Apps
 * Mastermind
 
-#### Homework
+### Homework
 * Finish Mastermind
 * [Project Euler](https://projecteuler.net) - [Problem 1](https://projecteuler.net/problem=1)
 * Finish any past uncomplete apps
 
-#### Assessments
+### Assessments
 * Lesson Five Tests
