@@ -140,7 +140,7 @@ prompt.get(['first', 'second'], function (error, result) {
 });
 ```
 
-## Assessment
+## Apps
 
 ### Three or Five?
 Build a simple command line tool that takes a number as an input, and tells whether it is divisible by three or five. 
@@ -239,7 +239,7 @@ prompt.get(['number'], function (error, result) {
 
 Run your script and see if it works!
 
-#### (optional) Step 6 - Only return one log if divisible by 3 and 5
+#### Step 6 - Only return one log if divisible by 3 and 5
 Write your conditionals so that it only returns `'<num> is divisible by 3 and 5'` if the number is divisible by both. 
 Hint: try nested conditionals
 
