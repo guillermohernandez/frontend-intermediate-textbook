@@ -76,10 +76,10 @@
 * Prompting more than once.
 
 ### Apps
-* Tic Tac Toe
+* [Tic Tac Toe](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/TicTacToe.md)
 
 ### Homework
-* Finish Tic Tac Toe
+* Finish [Tic Tac Toe](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/TicTacToe.md)
 * Finish any past uncomplete apps
 
 ### Assessments
