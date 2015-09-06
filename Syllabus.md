@@ -1,7 +1,8 @@
-# Syllabus
-## Austin Code Academy HTML Intermediate - Section 02
-### [Lesson One](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonOne.md)
-#### Familarity with Git/GitHub
+# Austin Code Academy
+## HTML Intermediate - Section 02
+### Syllabus
+#### [Lesson Zero](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonZero.md)
+##### Familarity with Git/GitHub
 * creating/cloning a GitHub repository
 * navigating in the terninal using `cd`
 * creating/saving a file in Sublime Text 3
@@ -9,10 +10,12 @@
 * pushing commits to GitHub
 * set up SSH keys
 
-#### Server-Side JavaScript
+##### Server-Side JavaScript
 * using `node` to open REPL or load a script
 
-#### JavaScript
+---
+#### [Lesson One](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonOne.md)
+##### JavaScript
 * "strict mode"
 * comments
 * logging output
@@ -31,11 +34,11 @@
 * Finish [Prework](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/Prework.md)
 
 ### Assessments
-* [Lesson One Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/LessonOne/LessonOne.js)
+* [Lesson One Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/lessons/LessonOne/LessonOne.js)
 
 ---
-### [Lesson Two](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonTwo.md)
-#### Javascript
+#### [Lesson Two](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonTwo.md)
+##### Javascript
 * Conditionals
   * `if` / `else` pattern
   * `if`/ `else if`/ `else` pattern
@@ -44,45 +47,45 @@
 * Named functions
   * understand decomposition method
 
-#### Tools
+##### Tools
 * Input Prompting
   * demonstrate use of "prompt" npm package
 
 ### Apps
-* [Three or Five?](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/ThreeOrFive.md)
-* [Rock, Paper, Scissors](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/RockPaperScissors.md)
+* [Three or Five?](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/ThreeOrFive.md)
+* [Rock, Paper, Scissors](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/RockPaperScissors.md)
 
 ### Homework
-* Finish [Rock, Paper, Scissors](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/RockPaperScissors.md)
+* Finish [Rock, Paper, Scissors](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/RockPaperScissors.md)
 
 ### Assessments
-* [Lesson Two Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/LessonTwo/LessonTwo.js)
+* [Lesson Two Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/lessons/LessonTwo/LessonTwo.js)
 
 ---
-### [Lesson Three](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonThree.md)
-#### Javascript
+#### [Lesson Three](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonThree.md)
+##### Javascript
 * Scope
 * Ternary Operator
 * Arrays
   * Locating Items
   * Assigning and Replacing Items
 
-#### Tools
+##### Tools
 * Prompting more than once.
 
 ### Apps
-* [Tic Tac Toe](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/TicTacToe.md)
+* [Tic Tac Toe](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/TicTacToe.md)
 
 ### Homework
-* Finish [Tic Tac Toe](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/TicTacToe.md)
+* Finish [Tic Tac Toe](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/TicTacToe.md)
 * Finish any past uncomplete apps
 
 ### Assessments
-* [Lesson Three Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/LessonThree/LessonThree.js)
+* [Lesson Three Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/lessons/LessonThree/LessonThree.js)
 
 ---
-### [Lesson Four](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonFour.md)
-#### Javascript
+#### [Lesson Four](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonFour.md)
+##### Javascript
 * Popular Array Methods
   * pop/push
   * shift/unshift
@@ -92,18 +95,18 @@
   * adding key/value
 
 ### Apps
-* [Towers of Hanoi](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/TowersOfHanoi.md)
+* [Towers of Hanoi](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/TowersOfHanoi.md)
 
 ### Homework
-* Finish [Towers of Hanoi](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/TowersOfHanoi.md)
+* Finish [Towers of Hanoi](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/TowersOfHanoi.md)
 * Finish any past uncomplete apps
 
 ### Assessments
-* [Lesson Four Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/LessonFour/LessonFour.js)
+* [Lesson Four Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/lessons/LessonFour/LessonFour.js)
 
 ---
-### [Lesson Five](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonFive.md)
-#### JavaScript
+#### [Lesson Five](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonFive.md)
+##### JavaScript
   * More Operators
     * `++` / `--`
     * `+=`, `-=`, `*=`, `/=`
@@ -111,12 +114,12 @@
     * `for` / `while`
 
 ### Apps
-* Mastermind
+* [Mastermind](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/Mastermind.md)
 
 ### Homework
-* Finish Mastermind
+* Finish [Mastermind](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/Mastermind.md)
 * [Project Euler](https://projecteuler.net) - [Problem 1](https://projecteuler.net/problem=1)
 * Finish any past uncomplete apps
 
 ### Assessments
-* [Lesson Five Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/LessonFive/LessonFive.js)
+* [Lesson Five Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/lessons/LessonFive/LessonFive.js)
