@@ -1,5 +1,5 @@
 # Lesson Six
-## Intro to Object Oriented Programming (OOP)
+## Object Oriented Programming (OOP) Part I
 ### The object
 Object oriented programming is the "real deal" of programming. It's a little weird to wrap yor head around at first, and the syntax, reserved words, and vocabulary can be a little intimidating. But once you "get" it, your ability to program and pick up new skills and tools will skyrocket. Let's get started with a "explain-like-I'm-5" explanation:
 
@@ -56,3 +56,27 @@ var laura = new Human('Laura', 'Female', 'Swimming');
 ```
 
 Now we have a little more diverse bunch.
+
+Now let's make a bunch of randomly generatoed `Human`s!
+```javascript
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
+var genders = ['Male', 'Female'];
+var hobbies = ['Surfing', 'Swimming', 'Sailing', 'Hiking', 'Running', 'Jumping', 'Reading', 'Sleeping'];
+var names = ['Hillary', 'Donald', 'Bernie', 'Jeb', 'Joe'];
+
+var austinTx = [];
+
+for (var i = 0; i < 1000; i++) {
+  austinTx.push(
+    new Human(
+      names[getRandomInt(0, names.length)],
+      genders[getRandomInt(0, genders.length)],
+      hobbies[getRandomInt(0, hobbies.length)]
+    )
+  );
+}
+```
+Now `austinTx` contains a 1000 mixed presidential candidates.
