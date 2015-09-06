@@ -13,6 +13,7 @@
   * AJAX requests / JSON
    * Restful API calls w/ http://reqr.es/
   * Events and Callbacks
+* Fastclick.js
 * jQuery UI
 
 ## Frameworks
