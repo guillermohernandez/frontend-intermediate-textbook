@@ -33,6 +33,9 @@
 * forking/cloning/navigating repositories 
 * reading test specs and coding solutions
 
+#### Homework
+* Finish [Prework](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/Prework.md)
+
 #### Assessments
 * Lesson One Tests
 
@@ -56,6 +59,9 @@
 * Three or Five?
 * Rock, Paper, Scissors
 
+#### Homework
+* Finish Rock, Paper, Scissors
+
 #### Assessments
 * Lesson Two Tests
 
@@ -75,6 +81,9 @@
 #### Apps
 * Tic Tac Toe
 
+#### Homework
+* Finish Rock, Paper, Scissors
+
 #### Assessments
 * Lesson Three Tests
 
@@ -92,6 +101,9 @@
 #### Apps
 * Towers of Hanoi
 
+#### Homework
+* Finish Towers of Hanoi
+
 #### Assessments
 * Lesson Four Tests
 
@@ -100,13 +112,16 @@
 #### Objectives
 * JavaScript
   * More Operators
-    * `++` / `--`   
+    * `++` / `--`
     * `+=`, `-=`, `*=`, `/=`
   * Loops
     * `for` / `while`
 
 #### Apps
 * Mastermind
+
+#### Homework
+* Finish Mastermind
 
 #### Assessments
 * Lesson Five Tests
