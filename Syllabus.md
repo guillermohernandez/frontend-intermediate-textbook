@@ -15,7 +15,6 @@
 
 ---
 #### [Lesson One](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonOne.md)
-##### JavaScript
 * "strict mode"
 * comments
 * logging output
@@ -38,7 +37,6 @@
 
 ---
 #### [Lesson Two](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonTwo.md)
-##### Javascript
 * Conditionals
   * `if` / `else` pattern
   * `if`/ `else if`/ `else` pattern
@@ -63,7 +61,6 @@
 
 ---
 #### [Lesson Three](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonThree.md)
-##### Javascript
 * Scope
 * Ternary Operator
 * Arrays
@@ -81,11 +78,10 @@
 * Finish any past uncomplete apps
 
 ### Assessments
-* [Lesson Three Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/lessons/LessonThree/LessonThree.js)
+* Lesson Three Tests
 
 ---
 #### [Lesson Four](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonFour.md)
-##### Javascript
 * Popular Array Methods
   * pop/push
   * shift/unshift
@@ -102,16 +98,15 @@
 * Finish any past uncomplete apps
 
 ### Assessments
-* [Lesson Four Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/lessons/LessonFour/LessonFour.js)
+* Lesson Four Tests
 
 ---
 #### [Lesson Five](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonFive.md)
-##### JavaScript
-  * More Operators
-    * `++` / `--`
-    * `+=`, `-=`, `*=`, `/=`
-  * Loops
-    * `for` / `while`
+* More Operators
+  * `++` / `--`
+  * `+=`, `-=`, `*=`, `/=`
+* Loops
+  * `for` / `while`
 
 ### Apps
 * [Mastermind](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/Mastermind.md)
@@ -122,4 +117,22 @@
 * Finish any past uncomplete apps
 
 ### Assessments
-* [Lesson Five Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/lessons/LessonFive/LessonFive.js)
+* Lesson Five Tests
+
+---
+#### [Lesson Six](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonSix.md)
+* Object Oriented Programming (OOP) Part I
+  * Creating Classes using the Constructor Method
+  * `this` context
+  * passing in arguments to contructor
+
+### Apps
+ * Checkers (Steps 1 - 5)
+
+### Homework
+  * Finish Checkers
+  * [Project Euler](https://projecteuler.net) - [Problem 2](https://projecteuler.net/problem=2)
+  * Codecademy - Finish JavaScript Track
+
+### Assessements
+  * Lesson Six Tests
