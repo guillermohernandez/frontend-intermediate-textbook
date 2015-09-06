@@ -124,6 +124,7 @@
 
 #### Homework
 * Finish Mastermind
+* [Project Euler](https://projecteuler.net) - [Problem 1](https://projecteuler.net/problem=1)
 * Finish any past uncomplete apps
 
 #### Assessments
