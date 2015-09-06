@@ -56,11 +56,11 @@
   * demonstrate use of "prompt" npm package
 
 #### Apps
-* Three or Five?
-* Rock, Paper, Scissors
+* [Three or Five?](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/ThreeOrFive.md)
+* [Rock, Paper, Scissors](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/RockPaperScissors.md)
 
 #### Homework
-* Finish Rock, Paper, Scissors
+* Finish [Rock, Paper, Scissors](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/RockPaperScissors.md)
 
 #### Assessments
 * Lesson Two Tests
