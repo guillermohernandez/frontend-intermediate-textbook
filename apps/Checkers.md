@@ -124,6 +124,5 @@ var blueSpots = [
     [7, 2], [7, 4], [7, 6], [7, 8],
     [8, 1], [8, 3], [8, 5], [8, 7]
 ];
-
-and a loop that `push`es 8 of each color `new`ly instantiated  `Checker` with each of these positions into the `this.checkers` array.
 ```
+and a loop that `push`es 8 of each color `new`ly instantiated  `Checker` with each of these positions into the `this.checkers` array.
