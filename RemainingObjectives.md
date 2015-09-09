@@ -58,6 +58,9 @@
 * Todo
 * People Cards
 
+## Concepts
+* How does the internet work
+
 # Lesson Structure
 ## Five E's
 1. Explain (Lesson Objectives)
