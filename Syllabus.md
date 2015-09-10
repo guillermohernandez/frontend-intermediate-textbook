@@ -29,6 +29,9 @@
 * `&&`, `||`, and `!` operators
 * basic understanding of "truthiness" concept
 
+### Apps
+* Pig Latin Generator
+
 ### Homework
 * Finish [Prework](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/Prework.md)
 
