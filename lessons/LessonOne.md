@@ -108,6 +108,21 @@ var str4 = 'She replied "I have no idea"';
 
 It is convention to always try to use single-quotes (`''`) when possible. In other languages and some "flavors" of javascript, single-quotes (`''`) and double-quotes (`""`) have different features.
 
+We can also locate a specific character  in a string. All strings have an inherit 'index', meaning that every character has a count. The string `'hello'` has `'h'` at index 0, `'e'` at index 1, '`l`' at index 2, etc. So to pinpoint a character at a specific location, we can do
+```javascript
+var str = 'world';
+console.log(str[3]);
+//=> 'l'
+```
+
+And we can `replace()` characters or substrings with other charaters or substrings. So, for instance, you can do
+```javascript
+var boss = "You're the boss.";
+console.log(boss.replace("You're", "I'm"));
+//=> "I'm the boss."
+```
+
+Note: This will only replace the **first** occurance of the substring.
 
 ### Operators
 The AND (`&&`) and OR (`||`) operators will return the result of multiple boolean values.
@@ -119,19 +134,20 @@ AND (`&&`) will test whether the value on the left is `true`, and if so, test wh
 console.log(true && true);
 //=> true
 
-console.log(true && false
+console.log(true && false);
 //=> false
 
-console.log(false && true
+console.log(false && true);
 //=> false
 
-console.log(false && false
+console.log(false && false);
 //=> false
 
-console.log(true && true && true
+console.log(true && true && true);
 //=> true
 
-console.log(true && true && false
+console.log(true && true && false);
+//=> false
 ```
 
 #### OR (`||`)
