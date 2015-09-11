@@ -18,7 +18,7 @@ Your future bread and butter. **Complete all lessons before `Objects I`**
 ### 3. [Code School: Try Git](https://try.github.io)
 You entire programming career will be recorded, versioned, and shared with Git. Get familiar with it and GitHub here on Code School.
 
-### 4. Read through all of [Lesson One](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/LessonOne.md)
+### 4. Read through all of [Lesson Zero](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonZero.md) and [Lesson One](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonOne.md)
 You are to read the lesson before the class everytime. We will spend very little time on lecturing, the vast majority being spent on actual coding. You will have some time to work solo on them in class, and sometimes will be randomly paired up to work together with a partner. If there is something in class you feel like you did not fully grasp, do not wait to read on to the next lesson, where it may be used again and/or better explained.
 
 ## Bonus!

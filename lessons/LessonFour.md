@@ -1,25 +1,6 @@
 # Lesson Four
 ## Javacript
 ### Popular Array Methods
-In our last lesson we learned some pretty nifty array methods:
-```javascript
-var arr = ['Hello', 'World', 'foo', 'bar'];
-
-console.log(arr[1]);
-//=> 'World'
-
-arr[0] = 'Hi';
-console.log(arr);
-//=> ['Hi', 'World', 'foo', 'bar']
-
-console.log(arr.join(' * '));
-//=> 'Hi * World * foo * bar'
-
-// You can see we did not affect the array with the `join()` method, only how it looked
-console.log(arr);
-//=> ['Hi', 'World', 'foo', 'bar']
-```
-Let's focus on four other powerful methods:
 #### pop
 [`[].pop()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop) removes the **last** item in an array, and returns that item.
 ```javascript
