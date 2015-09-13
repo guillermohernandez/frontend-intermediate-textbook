@@ -161,7 +161,7 @@
   * Lesson Seven Tests
 
 ---
-#### [Lesson Eigth](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonSeven.md)
+#### [Lesson Eight](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonEight.md)
 * Prototypal Inheritance
 
 ##### Apps
@@ -172,6 +172,18 @@
 * [Project Euler Problem 4](https://projecteuler.net/problem=4)
 * [Codecademy jQuery - all of it]()
 
+##### Assessements
+  * Lesson Eight Tests
+
 ---
 #### [Lesson Nine]()
+* jQuery
+  * Asynchronous Programming
+  * Callbacks
+  * `$(this)` context
+* DOM
+  * Element selection
+  * Element manipulation
 
+##### Apps
+* Tic Tac Toe (GUI)
