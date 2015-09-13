@@ -28,6 +28,8 @@
   * string
 * `&&`, `||`, and `!` operators
 * basic understanding of "truthiness" concept
+* Input Prompting
+  * demonstrate use of "prompt" npm package
 
 ##### Apps
 * [Pig Latin Generator](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/PigLatin.md)
@@ -47,10 +49,6 @@
 * Modulo Operator
 * Named functions
   * understand decomposition method
-
-##### Tools
-* Input Prompting
-  * demonstrate use of "prompt" npm package
 
 ##### Apps
 * [Three or Five?](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/ThreeOrFive.md)
