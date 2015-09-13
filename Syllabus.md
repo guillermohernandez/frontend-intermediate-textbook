@@ -29,13 +29,13 @@
 * `&&`, `||`, and `!` operators
 * basic understanding of "truthiness" concept
 
-### Apps
-* Pig Latin Generator
+##### Apps
+* [Pig Latin Generator](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/PigLatin.md)
 
-### Homework
+##### Homework
 * Finish [Prework](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/Prework.md)
 
-### Assessments
+##### Assessments
 * [Lesson One Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/lessons/LessonOne/LessonOne.js)
 
 ---
@@ -52,14 +52,14 @@
 * Input Prompting
   * demonstrate use of "prompt" npm package
 
-### Apps
+##### Apps
 * [Three or Five?](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/ThreeOrFive.md)
 * [Rock, Paper, Scissors](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/RockPaperScissors.md)
 
-### Homework
+##### Homework
 * Finish [Rock, Paper, Scissors](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/RockPaperScissors.md)
 
-### Assessments
+##### Assessments
 * [Lesson Two Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/lessons/LessonTwo/LessonTwo.js)
 
 ---
@@ -73,15 +73,15 @@
 ##### Tools
 * Prompting more than once.
 
-### Apps
+##### Apps
 * [Tic Tac Toe](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/TicTacToe.md)
 
-### Homework
+##### Homework
 * Finish [Tic Tac Toe](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/TicTacToe.md)
 * Finish any past uncomplete apps
 
-### Assessments
-* Lesson Three Tests
+##### Assessments
+* [Lesson Three Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/03LessonThree/LessonThree.js)
 
 ---
 #### [Lesson Four](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonFour.md)
@@ -93,14 +93,14 @@
   * finding value by key
   * adding key/value
 
-### Apps
+##### Apps
 * [Towers of Hanoi](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/TowersOfHanoi.md)
 
-### Homework
+##### Homework
 * Finish [Towers of Hanoi](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/TowersOfHanoi.md)
 * Finish any past uncomplete apps
 
-### Assessments
+##### Assessments
 * Lesson Four Tests
 
 ---
@@ -111,31 +111,67 @@
 * Loops
   * `for` / `while`
 
-### Apps
+##### Apps
 * [Mastermind](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/Mastermind.md)
 
-### Homework
+##### Homework
 * Finish [Mastermind](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/Mastermind.md)
-* [Project Euler](https://projecteuler.net) - [Problem 1](https://projecteuler.net/problem=1)
+* [Project Euler Problem 1](https://projecteuler.net/problem=1)
 * Finish any past uncomplete apps
 
-### Assessments
+##### Assessments
 * Lesson Five Tests
 
 ---
-#### [Lesson Six](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonSix.md)
+#### [Lesson Six](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonSeven.md)
+* Recursion
+* Algorithms
+  * Sorting
+    * Bubble Sort
+    * Merge Sort
+  * Searching
+    * Binary Search
+      * Resurvive vs Iterative
+
+##### Apps
+  * [WordSearch](#)
+
+##### Homework
+  * [Codecademy Javascript - Introduction to Objects I](https://www.codecademy.com/courses/spencer-sandbox/0/1?curriculum_id=506324b3a7dffd00020bf661)
+  * [Codecademy Javascript - Building an Address Book] I](https://www.codecademy.com/courses/building-an-address-book/0/1?curriculum_id=506324b3a7dffd00020bf661)
+  * [Project Euler Problem 2](https://projecteuler.net/problem=2)
+
+---
+#### [Lesson Seven](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonSeven.md)
 * Object Oriented Programming (OOP) Part I
   * Creating Classes using the Constructor Method
   * `this` context
   * passing in arguments to contructor
 
-### Apps
+##### Apps
  * Checkers (Steps 1 - 5)
 
-### Homework
-  * Finish Checkers
-  * [Project Euler](https://projecteuler.net) - [Problem 2](https://projecteuler.net/problem=2)
-  * Codecademy - Finish JavaScript Track
+##### Homework
+  * Finish Checkers (Steps 1 - 5)
+  * [Codecademy Javascript - Introduction to Objects II]()
+  * [Codecademy Javascript - Build a Cash Register]()
+  * [Project Euler Problem 3](https://projecteuler.net/problem=3)
 
-### Assessements
-  * Lesson Six Tests
+##### Assessements
+  * Lesson Seven Tests
+
+---
+#### [Lesson Eigth](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonSeven.md)
+* Prototypal Inheritance
+
+##### Apps
+* Finish Checkers
+
+##### Homework
+* Finish Checkers
+* [Project Euler Problem 4](https://projecteuler.net/problem=4)
+* [Codecademy jQuery - all of it]()
+
+---
+#### [Lesson Nine]()
+
