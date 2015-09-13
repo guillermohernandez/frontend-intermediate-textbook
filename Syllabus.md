@@ -182,6 +182,7 @@
 * DOM
   * Element selection
   * Element manipulation
+  * `data-` attribute
 
 ##### Apps
 * Tic Tac Toe (GUI)
