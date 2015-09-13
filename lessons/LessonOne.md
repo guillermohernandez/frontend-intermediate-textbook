@@ -219,3 +219,26 @@ var y = 5;
 console.log(x !== y);
 //=> true
 ```
+### Prompting for user input in the terminal
+We will be using an [npm](https://www.npmjs.com/) package called [prompt](https://www.npmjs.com/package/prompt) to record user input for some of our exercises. We install npm pacakges by navigating into the folder we want to create 
+our script in and simply run `npm install <package>` in the terminal.
+
+`npm install prompt`
+
+Then to use `prompt` in a script, we use the function `require()`
+
+```javascript
+// SomeFile.js
+'use strict';
+
+var prompt = require('prompt');
+
+// For this particular package, we need to "start" it
+prompt.start()
+
+// To prompt the user, you need to start the prompt like so
+prompt.get(['first', 'second'], function (error, result) {
+  console.log('First Input: ' + result['first']);
+  console.log('Second Input: ' + result['second']);
+});
+```
