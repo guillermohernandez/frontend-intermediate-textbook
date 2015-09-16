@@ -38,7 +38,7 @@
 * Finish [Prework](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/Prework.md)
 
 ##### Assessments
-* [Lesson One Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/lessons/LessonOne/LessonOne.js)
+* [Lesson One Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/01LessonOne/LessonOne.js)
 
 ---
 #### [Lesson Two](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonTwo.md)
