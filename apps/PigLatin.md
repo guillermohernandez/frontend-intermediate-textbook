@@ -82,11 +82,11 @@ console.log('word'.replace('a', '')); //=> 'cr'
 // try removing the first letter and assigning the rest of the word to a var restWord
 ```
 
-Step 4 - Convert to Pig Latin
+## Step 4 - Convert to Pig Latin
 
 Alright, now instead of a `name`, take a `word` and `console.log()` out a concatenation of the `restWord + firstLetter + 'ay'`.
 
-Step 5
+## Step 5
 To get the last index of a string you can use the `length` minus 1
 ```javascript
 'hello'.length
@@ -133,4 +133,11 @@ if (word.indexOf('i') > -1 && word.indexOf('i') < vowelIndex) {
 
 var firstPart = word.slice(0, vowelIndex);
 var restWord = word.slice(vowelIndex, lastIndex);
+```
+
+## Step 6 - data scrubbing
+What if someone enters 'HeLlO' as a word? We can "scrub" it by making sure it is always `lowercase()`
+```javascript
+console.log('HeLlO'.lowercase());
+//=> 'hello'
 ```
