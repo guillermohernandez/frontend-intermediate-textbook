@@ -85,3 +85,49 @@ console.log('word'.replace('a', '')); //=> 'cr'
 Step 4 - Convert to Pig Latin
 
 Alright, now instead of a `name`, take a `word` and `console.log()` out a concatenation of the `restWord + firstLetter + 'ay'`.
+
+Step 5
+To get the last index of a string you can use the `length` minus 1
+```javascript
+'hello'.length
+//=> 5
+
+'hello'.length - 1
+//=> 4
+// since everything is zero based, you need to subtract one.
+```
+
+`indexOf(substring)` will return the index of the substring.
+```javascript
+console.log('crazy'.indexOf('a'));
+//=> 2
+
+//if it doesn't find it, it will return -1
+console.log('crazy'.indexOf('x'));
+//=> -1
+
+```
+
+`slice(start, end)` will return a 'slice' of a string
+```javascript
+'hello'.slice(0, 2);
+//=> 'he'
+// notice that it returns up until the second index given
+```
+
+Use conditionals to find the first vowel
+```javascript
+var word = 'hello';
+var lastIndex = word.length - 1;
+var vowelIndex = null;
+if (word.indexOf('a') > -1) {
+    vowelIndex = word.indexOf('a');
+} else if (word.indexOf('e') > -1) {
+    vowelIndex = word.indexOf('e');
+} else if //...
+
+}
+
+var firstPart = word.slice(0, vowelIndex);
+var restWord = word.slice(vowelIndex, lastIndex);
+```
