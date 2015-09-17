@@ -11,7 +11,26 @@ git add RockPaperScissors.js
 git commit -m "Building Rock Paper Scissors in Javascript!"
 ```
 
-## Steps 1 & 2 - Repeat from above
+## Step 1 - `require` your dependencies
+```javascript
+'use strict';
+
+var prompt = require('prompt');
+// For this particular package, we need to "start" it
+prompt.start()
+```
+
+## Step 2 - Test that the script works
+Let's try to `console.log()` something out.
+```javascript
+'use strict';
+
+var prompt = require('prompt');
+
+prompt.start()
+
+console.log("Let's get started!");
+```
 Now in your terminal, run `node RockPaperScissors.js`. You should see your output.
 
 ## Step 3 - Let's attempt a prompt
