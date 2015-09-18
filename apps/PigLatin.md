@@ -118,21 +118,20 @@ console.log('crazy'.indexOf('x'));
 Use conditionals to find the first vowel
 ```javascript
 var word = 'create';
-var lastIndex = word.length - 1;
 var vowelIndex = word.indexOf('a');
 
-if (word.indexOf('e') > -1 && word.indexOf('e') < vowelIndex) {
+if ((word.indexOf('e') > -1 && word.indexOf('e') < vowelIndex) || (word.indexOf('e') === -1) ) {
     vowelIndex = word.indexOf('e');
 } 
 
-if (word.indexOf('i') > -1 && word.indexOf('i') < vowelIndex) {
+if ( (word.indexOf('i') > -1 && word.indexOf('i') < vowelIndex) || (word.indexOf('i') === -1) ) {
     vowelIndex = word.indexOf('i');
 }
 
 //...
 
 var firstPart = word.slice(0, vowelIndex);
-var restWord = word.slice(vowelIndex, lastIndex);
+var restWord = word.slice(vowelIndex, word.length);
 ```
 
 ## Step 6 - data scrubbing
