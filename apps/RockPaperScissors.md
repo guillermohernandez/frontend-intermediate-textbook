@@ -65,24 +65,24 @@ Let's think about the logic of Rock Paper Scissors:
 
 Now write that into a conditional:
 ```javascript
-if (hand1 == hand2) {
+if (hand1 === hand2) {
   return "It's a tie!";
 }
 
-if (hand1 == 'rock') {
-  if (hand2 == 'scissors') {
+if (hand1 === 'rock') {
+  if (hand2 === 'scissors') {
     return 'Player 1 wins!';
   }
   // If we reach here, player 2 must have dealt paper
   return 'Player 2 wins!';
 }
 
-if (hand1 == 'paper') {
+if (hand1 === 'paper') {
   // fill this in using the logic above
 
 }
 
-if (hand1 == 'scissors') {
+if (hand1 === 'scissors') {
   // fill this in using the logic above  
   
 }
@@ -97,24 +97,24 @@ var prompt = require('prompt');
 prompt.start()
 
 prompt.get(['hand1', 'hand2'], function (error, result) {
-  if (result['hand1'] == result['hand2']) {
+  if (result['hand1'] === result['hand2']) {
     return "It's a tie!";
   }
 
-  if (result['hand1'] == 'rock') {
-    if (result['hand2'] == 'scissors') {
+  if (result['hand1'] === 'rock') {
+    if (result['hand2'] === 'scissors') {
       return 'Player 1 wins!';
     }
     // If we reach here, player 2 must have dealt paper
     return 'Player 2 wins!';
   }
 
-  if (result['hand1'] == 'paper') {
+  if (result['hand1'] === 'paper') {
     // fill this in using the logic above
 
   }
 
-  if (result['hand1'] == 'scissors') {
+  if (result['hand1'] === 'scissors') {
     // fill this in using the logic above  
   
   }
@@ -131,24 +131,24 @@ var prompt = require('prompt');
 prompt.start()
 
 function compareHands(hand1, hand2) {
-  if (hand1 == hand2) {
+  if (hand1 === hand2) {
     return "It's a tie!";
   }
 
-  if (hand1 == 'rock') {
-    if (hand2 == 'scissors') {
+  if (hand1 === 'rock') {
+    if (hand2 === 'scissors') {
       return 'Player 1 wins!';
     }
     // If we reach here, player 2 must have dealt paper
     return 'Player 2 wins!';
   }
 
-  if (hand1 == 'paper') {
+  if (hand1 === 'paper') {
     // fill this in using the logic above
 
   }
 
-  if (hand1 == 'scissors') {
+  if (hand1 === 'scissors') {
     // fill this in using the logic above  
   
   }
