@@ -150,7 +150,18 @@ showBoard();
 getPrompt();
 ```
 
-## Step 4 - Who's Turn?
+## Step 4 - Pretty Print
+So our board, while legible, still looks like a stack of arrays. We can use the [`[].join(separator)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join) to make it a little prettier.
+```javascript
+// example usage
+console.log([ 'X', 'O', 'X' ].join(' | '));
+console.log('---------');
+// ...
+```
+Try tweaking your `showBoard()` function to show a prettier board.
+
+
+## Step 5 - Who's Turn?
 We want be able to keep track of who's turn it is. So let's set that as a variable.
 ```javascript
 //...
@@ -176,7 +187,7 @@ function getPrompt() {
 //...
 ```
 
-## Step 5 - Check for a win
+## Step 6 - Check for a win
 Think about playing a game of tic tac toe, how do you check for a win? You most likely can tell ahead of time if a win is coming up, but the computer can't. It must scan the board after every mark to check for a win. So let's tell the computer what a win looks like.
 * Three of the same marks in a "row" wins
 * Can be horizontal, vertical, or diagonal
@@ -195,16 +206,26 @@ Think about playing a game of tic tac toe, how do you check for a win? You most 
   * board[2][0] board[1][1] board[0][2] (top-right, center, bottom-left)
 ```
 
-Write this into a function `checkForWin()` and run it after a mark is place.
+Write these into individual functions, then `checkForWin()` after a mark is placed, but before the player changes.
 ```javascript
 //...
 
+function horizontalWin() {
+    return (board[0][0] === playerTurn && board[0][1] === playerTurn && board[0][2] === playerTurn) ||
+        (board[1][0] === playerTurn && board[1][1] === playerTurn && board[1][2] === playerTurn) ||
+        (board[2][0] === playerTurn && board[2][1] === playerTurn && board[2][2] === playerTurn);
+}
+
+function verticalWin() {
+    //...
+}
+
+function diagonalWin() {
+    //...
+}
+
 function checkForWin() {
-  if ( (board[0][0] === playerTurn && board[0][1] === playerTurn && board[0][2] === playerTurn) ||
-       (board[1][0] === playerTurn && board[1][1] === playerTurn && board[1][2] === playerTurn ) ||
-       (board[2][0] === playerTurn && board[2][1] === playerTurn && board[2][2] === playerTurn) ||
-        ....
-  ) {
+  if ( horizontalWin() || verticalWin() || diagonalWin() ) {
     console.log('Player ' +  playerTurn + ' Won!'); // announce to the world
     showBoard(); // show the board for bragging rights
     return true;
@@ -218,9 +239,7 @@ function getPrompt() {
   console.log("It's Player " + playerTurn + "turn.");
   prompt.get(['row', 'column'], function (error, result) {
     placeMark(result);
-    if (checkForWin()) { // if checkForWin(playerTurn) returns truthy
-      return; // exit out of the prompt loop
-    }
+    // return out of the "prompt loop" if checkForWin() is true
     playerTurn = (playerTurn === 'X') ? 'O' : 'X'; // we'll use the ternary operator here to toggle between players
     showBoard();
     getPrompt();
@@ -229,13 +248,3 @@ function getPrompt() {
 
 //..
 ```
-
-## Step 6 - Pretty Print
-So our board, while legible, still looks like a stack of arrays. We can use the [`[].join(separator)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join) to make it a little prettier.
-```javascript
-console.log([ 'X', 'O', 'X' ].join(' | '));
-console.log('---------');
-console.log([ 'O', 'X', 'O' ].join(' | '));
-// ...
-```
-Try tweaking your `showBoard()` function to show a prettier board.
