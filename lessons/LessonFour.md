@@ -58,7 +58,7 @@ console.log(arr);
 ```
 
 ### Associative Arrays (Objects)
-Associative arrays (also referred to as Objects) are similiar to arrays in that they are a collection of data. The big diffence is how it is organized. Arrays have an **implicit** index starting from 0. Associative arrays have an **explicit** "index" called a _key_, with an associated _value_.
+Associative arrays (also referred to as Objects) are similiar to arrays in that they are a collection of data. The big diffence is how it is organized. Arrays have an **implicit** index starting from 0. Objects have an **explicit** "index" called a _key_, with an associated _value_.
 ```javascript
 // Exampla A
 var assoc_arr = {
@@ -73,7 +73,7 @@ var assoc_arr2 = {
   pi: 3.14
 };
 ```
-The way we access a value in an associative array is similar to an array.
+The way we access a value in an object n array.
 ```javascript
 // Example A
 console.log(assoc_arr['key1']);
@@ -84,7 +84,7 @@ console.log(assoc_arr['key1']);
 console.log(assoc_arr2.pi);
 //=> 3.14
 ```
-And to add a key/value pair to an associative array
+And to add a key/value pair to an object
 ```javascript
 // Example A
 assoc_arr['key3'] = 'value3';
@@ -95,7 +95,7 @@ assoc_arr2.phi = 1.62;
 ```
 It is important to know that you can do the same things different ways, as you'll need utilize them both for different applications. It is convention to try and use the "Example B's" in the above examples.
 
-We have actually been using associative arrays in our `prompt.get()` function in our past apps.
+We have actually been using objects in our `prompt.get()` function in our past apps.
 ```javascript
 'use strict';
 
