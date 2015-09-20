@@ -57,14 +57,14 @@ var blueChecker = new Checker('blue', [0, 0]);
 var redChecker = new Checker('red', [0, 1]);
 
 console.log(blueChecker.symbol + ' ' + blueChecker.position);
-\\=> • [0, 0] //should be blue dot
+//=> • [0, 0] //should be blue dot
 
 console.log(redChecker.symbol + ' ' + redChecker.position);
-\\=> • [0, 1] //should be red dot
+//=> • [0, 1] //should be red dot
 
 blueCheck.movePiece([2, 3]);
 console.log(blueChecker.symbol + ' ' + blueChecker.position)
-\\=> • [2, 3]
+//=> • [2, 3]
 ```
 Step 3 - Define a `Board` class.
 Let's build a board. `this.board` should be a 9 x 9 two dimensional array (8 x 8 for the game board and an extra row and column for the coordinates). It is checkered, so we can use `colors.bgWhite(' ')` to fill in a white background.
