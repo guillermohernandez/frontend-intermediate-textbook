@@ -136,7 +136,7 @@
 
 ##### Homework
   * [Codecademy Javascript - Introduction to Objects I](https://www.codecademy.com/courses/spencer-sandbox/0/1?curriculum_id=506324b3a7dffd00020bf661)
-  * [Codecademy Javascript - Building an Address Book] I](https://www.codecademy.com/courses/building-an-address-book/0/1?curriculum_id=506324b3a7dffd00020bf661)
+  * [Codecademy Javascript - Building an Address Book](https://www.codecademy.com/courses/building-an-address-book/0/1?curriculum_id=506324b3a7dffd00020bf661)
   * [Project Euler Problem 2](https://projecteuler.net/problem=2)
 
 ---
