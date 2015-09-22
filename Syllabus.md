@@ -159,22 +159,7 @@
   * Lesson Seven Tests
 
 ---
-#### [Lesson Eight](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonEight.md)
-* Prototypal Inheritance
-
-##### Apps
-* Finish Checkers
-
-##### Homework
-* Finish Checkers
-* [Project Euler Problem 4](https://projecteuler.net/problem=4)
-* [Codecademy jQuery - all of it]()
-
-##### Assessements
-  * Lesson Eight Tests
-
----
-#### [Lesson Nine]()
+#### [Lesson Eight]()
 * jQuery
   * Asynchronous Programming
   * Callbacks
@@ -187,3 +172,10 @@
 ##### Apps
 * Clock
 * Tic Tac Toe (GUI)
+
+##### Homework
+* [Project Euler Problem 4](https://projecteuler.net/problem=4)
+* [Codecademy jQuery - all of it]()
+
+##### Assessements
+  * Lesson Eight Tests
