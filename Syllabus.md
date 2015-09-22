@@ -185,4 +185,5 @@
   * `data-` attribute
 
 ##### Apps
+* Clock
 * Tic Tac Toe (GUI)
