@@ -135,7 +135,7 @@ function showBoard() {
 function placeMark(result) {
   var row_idx = parseInt(result['row'], 10);
   var col_idx = parseInt(result['column'], 10);
-  board[row_idx][col_idx] == 'mark';
+  board[row_idx][col_idx] = 'mark';
 }
 
 function getPrompt() {
