@@ -102,7 +102,7 @@ function getPrompt() {
   prompt.get(['row', 'column'], function (error, result) {
     var row_idx = parseInt(result['row'], 10); // the input comes in a string, so we
     var col_idx = parseInt(result['column'], 10); // must parse it to a base-10 integer
-    board[row_idx][col_idx] == 'X';
+    board[row_idx][col_idx] = 'X';
     showBoard();
     getPrompt();
   });
