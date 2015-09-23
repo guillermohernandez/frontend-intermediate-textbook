@@ -171,7 +171,7 @@ var playerTurn = 'X'; // We'll let Player X go first
 function placeMark(result) {
   var row_idx = parseInt(result['row'], 10);
   var col_idx = parseInt(result['column'], 10);
-  board[row_idx][col_idx] == playerTurn; // and we'll use it here
+  board[row_idx][col_idx] = playerTurn; // and we'll use it here
 }
 
 function getPrompt() {
