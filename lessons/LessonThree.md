@@ -34,38 +34,42 @@ we get a `ReferenceError` conplaining that it cannot find where we assigned `ins
 
 If you find this difficult to follow, refer to this example
 ```javascript
+// one() is available
+
 var a = "a";
 // a is available
 
 function one() {
-  var b = 'b';
+  // one() is available
+  // two() is available
   // a is available
+
+  var b = 'b';
   // b is available
   
   function two() {
-    var c = 'c';
-    // a is available
-    // b is available
-    // c is available
-    
-    function three() {
-      var d = 'd';
-      // a is available
-      // b is available
-      // c is available
-      // d is available
-      // one() is available
-      // two() is available
-      // three() is available
-    }
     // one() is available
     // two() is available
     // three() is available
+    // a is available
+    // b is available
+    
+    var c = 'c';
+    // c is available
+    
+    function three() {
+      // one() is available
+      // two() is available
+      // three() is available
+      // a is available
+      // b is available
+      // c is available
+      
+      var d = 'd';
+      // d is available
+    }
   }
-  // one() is available
-  // two() is available
 }
-// one() is available
 ```
 note: You can see a function is allowed to refer to itself from within!
 
