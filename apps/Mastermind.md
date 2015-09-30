@@ -106,7 +106,7 @@ We need to compute a message for the player if their guess is incorrect. A red n
 ```javascript
 var splitSolution = solution.split('');
 
-var lettersSpacesCorrect = 0;
+var letterSpacesCorrect = 0;
 var lettersCorrect = 0;
 ```
 
