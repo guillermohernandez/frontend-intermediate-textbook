@@ -163,7 +163,7 @@ board[numTry].push(message);
 Let's borrow a function from [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) that gives us a random number between two numbers.
 ```javascript
 // Returns a random number between min (inclusive) and max (exclusive)
-function getRandomArbitrary(min, max) {
+function getRandomInt(min, max) {
   return Math.random() * (max - min) + min;
 }
 ```
