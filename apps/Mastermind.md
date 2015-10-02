@@ -113,30 +113,35 @@ var lettersCorrect = 0;
 and compare each letter to each other in it's space. Then compare again to see how many total letters match.
 
 ```javascript
-if (splitPattern[0] === splitSolution[0]) {
-    letterSpacesCorrect += 1;
-}
+    // write a loop that loops over each item
+    // in splitSolution
+    for (var i = 0; i < splitSolution.length; i++) {
+        // if splitSolution at index i is equal to
+        // splitPattern at index i, then increment letterSpacesCorrect,
+        // and cancel out solutionArra at that index
+        if (splitSolution[i] === splitPattern[i]) {
+            letterSpacesCorrect++;
+            splitSolution[i] = null;
+        }
+    }
 
-if (splitPattern[1] === splitSolution[1]) {
-    letterSpacesCorrect += 1;
-}
+    var lettersCorrect = 0;
+    for (var i = 0; i < splitSolution.length; i++) {
+        // if solution array contains splitPattern at index i,
+        // increment lettersCorrect and cancel out index i of
+        // splitSolution
 
-//...
-
-if (splitSolution.indexOf(splitPattern[0]) > -1) {
-    lettersCorrect += 1;
-}
-
-if (splitSolution.indexOf(splitPattern[1]) > -1) {
-    lettersCorrect += 1;
-}
-
-//...
+        // must save the index just in case it does exist
+        var targetIndex = splitSolution.indexOf(splitPattern[i]);
+        if ( targetIndex > -1 ) {
+            lettersCorrect++;
+            // so that we can "target" it for nullification
+            splitSolution[targetIndex] = null;
+        }
+    }
 ```
 
-Then we need to update the number of `lettersCorrect` with the difference of `lettersCorrect` and `letterSpacesCorrect` which will give us the number of correct letters that *aren't* included in the correct "letter-spaces".
-
-return a string that prints the number of `letterSpaceCorrect + ' - ' + letterCorrect`
+then return a string such as `letterSpaceCorrect + ' - ' + letterCorrect`
 *But how do we make it RED??!!*
 By including another fun `npm` package [`colors`](https://www.npmjs.com/package/colors)!
 ```bash
