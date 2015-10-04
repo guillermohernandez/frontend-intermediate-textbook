@@ -1,5 +1,5 @@
 # Lesson Six
-## Object Oriented Programming (OOP) Part I
+## Object Oriented Programming (OOP)
 ### The object
 Object oriented programming is the "real deal" of programming. It's a little weird to wrap yor head around at first, and the syntax, reserved words, and vocabulary can be a little intimidating. But once you "get it", your ability to program and pick up new skills and tools will skyrocket. Let's get started with a simple example:
 
