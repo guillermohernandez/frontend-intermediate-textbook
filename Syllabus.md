@@ -121,25 +121,6 @@
 * Lesson Five Tests
 
 ---
-#### [Lesson Six](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonSeven.md)
-* Recursion
-* Algorithms
-  * Sorting
-    * Bubble Sort
-    * Merge Sort
-  * Searching
-    * Binary Search
-      * Resurvive vs Iterative
-
-##### Apps
-  * [WordSearch](#)
-
-##### Homework
-  * [Codecademy Javascript - Introduction to Objects I](https://www.codecademy.com/courses/spencer-sandbox/0/1?curriculum_id=506324b3a7dffd00020bf661)
-  * [Codecademy Javascript - Building an Address Book](https://www.codecademy.com/courses/building-an-address-book/0/1?curriculum_id=506324b3a7dffd00020bf661)
-  * [Project Euler Problem 2](https://projecteuler.net/problem=2)
-
----
 #### [Lesson Seven](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonSeven.md)
 * Object Oriented Programming (OOP) Part I
   * Creating Classes using the Constructor Method
