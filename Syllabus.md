@@ -76,7 +76,6 @@
 
 ##### Homework
 * Finish [Tic Tac Toe](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/TicTacToe.md)
-* Finish any past uncomplete apps
 
 ##### Assessments
 * [Lesson Three Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/03LessonThree/LessonThree.js)
@@ -96,7 +95,8 @@
 
 ##### Homework
 * Finish [Towers of Hanoi](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/TowersOfHanoi.md)
-* Finish any past uncomplete apps
+* [Codecademy Javascript - Introduction to Objects I](https://www.codecademy.com/courses/spencer-sandbox/0/1?curriculum_id=506324b3a7dffd00020bf661)
+* [Codecademy Javascript - Building an Address Book](https://www.codecademy.com/courses/building-an-address-book/0/1?curriculum_id=506324b3a7dffd00020bf661)
 
 ##### Assessments
 * Lesson Four Tests
@@ -114,33 +114,33 @@
 
 ##### Homework
 * Finish [Mastermind](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/Mastermind.md)
+* [Codecademy Javascript - Introduction to Objects II]()
+* [Codecademy Javascript - Build a Cash Register]()
 * [Project Euler Problem 1](https://projecteuler.net/problem=1)
-* Finish any past uncomplete apps
 
 ##### Assessments
 * Lesson Five Tests
 
 ---
-#### [Lesson Seven](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonSeven.md)
-* Object Oriented Programming (OOP) Part I
+#### [Lesson Six](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonSix.md)
+* Object Oriented Programming (OOP)
   * Creating Classes using the Constructor Method
   * `this` context
   * passing in arguments to contructor
 
 ##### Apps
- * Checkers (Steps 1 - 5)
+ * Checkers
 
 ##### Homework
-  * Finish Checkers (Steps 1 - 5)
-  * [Codecademy Javascript - Introduction to Objects II]()
-  * [Codecademy Javascript - Build a Cash Register]()
-  * [Project Euler Problem 3](https://projecteuler.net/problem=3)
+  * Finish Checkers
+  * [Project Euler Problem 2](https://projecteuler.net/problem=2)
+  * [Codecademy jQuery - all of it](https://www.codecademy.com/en/tracks/jquery)
 
 ##### Assessements
-  * Lesson Seven Tests
+  * Lesson Six Tests
 
 ---
-#### [Lesson Eight]()
+#### [Lesson Seven](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonSeven.md)
 * jQuery
   * Asynchronous Programming
   * Callbacks
@@ -155,8 +155,7 @@
 * Tic Tac Toe (GUI)
 
 ##### Homework
-* [Project Euler Problem 4](https://projecteuler.net/problem=4)
-* [Codecademy jQuery - all of it]()
+* [Project Euler Problem 3](https://projecteuler.net/problem=3)
 
 ##### Assessements
-  * Lesson Eight Tests
+  * Lesson Seven Tests
