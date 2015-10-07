@@ -169,7 +169,7 @@ Let's borrow a function from [here](https://developer.mozilla.org/en-US/docs/Web
 ```javascript
 // Returns a random number between min (inclusive) and max (exclusive)
 function getRandomInt(min, max) {
-  return Math.random() * (max - min) + min;
+  return Math.floor(Math.random() * (max - min)) + min;
 }
 ```
 
