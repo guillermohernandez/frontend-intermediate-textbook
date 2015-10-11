@@ -8,7 +8,6 @@ var colors = require('colors/safe');
 var prompt = require('prompt');
 prompt.start();
 ```
-<h1>hello</h1>
 
 ## Step 1 - Define the roles of our classes
 Our classes will consist of a `Checker`, `Board`, and a `Game` class. We need to separate the responsibilities of each class.
