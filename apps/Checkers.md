@@ -4,14 +4,17 @@ Our classes will consist of a `Checker`, `Board`, and a `Game` class.
 ```javascript
 function Checker() {
 //...
+
 }
 
 function Board() {
 //...
+
 }
 
 function Game() {
 //...
+
 }
 ```
 
