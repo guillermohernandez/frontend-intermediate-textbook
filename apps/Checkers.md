@@ -131,9 +131,9 @@ Let's write a function so we can see our pretty board
 function Board() {
     //...
     
-    this.viewBoard = function() {
+    this.viewGrid = function() {
         // add our column numbers
-        var board = '  0 1 2 3 4 5 6 7\n';
+        var grid = '  0 1 2 3 4 5 6 7\n';
         for (var row = 0; row < 8; row++) {
             // we start with our row number in our array
             var rowOfCheckers = [row];
@@ -149,11 +149,11 @@ function Board() {
                 }
             }
             // join the rowOfCheckers array to a string, separated by a space
-            board += rowOfCheckers.join(' ');
+            grid += rowOfCheckers.join(' ');
             // add a 'new line'
-            board += '\n';
+            grid += '\n';
         }
-        console.log(board);
+        console.log(grid);
     }
 }
 ```
@@ -231,5 +231,61 @@ function Board() {
         }
     }
 }
+```
+
+## Step 4 - Test out our board
+We'll start by creating a `new` `Board` instance.
+```javascript
+// Instantiate a board
+var board = new Board();
+```
+Let's build our grid
+```javascript
+console.log(board.grid);
+//=> [];
+// :( it's empty
+
+// let's fill in the grid
+board.createGrid();
+
+// and now we can view the grid
+board.viewGrid();
+//=>   0 1 2 3 4 5 6 7
+//=> 0                
+//=> 1                
+//=> 2                
+//=> 3                
+//=> 4                
+//=> 5                
+//=> 6                
+//=> 7                
+```
+
+Now let's create the checkers, putting them in `board.checkers`
+```javascript
+// let's see that our board.checkers is empty
+console.log(board.checkers);
+//=> []
+
+// create some checkers
+board.createCheckers();
+
+// let's see em
+console.log(board.checkers.length);
+//=> 24
+
+// and now let's place them on the board!
+board.placeCheckersOnGrid();
+
+baord.viewGrid();
+//=>   0 1 2 3 4 5 6 7
+//=> 0   ○   ○   ○   ○
+//=> 1 ○   ○   ○   ○  
+//=> 2   ○   ○   ○   ○
+//=> 3                
+//=> 4                
+//=> 5 ●   ●   ●   ●  
+//=> 6   ●   ●   ●   ●
+//=> 7 ●   ●   ●   ●  
 ```
 
