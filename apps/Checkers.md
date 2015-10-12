@@ -3,25 +3,24 @@
 Our classes will consist of a `Checker`, `Board`, and a `Game` class. 
 ```javascript
 function Checker() {
-//...
+    //...
 
 }
 
 function Board() {
-//...
+    //...
 
 }
 
 function Game() {
-//...
+    //...
 
 }
 ```
 
 ## Step 1 - Separating our concerns
-The [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) refers to dictating what each class will be responsible for.
+The [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) refers to deciding what each class will be responsible for.
 
-We need to separate the responsibilities of each class.
 * The `Checker` class will be concerned about
   * *attributes*
     * a team color `this.team = ...`
@@ -45,36 +44,36 @@ We need to separate the responsibilities of each class.
   * *methods*
     * starting a game `this.start = function() { ...`
   
-
 ## Step 2 - Build the `Checker` class
 A `Checker` piece has a few characteristics. First, it has a symbol. We can use [circle unicode 25CF](http://jrgraphix.net/r/Unicode/25A0-25FF) with the JavaScript `String.fromCharCode(0x1<unicode>)` method. We'll need to pass in a `color` into the constructor `function Checker(color) { ... ` and set the `Checker` instance's `this.symbol`.
 
 ```javascript
 function Checker(color) {
-  this.color = color;
+    this.color = color;
   
-  if (color === 'white') {
-    this.symbol = String.fromCharCode(0x125CB)); // makes a ○ symbol
-  } else {
-    this.symbol = String.fromCharCode(0x125CF)); // makes a ● symbol
-  }
+    if (color === 'white') {
+      this.symbol = String.fromCharCode(0x125CB)); // makes a ○ symbol
+    } else {
+      this.symbol = String.fromCharCode(0x125CF)); // makes a ● symbol
+    }
 }
 ```
 
 We will also need to pass into the contructor a set of coordinates for the checkers location on the grid. The coordinates will be an array, `[row, column']`.
 ```javascript
 function Checker(color, position) {
-  //...
-  this.position = position;
+    //...
+    this.position = position;
 ```
 
 And lastly create your `movePiece(newPositions)` function that takes an array position and sets it as the `Checker`'s position.
 ```javascript
 function Checker(color, position) {
-  //...
-  this.movePosition = function(newPosition) {
-    this.position = newPosition;
-  }
+    //...
+    this.movePosition = function(newPosition) {
+      this.position = newPosition;
+    }
+}
 ```
 
 Let's test our methods and classes.
@@ -93,62 +92,144 @@ console.log(whiteChecker.symbol + ' ' + whiteChecker.position)
 //=> ○ [2, 3]
 ```
 Step 3 - Build the `Board` class
-Let's build a board. `this.board` should be a 9 x 9 two dimensional array (8 x 8 for the game board and an extra row and column for the coordinates). It is checkered, so we can use `colors.bgWhite(' ')` to fill in a white background.
+Let's build a board. `this.board` should be a 8 x 8 two dimensional array. It'll be filled with `null`s for now until we get some checkers on it. Here's a sketch of what our blank board will look like.
 ```javascript
-var bgw = colors.bgWhite(' ');
-this.board = [
-    [' ', '1', '2', '3', '4', '5', '6', '7', '8'],
-    ['1', bgw, ' ', bgw, ' ', bgw, ' ', bgw, ' '],
-    ['2', ' ', bgw, ' ', bgw, ' ', bgw, ' ', bgw],
-    ['3', bgw, ' ', bgw, ' ', bgw, ' ', bgw, ' '],
-    ['4', ' ', bgw, ' ', bgw, ' ', bgw, ' ', bgw],
-    ['5', bgw, ' ', bgw, ' ', bgw, ' ', bgw, ' '],
-    ['6', ' ', bgw, ' ', bgw, ' ', bgw, ' ', bgw],
-    ['7', bgw, ' ', bgw, ' ', bgw, ' ', bgw, ' '],
-    ['8', ' ', bgw, ' ', bgw, ' ', bgw, ' ', bgw]
-];
+[
+    [null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null]
+]
+```
 
-// and to print it
-this.printBoard = function() {
-    for (var i = 0; i < this.board.length; i++) {
-        console.log(this.board[i].join(' '));
+This is a lot of work to type out. So let's write a function that will create our grid for us.
+```javascript
+function Board() {
+    // first let's create our grid attribute
+    this.grid = [];
+
+    // creates an 8x8 array, filled with null values
+    this.createGrid = function() {
+        // loop to create the 8 rows
+        for (var row = 0; row < 8; row++) {
+            this.grid[row] = []
+            // push in a column of 8 nulls
+            for (var column = 0; column < 8; column++) {
+                this.grid[row].push(null);
+            }  
+        }
     }
 }
 ```
 
-Test to see if we can print our board
+Let's write a function so we can see our pretty board
 ```javascript
-var gameBoard = new Board();
-console.log(gameBoard.board)
-// hopefully checkerboarded
-//=>  1 2 3 4 5 6 7 8
-//=>1
-//=>2
-//=>3
-//=>4
-//=>5
-//=>6
-//=>7
-//=>8
+function Board() {
+    //...
+    
+    this.viewBoard = function() {
+        // add our column numbers
+        var board = '  0 1 2 3 4 5 6 7\n';
+        for (var row = 0; row < 8; row++) {
+            // we start with our row number in our array
+            var rowOfCheckers = [row];
+            // a loop within a loop
+            for (var column = 0; column < 8; column++) {
+                // if the location is "truthy" (contains a checker piece, in this case)
+                if (this.grid[row][column]) {
+                    // push the symbol of the check in that location into the array
+                    rowOfCheckers.push(this.grid[row][column].symbol);
+                } else {
+                    // just push in a blank space
+                    rowOfCheckers.push(' ');
+                }
+            }
+            // join the rowOfCheckers array to a string, separated by a space
+            board += rowOfCheckers.join(' ');
+            // add a 'new line'
+            board += '\n';
+        }
+        console.log(board);
+    }
+}
 ```
 
 We are going to want to reset the board often, so lets stick the board into a `this.resetBoard` function.
 ```javascript
-this.resetBoard = function() {
-  var bgw = colors.bgWhite(' ');
-  this.board = [
-  ...
+function Board() {
+    //...
+    
+    // will reset our grid to a blank 8x8 grid of nulls
+    this.resetGrid = function() {
+        // "clear" the grid
+        this.grid = [];
+        
+        // recreate the empty grid of nulls
+        this.createGrid();
+    }
+}
 ```
 
-The `Board` class should have a `this.checkers` property set to an empty array `[]`. Then in a `this.createPieces` function, we'll need to have
+The board is responsible for keeping track of the in-play checkers. Let's assign it that attribute, then we'll create a function `this.createCheckers()` that will fill it up.
 ```javascript
-var redSpots = [
-    [1, 2], [1, 4], [1, 6], [1, 8],
-    [2, 1], [2, 3], [2, 5], [2, 7]
-];
-var blueSpots = [
-    [7, 2], [7, 4], [7, 6], [7, 8],
-    [8, 1], [8, 3], [8, 5], [8, 7]
-];
+function Board() {
+    //...
+    // Our "bag of checkers", starts out empty
+    this.checkers = [];
+    
+    // creates the checkers to put into out "bag" (this.checkers)
+    this.createCheckerInstances = function() {
+        
+        // hardcoded positions of the checkers
+        var whitePositions = [
+            [0, 1], [0, 3], [0, 5], [0, 7],
+            [1, 0], [1, 2], [1, 4], [1, 6],
+            [2, 1], [2, 3], [2, 5], [2, 7]
+        ];
+        
+        var blackPositions = [ 
+            [5, 0], [5, 2], [5, 4], [5, 6],
+            [6, 1], [6, 3], [6, 5], [6, 7],
+            [7, 0], [7, 2], [7, 4], [7, 6],
+        ];
+        
+        // iterate over the positions
+        for (var i = 0; i < 12; i++) {
+            // create a white checker, and push it in this.checkers
+            this.checkers.push( new CheckerClass('white', whitePositions[i]) );
+
+            // create a black checker, and push it in this.checkers
+            this.checkers.push( new CheckerClass('black', blackPositions[i]) );
+        }
+    }
+}
 ```
-and a loop that `push`es 8 of each color `new`ly instantiated  `Checker` with each of these positions into the `this.checkers` array.
+
+And now we can build a function that will place our checkers on the grid
+```javascript
+function Board() {
+    //...
+
+    this.placeCheckersOnGrid = function() {
+        // reset the grid to make sure it's clear
+        this.resetGrid();
+        
+        // iterate through this.checkers
+        for (var i = 0; i < this.checkers.length; i++) {
+            // grab a checker
+            var checker = this.checkers[i];
+            
+            // get that checker's position
+            var checkerPos = checker.position;
+            
+            // place that checker where it's supposed to go
+            this.grid[checkerPos[0]][checkerPos[1]] = checker;
+        }
+    }
+}
+```
+
