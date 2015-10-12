@@ -45,7 +45,7 @@ The [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concern
     * starting a game `this.start = function() { ...`
   
 ## Step 2 - Build the `Checker` class
-A `Checker` piece has a few characteristics. First, it has a symbol. We can use [circle unicode 25CF](http://jrgraphix.net/r/Unicode/25A0-25FF) with the JavaScript `String.fromCharCode(0x1<unicode>)` method. We'll need to pass in a `color` into the constructor `function Checker(color) { ... ` and set the `Checker` instance's `this.symbol`.
+A `Checker` piece has a few characteristics. First, it has a symbol. We can use [unicode characters](http://jrgraphix.net/r/Unicode/25A0-25FF) with the JavaScript `String.fromCharCode(0x1<unicode>)` method. We'll need to pass in a `color` into the constructor `function Checker(color) { ... ` and set the `Checker` instance's `this.symbol`.
 
 ```javascript
 function Checker(color) {
