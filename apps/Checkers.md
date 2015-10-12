@@ -91,7 +91,7 @@ whiteCheck.movePiece([2, 3]);
 console.log(whiteChecker.symbol + ' ' + whiteChecker.position)
 //=> ○ [2, 3]
 ```
-Step 3 - Build the `Board` class
+## Step 3 - Build the `Board` class
 Let's build a board. `this.board` should be a 8 x 8 two dimensional array. It'll be filled with `null`s for now until we get some checkers on it. Here's a sketch of what our blank board will look like.
 ```javascript
 [
