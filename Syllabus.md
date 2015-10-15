@@ -151,11 +151,10 @@
   * `data-` attribute
 
 ##### Apps
-* Clock
 * Tic Tac Toe (GUI)
 
 ##### Homework
 * [Project Euler Problem 3](https://projecteuler.net/problem=3)
 
 ##### Assessements
-  * Lesson Seven Tests
+  * Midterm
