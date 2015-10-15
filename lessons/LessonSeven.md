@@ -86,6 +86,7 @@ $div.data('number', 1);
 
 console.log($div.data('number'));
 //=> 1
+```
 
 ### Callbacks
 One of the coolest (and sometimes most frustrating) things about JavaScript is that it is asynchronous. We use _callbacks_ to tell the code "once this thing finished, do this _callback_, but I am going to keep going." 
