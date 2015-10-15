@@ -94,7 +94,7 @@ One of the coolest (and sometimes most frustrating) things about JavaScript is t
 We wrapped our script in a
 ```javascript
 $(document).ready(function () {
-//...
+  //...
 
 });
 ```
@@ -103,7 +103,8 @@ _callback_ that tells the window to run what's inside after the document has loa
 Let's look at another one
 ```javascript
 $('div').click(function(){
-//...
+  //...
+  
 });
 ```
 Here, I am locating the `div` element, and saying that on `click`, run this code.
