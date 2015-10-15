@@ -141,6 +141,7 @@
 
 ---
 #### [Lesson Seven](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonSeven.md)
+* Serving your app
 * jQuery
   * Asynchronous Programming
   * Callbacks
@@ -149,6 +150,7 @@
   * Element selection
   * Element manipulation
   * `data-` attribute
+* Hosting on GitHub Pages
 
 ##### Apps
 * Tic Tac Toe (GUI)
