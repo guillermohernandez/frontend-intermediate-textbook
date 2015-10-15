@@ -2,7 +2,7 @@
 ## Serving your app
 When developing any app, you'll want to "serve" it local server. A local server is a like your own person internet, with only your application's files inside it. It's easy to set up.
 
-1. Install globally the npm package [`http-server`](https://www.npmjs.com/package/http-server): `sudo npm install -g http-server` note: you only have to do this once
+1. Install globally the npm package [http-server](https://www.npmjs.com/package/http-server): `sudo npm install -g http-server` note: you only have to do this once
 2. `cd` into your project directory and run `http-server`
 3. In your browser, navigate to `localhost:8080`. It will automatically load your `index.html` file
 
