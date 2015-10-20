@@ -161,11 +161,11 @@
 ---
 #### [Lesson Eight](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonEight.md)
 * Popular jQuery methods
-  *`.detach()`
-  *`.each()`
-  *`.children()`
-  *`.last()`
-  *`.append() and .prepend()`
+  * `.detach()`
+  * `.each()`
+  * `.children()`
+  * `.last()`
+  * `.append() and .prepend()`
 
 ##### Apps
 * Towers of Hanoi (GUI)
