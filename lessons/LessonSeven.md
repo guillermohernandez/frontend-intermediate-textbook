@@ -68,6 +68,8 @@ To grab an element, you would target it like you would in CSS.
 You would grab this one with jQuery by
 `$box = $('#box'); //note: it's common to put a $ in your variable name when assigned to a jQuery element`
 
+Now, an HTML element that we got with `document.getElementById('counter');` has a few functions, but a jQuery object is like an HTML element on steriods. It comes with all kinds of methods that we can use to manipulate the element.
+
 ### Maniplating a DOM Element
 So now not only do we have our `<div>` to play with, we added a whole world of functionality to it.
 ```html
@@ -112,8 +114,7 @@ _callback_ that tells the window to run what's inside after the document has loa
 Let's look at another one
 ```javascript
 $('#box').click(function(){
-  //...
-  
+  // this
 });
 ```
-Here, I am locating the element with an `id="box"`, and saying that on `click`, run the code inside the callback.
+`this` is the HTML element from the DOM. So if we want to treat it 
