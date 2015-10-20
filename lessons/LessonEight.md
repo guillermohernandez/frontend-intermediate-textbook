@@ -1,4 +1,4 @@
-# Lesson Seven
+# Lesson Eight
 ## Popular jQuery methods
 ### `detach()`
 
