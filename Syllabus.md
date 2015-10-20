@@ -158,5 +158,18 @@
 ##### Homework
 * [Project Euler Problem 3](https://projecteuler.net/problem=3)
 
-##### Assessements
-  * Midterm
+---
+#### [Lesson Eight](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonEight.md)
+* Popular jQuery methods
+  *`.detach()`
+  *`.each()`
+  *`.children()`
+  *`.last()`
+  *`.append() and .prepend()`
+
+##### Apps
+* Towers of Hanoi (GUI)
+
+##### Homework
+* [Project Euler Problem 4](https://projecteuler.net/problem=4)
+* [Codeschool - Try jQuery](https://www.codeschool.com/courses/try-jquery)
