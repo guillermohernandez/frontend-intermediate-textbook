@@ -168,7 +168,7 @@
   * `.append() and .prepend()`
 
 ##### Apps
-* Towers of Hanoi (GUI)
+* [Towers of Hanoi (GUI)](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/TowersOfHanoiGUI.md)
 
 ##### Homework
 * [Project Euler Problem 4](https://projecteuler.net/problem=4)
