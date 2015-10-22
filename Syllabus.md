@@ -1,7 +1,7 @@
 # Austin Code Academy
 ## HTML Intermediate - Section 02
 ### Syllabus
-#### [Lesson Zero](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonZero.md)
+#### [Lesson Zero](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/00LessonZero.md)
 ##### Familarity with Git/GitHub
 * creating/cloning a GitHub repository
 * navigating in the terninal using `cd`
@@ -14,7 +14,7 @@
 * using `node` to open REPL or load a script
 
 ---
-#### [Lesson One](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonOne.md)
+#### [Lesson One](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/01LessonOne.md)
 * "strict mode"
 * comments
 * logging output
@@ -41,7 +41,7 @@
 * [Lesson One Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/01LessonOne/LessonOne.js)
 
 ---
-#### [Lesson Two](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonTwo.md)
+#### [Lesson Two](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/02LessonTwo.md)
 * Conditionals
   * `if` / `else` pattern
   * `if`/ `else if`/ `else` pattern
@@ -58,10 +58,10 @@
 * Finish [Rock, Paper, Scissors](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/RockPaperScissors.md)
 
 ##### Assessments
-* [Lesson Two Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/lessons/LessonTwo/LessonTwo.js)
+* [Lesson Two Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/02LessonTwo/LessonTwo.js)
 
 ---
-#### [Lesson Three](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonThree.md)
+#### [Lesson Three](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/03LessonThree.md)
 * Scope
 * Ternary Operator
 * Arrays
@@ -81,7 +81,7 @@
 * [Lesson Three Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/03LessonThree/LessonThree.js)
 
 ---
-#### [Lesson Four](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonFour.md)
+#### [Lesson Four](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons03/04LessonFour.md)
 * Popular Array Methods
   * pop/push
   * shift/unshift
@@ -99,10 +99,10 @@
 * [Codecademy Javascript - Building an Address Book](https://www.codecademy.com/courses/building-an-address-book/0/1?curriculum_id=506324b3a7dffd00020bf661)
 
 ##### Assessments
-* Lesson Four Tests
+* [Lesson Four Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/04LessonFour/LessonFour.js)
 
 ---
-#### [Lesson Five](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonFive.md)
+#### [Lesson Five](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/05LessonFive.md)
 * More Operators
   * `++` / `--`
   * `+=`, `-=`, `*=`, `/=`
@@ -119,10 +119,10 @@
 * [Project Euler Problem 1](https://projecteuler.net/problem=1)
 
 ##### Assessments
-* Lesson Five Tests
+* [Lesson Five Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/05LessonFive/LessonFive.js)
 
 ---
-#### [Lesson Six](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonSix.md)
+#### [Lesson Six](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/06LessonSix.md)
 * Object Oriented Programming (OOP)
   * Creating Classes using the Constructor Method
   * `this` context
@@ -132,15 +132,15 @@
  * Checkers
 
 ##### Homework
-  * Finish Checkers
-  * [Project Euler Problem 2](https://projecteuler.net/problem=2)
-  * [Codecademy jQuery - all of it](https://www.codecademy.com/en/tracks/jquery)
+ * Finish Checkers
+ * [Project Euler Problem 2](https://projecteuler.net/problem=2)
+ * [Codecademy jQuery - all of it](https://www.codecademy.com/en/tracks/jquery)
 
 ##### Assessements
-  * Lesson Six Tests
+* [Lesson Six Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/06LessonSix/LessonSix.js)
 
 ---
-#### [Lesson Seven](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonSeven.md)
+#### [Lesson Seven](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/07LessonSeven.md)
 * Serving your app
 * jQuery
   * Asynchronous Programming
@@ -159,7 +159,7 @@
 * [Project Euler Problem 3](https://projecteuler.net/problem=3)
 
 ---
-#### [Lesson Eight](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonEight.md)
+#### [Lesson Eight](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/08LessonEight.md)
 * Popular jQuery methods
   * `.detach()`
   * `.each()`
