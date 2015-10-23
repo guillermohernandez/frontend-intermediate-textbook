@@ -173,3 +173,53 @@
 ##### Homework
 * [Project Euler Problem 4](https://projecteuler.net/problem=4)
 * [Codeschool - Try jQuery](https://www.codeschool.com/courses/try-jquery)
+
+---
+#### [Lesson Nine](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/09LessonNine.md)
+* jQuery
+  * `.find()`
+* jQuery UI
+  * `.sortable()`
+
+##### Apps
+* [Todo App](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/Todo.md)
+
+##### Homework
+* [Project Euler Problem 5](https://projecteuler.net/problem=5)
+* [Codeschool - Anatomy of Backbone.js](https://www.codeschool.com/courses/anatomy-of-backbone-js) Levels 1 - 4
+
+---
+#### [Lesson Ten](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/10LessonTen.md)
+* jQuery
+  * `.ajax()`
+* API
+  * [reqr.es clone](reqres-api.herokuapp.com) 
+
+##### Apps
+* People Cards
+
+##### Homework
+* [Project Euler Problem 6](https://projecteuler.net/problem=6)
+* [Codeschool - Anatomy of Backbone.js](https://www.codeschool.com/courses/anatomy-of-backbone-js) Levels 4 - 7
+
+---
+#### [Lesson Eleven](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/11LessonEleven.md)
+* Backbone.js
+
+##### Apps
+* People Cards (Backbone)
+
+##### Homework
+* [Project Euler Problem 7](https://projecteuler.net/problem=7)
+* [Project Euler Problem 8](https://projecteuler.net/problem=8)
+
+---
+#### [Lesson Twelve](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/12LessonTwelve.md)
+* Backbone.js
+* Github API
+
+##### Apps
+* Ba
+
+##### Homework
+* [Project Euler Problem 7](https://projecteuler.net/problem=7)
