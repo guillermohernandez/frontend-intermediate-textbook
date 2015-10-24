@@ -182,7 +182,7 @@
   * `.sortable()`
 
 ##### Apps
-* [Todo App](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/Todo.md)
+* [Todo (jQuery)](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/Todo.md)
 
 ##### Homework
 * [Project Euler Problem 5](https://projecteuler.net/problem=5)
