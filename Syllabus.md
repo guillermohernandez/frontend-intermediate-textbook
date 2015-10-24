@@ -153,7 +153,7 @@
 * Hosting on GitHub Pages
 
 ##### Apps
-* Tic Tac Toe (GUI)
+* Tic Tac Toe (jQuery)
 
 ##### Homework
 * [Project Euler Problem 3](https://projecteuler.net/problem=3)
@@ -168,7 +168,7 @@
   * `.append() and .prepend()`
 
 ##### Apps
-* [Towers of Hanoi (GUI)](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/TowersOfHanoiGUI.md)
+* [Towers of Hanoi (jQuery)](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/TowersOfHanoiGUI.md)
 
 ##### Homework
 * [Project Euler Problem 4](https://projecteuler.net/problem=4)
@@ -196,7 +196,7 @@
   * [reqr.es clone](reqres-api.herokuapp.com) 
 
 ##### Apps
-* People Cards
+* People Cards (jQuery)
 
 ##### Homework
 * [Project Euler Problem 6](https://projecteuler.net/problem=6)
@@ -207,7 +207,7 @@
 * Backbone.js
 
 ##### Apps
-* People Cards (Backbone)
+* People Cards (Backbone.js)
 
 ##### Homework
 * [Project Euler Problem 7](https://projecteuler.net/problem=7)
@@ -219,7 +219,7 @@
 * Github API
 
 ##### Apps
-* Ba
+* GistBlog (Backbone.js)
 
 ##### Homework
 * [Project Euler Problem 7](https://projecteuler.net/problem=7)
