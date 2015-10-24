@@ -196,7 +196,7 @@
   * [reqr.es clone](reqres-api.herokuapp.com) 
 
 ##### Apps
-* People Cards (jQuery)
+* Business Cards (jQuery)
 
 ##### Homework
 * [Project Euler Problem 6](https://projecteuler.net/problem=6)
@@ -207,7 +207,7 @@
 * Backbone.js
 
 ##### Apps
-* People Cards (Backbone.js)
+* Business Cards (Backbone)
 
 ##### Homework
 * [Project Euler Problem 7](https://projecteuler.net/problem=7)
@@ -219,7 +219,8 @@
 * Github API
 
 ##### Apps
-* GistBlog (Backbone.js)
+* GistBlog (Backbone)
 
 ##### Homework
-* [Project Euler Problem 7](https://projecteuler.net/problem=7)
+* [Project Euler Problem 9](https://projecteuler.net/problem=9)
+* [Project Euler Problem 10](https://projecteuler.net/problem=10)
