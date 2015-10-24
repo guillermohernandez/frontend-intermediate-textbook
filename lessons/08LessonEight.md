@@ -50,7 +50,7 @@ Our divs in the DOM now look like
 $toys = $('#box').children();
 ```
 
-#### [`.last()`](http://api.jquery.com/last/)
+### [`.last()`](http://api.jquery.com/last/)
 To get the last item in a collection of jQuery objects (such as `$toys` above).
 ```javascript
 $lastToy = $toys.last();
