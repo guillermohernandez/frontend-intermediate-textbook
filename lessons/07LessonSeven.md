@@ -118,7 +118,8 @@ $('#box').click(function(){
 });
 ```
 `this` is the HTML element from the DOM that was `click`ed on. To make it a jQuery object, we need to use the `$()` function.
-
+```javascript
 $('#box').click(function(){
   $(this).css('color', 'red');
 });
+```
