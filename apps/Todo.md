@@ -104,3 +104,21 @@ $(document).ready(function() {
 ```
 
 ## Step 1
+Using jQuery, put a `submit` event listener on the form. 
+
+## Step 2
+Inside your callback prevent the default `event` from occuring when you submit. Then within `$(this)` `.find()` the `val`ue of the `input[type="text"]` and assign it to a `var`iable.
+
+## Step 3
+Construct a string containing a list item `<li></li>` with your text in the middle. `.append()` the html string ti the end of your `#todo-list`.
+
+## Step 4
+Now make your list `.sortable()`.
+
+## (Bonus) Step 5
+Add a checkbox to each list item, so that you can "complete" a task
+
+## (Bonus Bonus) Step 6
+Remove the default task form the html. Add a button or link to each list item. When you `click` it, it should `remove()` its `.parent()` list item.
+
+
