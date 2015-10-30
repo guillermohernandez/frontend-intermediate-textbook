@@ -24,9 +24,8 @@ In your http://_username_.github.io repo, create a directory called `towers/`. I
   <div data-stack="3">
   </div>
   <div id="announce-game-won"></div>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
-  <script type="text/javascript" src="./TowersOfHanoi.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script type="text/javascript" src="./script.js"></script>
 </body>
 </html>
 ```
@@ -74,7 +73,7 @@ In your http://_username_.github.io repo, create a directory called `towers/`. I
 }
 ```
 
-**TowersOfHanoi.js**
+**script.js**
 ```javascript
 $(document).ready(function() {
 
