@@ -28,14 +28,13 @@ Inside of a `tictactoe/` directory create an `index.html`
             <div data-cell="8"></div>
         </div>
         <div id="announce-winner"></div>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
-        <script type="text/javascript" src="./TicTacToe.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="./script.js"></script>
     </body>
 </html>
 ```
 
-a `style.css`
+a `style.css` file
 ```css
 div[data-cell] {
     width: 100px;
@@ -56,7 +55,7 @@ div[data-cell] {
     font-size: 50px;
 }
 ```
-and a `TicTacToe.js`
+and a `script.js`
 ```javascript
 'use strict';
 $(document).on('ready', function() {
