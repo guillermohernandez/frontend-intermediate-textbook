@@ -75,6 +75,3 @@ Write a function `checkForWin()` that checks each combination of winning `data-c
 
 ## Bonus Step 4
 Protect against changing a previously marked cell.
-
-<p data-height="268" data-theme-id="0" data-slug-hash="YyvraR" data-default-tab="result" data-user="mistakevin" class='codepen'>See the Pen <a href='http://codepen.io/mistakevin/pen/YyvraR/'>Tic Tac Toe</a> by Kevin Colten (<a href='http://codepen.io/mistakevin'>@mistakevin</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
