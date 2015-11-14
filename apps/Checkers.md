@@ -1,6 +1,6 @@
 # Checkers
 ## Step 1 - Creating our classes
-Our classes will consist of a `Checker`, `Board`, and a `Game` class. 
+Our classes will consist of a `Checker`, `Board`, and a `Game` class.
 ```javascript
 function Checker() {
     //...
@@ -43,14 +43,14 @@ The [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concern
   * *attributes*
   * *methods*
     * starting a game `this.start = function() { ...`
-  
+
 ## Step 2 - Build the `Checker` class
 A `Checker` piece has a few characteristics. First, it has a symbol. We can use [unicode characters](http://jrgraphix.net/r/Unicode/25A0-25FF) with the JavaScript `String.fromCharCode(0x1<unicode>)` method. We'll need to pass in a `color` into the constructor `function Checker(color) { ... ` and set the `Checker` instance's `this.symbol`.
 
 ```javascript
 function Checker(color) {
     this.color = color;
-  
+
     if (color === 'white') {
       this.symbol = String.fromCharCode(0x125CB)); // makes a ○ symbol
     } else {
@@ -85,7 +85,7 @@ console.log(whiteChecker.symbol + ' ' + whiteChecker.position);
 //=> ○ [0, 0]
 
 console.log(blackChecker.symbol + ' ' + blackChecker.position);
-//=> ● [0, 1] 
+//=> ● [0, 1]
 
 whiteCheck.movePiece([2, 3]);
 console.log(whiteChecker.symbol + ' ' + whiteChecker.position)
@@ -120,7 +120,7 @@ function Board() {
             // push in a column of 8 nulls
             for (var column = 0; column < 8; column++) {
                 this.grid[row].push(null);
-            }  
+            }
         }
     }
 }
@@ -130,7 +130,7 @@ Let's write a function so we can see our pretty board
 ```javascript
 function Board() {
     //...
-    
+
     this.viewGrid = function() {
         // add our column numbers
         var grid = '  0 1 2 3 4 5 6 7\n';
@@ -162,12 +162,12 @@ We are going to want to reset the board often, so lets stick the board into a `t
 ```javascript
 function Board() {
     //...
-    
+
     // will reset our grid to a blank 8x8 grid of nulls
     this.resetGrid = function() {
         // "clear" the grid
         this.grid = [];
-        
+
         // recreate the empty grid of nulls
         this.createGrid();
     }
@@ -180,23 +180,23 @@ function Board() {
     //...
     // Our "bag of checkers", starts out empty
     this.checkers = [];
-    
+
     // creates the checkers to put into out "bag" (this.checkers)
     this.createCheckerInstances = function() {
-        
+
         // hardcoded positions of the checkers
         var whitePositions = [
             [0, 1], [0, 3], [0, 5], [0, 7],
             [1, 0], [1, 2], [1, 4], [1, 6],
             [2, 1], [2, 3], [2, 5], [2, 7]
         ];
-        
-        var blackPositions = [ 
+
+        var blackPositions = [
             [5, 0], [5, 2], [5, 4], [5, 6],
             [6, 1], [6, 3], [6, 5], [6, 7],
             [7, 0], [7, 2], [7, 4], [7, 6],
         ];
-        
+
         // iterate over the positions
         for (var i = 0; i < 12; i++) {
             // create a white checker, and push it in this.checkers
@@ -217,15 +217,15 @@ function Board() {
     this.placeCheckersOnGrid = function() {
         // reset the grid to make sure it's clear
         this.resetGrid();
-        
+
         // iterate through this.checkers
         for (var i = 0; i < this.checkers.length; i++) {
             // grab a checker
             var checker = this.checkers[i];
-            
+
             // get that checker's position
             var checkerPos = checker.position;
-            
+
             // place that checker where it's supposed to go
             this.grid[checkerPos[0]][checkerPos[1]] = checker;
         }
@@ -251,14 +251,14 @@ board.createGrid();
 // and now we can view the grid
 board.viewGrid();
 //=>   0 1 2 3 4 5 6 7
-//=> 0                
-//=> 1                
-//=> 2                
-//=> 3                
-//=> 4                
-//=> 5                
-//=> 6                
-//=> 7                
+//=> 0
+//=> 1
+//=> 2
+//=> 3
+//=> 4
+//=> 5
+//=> 6
+//=> 7
 ```
 
 Now let's create the checkers, putting them in `board.checkers`
@@ -280,12 +280,11 @@ board.placeCheckersOnGrid();
 baord.viewGrid();
 //=>   0 1 2 3 4 5 6 7
 //=> 0   ○   ○   ○   ○
-//=> 1 ○   ○   ○   ○  
+//=> 1 ○   ○   ○   ○
 //=> 2   ○   ○   ○   ○
-//=> 3                
-//=> 4                
-//=> 5 ●   ●   ●   ●  
+//=> 3
+//=> 4
+//=> 5 ●   ●   ●   ●
 //=> 6   ●   ●   ●   ●
-//=> 7 ●   ●   ●   ●  
+//=> 7 ●   ●   ●   ●
 ```
-
