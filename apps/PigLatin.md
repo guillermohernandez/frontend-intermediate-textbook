@@ -2,7 +2,7 @@
 
 In your `frontend-intermediate-workbook`, open up `apps/PigLatin.js`. In it you'll see a function `pigLatin(word)`. This is where your app logic will go. To run your program, you can run `node path/to/PigLatin.js`, to run the tests you can run `mocha path/to/PigLatin.js`.
 
-## Spec 1 - Convert simple word
+## Spec 1 - Translate simple word
 ### Step 1.1 - Break down the word
 
 So the basic idea of Pig Latin is to take the first letter of the word, move it the the back, and add 'ay' to the end of it. 
@@ -18,17 +18,20 @@ var firstLetter = word[0];
 console.log(firstLetter) //=> 'c'
 
 // we can 'remove' letters by replace them with and empty string
-console.log('word'.replace('a', '')); //=> 'cr'
-
-// try removing the first letter and assigning the rest of the word to a var restWord
+console.log( 'word'.replace('a', '') ); //=> 'cr'
 ```
 
-### Step 1.2 - Convert to Pig Latin
+### Step 1.2 - Translate to Pig Latin
 
 Take an input, and `console.log()` out a concatenation of the `restWord + firstLetter + 'ay'`.
+```javascript
+// build and return the translated word
+return word.replace(firstLetter, '') + firstLetter + 'ay';
+```
+Run the tests `mocha path/to/PigLatin.js`
 
-## Spec 2 - Convert a more complex word
-### Step 2.1 - Take the the first consonant letters up until the first vowel (including "y"), and stick those letters at the end with `ay` attached
+## Spec 2 - Translate a more complex word
+### Step 2.1 - Take the the first consonant letters up until the first vowel (including "y"), and stick those letters at the end with `ay` attached.
 
 ```javascript
 console.log( pigLatin('crazy') ); //=> 'azycray'
@@ -77,7 +80,10 @@ var firstPart = word.slice(0, vowelIndex);
 var restWord = word.slice(vowelIndex, word.length);
 ```
 
-### Step 2.4 - Attach the `firstPart` onto the `restPart` to give us our converted word.
+### Step 2.4 - Attach the `firstPart` onto the `restPart` to give us our translated word.
+```javascript
+return restWord + firstPart + 'ay';
+```
 
 ## Spec 3 - Begins with a vowels should just add on `yay` to the end.
 ```javascript
@@ -88,8 +94,7 @@ console.log( pigLatin('egg') ); //=> 'eggyay'
 If your `vowelIndex` is `0`, then just attach `yay` to the end of the word.
 
 ## Spec 4 - Must be lowercase
-What if someone enters 'HeLlO' as a word? We can "scrub" it by making sure it is always `lowercase()`
+What if someone enters 'HeLlO' as a word? We can "scrub" it by making sure it is always converted `.toLowerCase()`
 ```javascript
-console.log('HeLlO'.lowercase());
-//=> 'hello'
+console.log( 'HeLlO'.toLowerCase() ); //=> 'hello'
 ```
