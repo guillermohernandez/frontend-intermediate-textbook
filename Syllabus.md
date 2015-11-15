@@ -35,7 +35,7 @@
 * [Pig Latin Generator](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/PigLatin.md)
 
 ##### Homework
-* Finish [Prework](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/Prework.md)
+
 
 ##### Assessments
 * [Lesson One Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/01LessonOne/LessonOne.js)
@@ -55,7 +55,7 @@
 * [Rock, Paper, Scissors](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/RockPaperScissors.md)
 
 ##### Homework
-* Finish [Rock, Paper, Scissors](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/RockPaperScissors.md)
+
 
 ##### Assessments
 * [Lesson Two Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/02LessonTwo/LessonTwo.js)
@@ -75,7 +75,7 @@
 * [Tic Tac Toe](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/TicTacToe.md)
 
 ##### Homework
-* Finish [Tic Tac Toe](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/TicTacToe.md)
+
 
 ##### Assessments
 * [Lesson Three Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/03LessonThree/LessonThree.js)
@@ -94,9 +94,7 @@
 * [Towers of Hanoi](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/TowersOfHanoi.md)
 
 ##### Homework
-* Finish [Towers of Hanoi](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/TowersOfHanoi.md)
-* [Codecademy Javascript - Introduction to Objects I](https://www.codecademy.com/courses/spencer-sandbox/0/1?curriculum_id=506324b3a7dffd00020bf661)
-* [Codecademy Javascript - Building an Address Book](https://www.codecademy.com/courses/building-an-address-book/0/1?curriculum_id=506324b3a7dffd00020bf661)
+
 
 ##### Assessments
 * [Lesson Four Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/04LessonFour/LessonFour.js)
@@ -113,10 +111,7 @@
 * [Mastermind](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/Mastermind.md)
 
 ##### Homework
-* Finish [Mastermind](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/Mastermind.md)
-* [Codecademy Javascript - Introduction to Objects II]()
-* [Codecademy Javascript - Build a Cash Register]()
-* [Project Euler Problem 1](https://projecteuler.net/problem=1)
+
 
 ##### Assessments
 * [Lesson Five Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/05LessonFive/LessonFive.js)
@@ -132,9 +127,7 @@
  * Checkers
 
 ##### Homework
- * Finish Checkers
- * [Project Euler Problem 2](https://projecteuler.net/problem=2)
- * [Codecademy jQuery - all of it](https://www.codecademy.com/en/tracks/jquery)
+
 
 ##### Assessements
 * [Lesson Six Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/06LessonSix/LessonSix.js)
@@ -156,7 +149,7 @@
 * Tic Tac Toe (jQuery)
 
 ##### Homework
-* [Project Euler Problem 3](https://projecteuler.net/problem=3)
+
 
 ---
 #### [Lesson Eight](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/08LessonEight.md)
@@ -171,27 +164,12 @@
 * [Towers of Hanoi (jQuery)](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/TowersOfHanoiGUI.md)
 
 ##### Homework
-* [Project Euler Problem 4](https://projecteuler.net/problem=4)
-* [Codeschool - Try jQuery](https://www.codeschool.com/courses/try-jquery)
 
 ---
-#### [Lesson Nine](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/09LessonNine.md)
-* jQuery
-  * `.find()`
-* jQuery UI
-  * `.sortable()`
-
-##### Apps
-* [Todo (jQuery)](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/Todo.md)
-
-##### Homework
-* [Project Euler Problem 5](https://projecteuler.net/problem=5)
-* [Codeschool - Anatomy of Backbone.js](https://www.codeschool.com/courses/anatomy-of-backbone-js) Levels 1 - 4
-
----
-#### [Lesson Ten](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/10LessonTen.md)
+#### [Lesson Nine](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/10LessonTen.md)
 * jQuery
   * `.ajax()`
+  * Working with JSON
 * API
   * [reqr.es clone](reqres-api.herokuapp.com) 
 
@@ -199,28 +177,47 @@
 * Business Cards (jQuery)
 
 ##### Homework
-* [Project Euler Problem 6](https://projecteuler.net/problem=6)
-* [Codeschool - Anatomy of Backbone.js](https://www.codeschool.com/courses/anatomy-of-backbone-js) Levels 4 - 7
+
+
+---
+#### [Lesson Ten](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/09LessonNine.md)
+* jQuery
+  * `.find()`
+  * Preventing Default Event
+* jQuery UI
+  * `.sortable()`
+
+##### Apps
+* [Todo (jQuery)](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/Todo.md)
+
+##### Homework
 
 ---
 #### [Lesson Eleven](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/11LessonEleven.md)
 * Backbone.js
+  * Models, Collections, Views
 
 ##### Apps
-* Business Cards (Backbone)
+* Todo (Backbone)
 
 ##### Homework
-* [Project Euler Problem 7](https://projecteuler.net/problem=7)
-* [Project Euler Problem 8](https://projecteuler.net/problem=8)
 
 ---
-#### [Lesson Twelve](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/12LessonTwelve.md)
-* Backbone.js
+#### [Lesson Twelve](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/11LessonEleven.md)
+* Gulp + Browserify
+* Source Mapping
+
+##### Apps
+* TODO (Backbone + Gulp/Browserify)
+
+##### Homework
+
+---
+#### [Lesson Thirteen](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/12LessonTwelve.md)
+* Backbone Routing
 * Github API
 
 ##### Apps
-* GistBlog (Backbone)
+* GistBlog (Backbone/Underscore Templates + Gulp/Browserify)
 
 ##### Homework
-* [Project Euler Problem 9](https://projecteuler.net/problem=9)
-* [Project Euler Problem 10](https://projecteuler.net/problem=10)
