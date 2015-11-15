@@ -1,6 +1,6 @@
 # Pig Latin
 
-In your `frontend-intermediate-workbook`, open up `apps/PigLatin.js`. In it you'll see a function `pigLatin(word)`. This is where your app logic will go.
+In your `frontend-intermediate-workbook`, open up `apps/PigLatin.js`. In it you'll see a function `pigLatin(word)`. This is where your app logic will go. To run your program, you can run `node path/to/PigLatin.js`, to run the tests you can run `mocha path/to/PigLatin.js`.
 
 ## Spec 1 - Convert simple word
 ### Step 1.1 - Break down the word
