@@ -1,5 +1,5 @@
-# Austin Code Academy
-## HTML Intermediate - Section 02
+# Austin Coding Academy
+## Frontend Intermediate
 ### Syllabus
 #### [Lesson Zero](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/00LessonZero.md)
 ##### Familarity with Git/GitHub
