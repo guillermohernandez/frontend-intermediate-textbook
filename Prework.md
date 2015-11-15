@@ -13,7 +13,7 @@ Without these skills you will fall behind not only in class, but in any develope
 `Navigation` and `Manipulation` lessons.
 
 ### 2. [Codecademy: Javacript](https://www.codecademy.com/tracks/javascript)
-Your future bread and butter. **Complete all lessons before `Objects I`**
+Your future bread and butter.
 
 ### 3. [Code School: Try Git](https://try.github.io)
 You entire programming career will be recorded, versioned, and shared with Git. Get familiar with it and GitHub here on Code School.
@@ -21,6 +21,5 @@ You entire programming career will be recorded, versioned, and shared with Git. 
 ### 4. Read through all of [Lesson Zero](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonZero.md) and [Lesson One](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/LessonOne.md)
 You are to read the lesson before the class everytime. We will spend very little time on lecturing, the vast majority being spent on actual coding. You will have some time to work solo on them in class, and sometimes will be randomly paired up to work together with a partner. If there is something in class you feel like you did not fully grasp, do not wait to read on to the next lesson, where it may be used again and/or better explained.
 
-## Bonus!
-### 4. [Codecademy: jQuery](https://www.codecademy.com/tracks/jquery)
+### 5. [Codecademy: jQuery](https://www.codecademy.com/tracks/jquery)
 You want to be a web developer? Welcome to the world of jQuery. This is not a one-off skill, this may be your life when you get that dream job. This is what you can do in your spare time, which, I promise, will be filled with coding-for-fun once you are developer. Also, you'll be asked at your job interviews if you are familiar with jQuery. As a front-end developer, you better say yes.
