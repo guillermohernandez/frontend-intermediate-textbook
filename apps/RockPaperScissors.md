@@ -9,14 +9,14 @@ Let's think about the logic of Rock Paper Scissors:
 
 1. If both hands are the same, "It's a tie!"
 2. If the first hand is 'rock'
-    * If the second hand is 'scissors', then 'Player 1 wins!'
-    * Otherwise (which basically means the second hand is 'paper', since we have already ruled out a tie and 'scissors), 'Player 2 wins!'
+    * If the second hand is 'scissors', then 'Hand one wins!'
+    * Otherwise (which basically means the second hand is 'paper', since we have already ruled out a tie and 'scissors), 'Hand two wins!'
 3. If the first hand is 'paper`
-  * If the second hand is 'rock', then 'Player 1 wins!'
-  * Otherwise (second hand must be 'scissors'), 'Player 2 Wins!'
+  * If the second hand is 'rock', then 'Hand one wins!'
+  * Otherwise (second hand must be 'scissors'), 'Hand two wins!'
 4. If the first hand is 'scissors'
-  * If the second hand is 'paper', then 'Player 1 wins!'
-  * Otherwise (second hand must be 'rock'), 'Player 2 Wins!'
+  * If the second hand is 'paper', then 'Hand one wins!'
+  * Otherwise (second hand must be 'rock'), 'Hand two wins!'
 
 Now write that into a conditional:
 ```javascript
@@ -26,10 +26,10 @@ if (hand1 === hand2) {
 
 if (hand1 === 'rock') {
   if (hand2 === 'scissors') {
-    return 'Player 1 wins!';
+    return 'Hand one wins!';
   }
   // If we reach here, player 2 must have dealt paper
-  return 'Player 2 wins!';
+  return 'Hand two wins!';
 }
 
 if (hand1 === 'paper') {
