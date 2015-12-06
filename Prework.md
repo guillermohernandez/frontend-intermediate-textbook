@@ -23,3 +23,24 @@ You are to read the lesson before the class everytime. We will spend very little
 
 ### 5. [Codecademy: jQuery](https://www.codecademy.com/tracks/jquery)
 You want to be a web developer? Welcome to the world of jQuery. This is not a one-off skill, this may be your life when you get that dream job. This is what you can do in your spare time, which, I promise, will be filled with coding-for-fun once you are developer. Also, you'll be asked at your job interviews if you are familiar with jQuery. As a front-end developer, you better say yes.
+
+### 6. Build 2 websites:
+Wedding site
+Site should look good on all sized screens
+Must have a link to its location on a map
+Include 3 pictures
+Embed a youtube video
+Be sure to use all you learned in Front End Intro to create a quality site
+Due December 20 (email to me or send me the github link)
+Restaurant site
+Site should look good on all sized screens
+Must have a menu with pictures of at least 3 featured entrees
+Must have a link to its location on a map
+Here is a link for some inspiration: http://blog.crazyegg.com/2012/02/22/beautiful-restaurant-website-design/
+Due January 20 (email to me or send me the github link)
+
+### 7. Blockly: https://blockly-games.appspot.com/
+Maze
+Pond
+JS Pond
+
