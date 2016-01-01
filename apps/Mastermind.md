@@ -25,5 +25,5 @@ Using the [`colors`](https://www.npmjs.com/package/colors) package, `return` a s
 ## Spec 3 - Add guess and hint to the board
 Define a `var` called `hint` that collects the returned value of `generateHint(solution, guess)`. `.push` the `guess` and the `hint` (as a combined string) into the `board`.
 
-## Spec 4 - end the game after 10 incorrect guesses
+## Spec 4 - End the game after 10 incorrect guesses
 If the `board` `length` equals `10`, `return` `'You ran out of turns! The solution was '` and the `solution`. Otherwise, return `'Guess again.'`.
