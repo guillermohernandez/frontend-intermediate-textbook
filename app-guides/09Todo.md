@@ -1,4 +1,4 @@
-# Todo
+# Todo App
 
 ## Spec 1
 Using jQuery, put a `submit` event listener on the form. 
