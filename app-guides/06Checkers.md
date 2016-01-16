@@ -24,17 +24,18 @@ The [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concern
 * The `Checker` class will be concerned about
   * *attributes*
     * a symbol `this.symbol = ...`
+
 * The `Board` class will be concerned about
   * *attributes*
     * A grid layout `this.grid = ...`. See it [here](https://github.com/AustinCodingAcademy/frontend-intermediate-workbook/blob/master/apps/06Checkers.js#L13)
     * "In play" checkers `this.checkers = ...`.
-    
   * *methods*
     * Creating the grid `this.createGrid = function() { ...`. View it [here](https://github.com/AustinCodingAcademy/frontend-intermediate-workbook/blob/master/apps/06Checkers.js#L15)
     * Viewing the grid `this.viewGrid = function() { ...`. View it [here](https://github.com/AustinCodingAcademy/frontend-intermediate-workbook/blob/master/apps/06Checkers.js#L27)
     * Creating the checker instances `this.createCheckers = function() { ...`
     * Selecting a particular checker `this.selectChecker (position) { ...`
     * Killing a checker `this.killChecker = function(position) {...`
+
 * `Game` class will be concerned about
   * *attributes*
     * A game board `this.board = new Board();` See it [here](https://github.com/AustinCodingAcademy/frontend-intermediate-workbook/blob/master/apps/06Checkers.js#L56)
