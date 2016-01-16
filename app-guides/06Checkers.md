@@ -93,7 +93,7 @@ In a `for` loop, iterate over the range from 0 - 11, with each index you want to
 1. Push the checker into your `this.checkers` array
 1. Do all three steps above for a `'black'` checker
 
-In your `Game` class, in the `start()` method, add `this.board.createCheckers()`.
+In your `Game` class, in the `this,start` method, add `this.board.createCheckers()`.
 
 If done correctly, you should see your board populated with checkers!
 ```
@@ -107,3 +107,34 @@ If done correctly, you should see your board populated with checkers!
 6   ●   ●   ●   ●
 7 ●   ●   ●   ●
 ```
+
+### Spec 2.2 - Moving a checker
+In your `Board` class, write a method `this.selectChecker` that takes two arguments `row`, `column`. All this does is `return` the checker at that particular spot on `this.grid`. This will be a handy "helper" function.
+
+Next, in your `Game` class, create a `this.moveChecker` method that takes two parameters `start`, `end`. These two arguments will each contain a `row` and a `column`, eg. `50`, `41`. Inside the method, use your board helper method `selectChecker` to select the checker at your `start`ing `rowcolumn`coordinates and set it to a local `var`iable `checker`. Then set that spot on the grid to `null` and set the spot at the `end` `rowcolumn` coordinate to the `checker`.
+
+You should be able to move checkers around on the board now!
+```
+prompt: which piece?:  50
+prompt: to where?:  41
+
+  0 1 2 3 4 5 6 7
+0   ○   ○   ○   ○
+1 ○   ○   ○   ○
+2   ○   ○   ○   ○
+3
+4   ●
+5     ●   ●   ●
+6   ●   ●   ●   ●
+7 ●   ●   ●   ●
+```
+THIS IS INTENSE
+
+## Spec 3 - Killing a checker
+In your `Board` class, write a method `killChecker` that take a single argument `position` which is a coordinate pair, eg. `[0, 5]`. In it, use `this.selectChecker` to grab the checker at the position given. Find the index of that checker in the `this.checkers` array. then remove it by [`.splice()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)ing it out.
+Then assign the position on `this.grid` to `null`. That checker is dead.
+
+In the `Game` class, in the `moveChecker` method, after you have moved the checker, check to see if the distance of the `start` row and the `end` row is `2` by finding the [absolute value](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/abs) of the difference between the rows. If so, which means you must have jumped a checker, find the `killPostition` by finding the [midpoint](http://cs.selu.edu/~rbyrd/math/midpoint/) between the `start` and `end` positions. Then `killChecker`.
+
+
+Go play yourself some Checkers!
