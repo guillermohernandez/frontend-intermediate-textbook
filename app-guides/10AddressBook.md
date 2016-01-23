@@ -38,7 +38,7 @@ but with more objects. Each object has an `"id"`. Let's take `"id"` `1` and put 
 That is our API to play with.
 
 ## Spec 1 - Let's try an AJAX call
-Using jQuery's (`$`) [`.ajax`](http://api.jquery.com/jquery.ajax/) method, make a call to `https://reqres-api.herokuapp.com/api/users`. Watch the call happen in your `Network` tab in your developer console. 
+Using jQuery's [`$.ajax`](http://api.jquery.com/jquery.ajax/) method, make a call to `https://reqres-api.herokuapp.com/api/users`. Watch the call happen in your `Network` tab in your developer console. 
 
 ## Spec 2 - Iterate over the `user`s collection
 In a `success` callback, pass in `users` as your reponse, and the iterate over `.each` `user` using [Underscore.js#each](http://underscorejs.org/#each). In each loop, create a `var` called `str` that builds an html string that matches the `<tr></tr>` in the html markup, but with the `user` keys. At the end of each loop, `append` the `str` to the `tbody` element.
