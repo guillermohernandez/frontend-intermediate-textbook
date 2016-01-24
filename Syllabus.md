@@ -154,4 +154,10 @@
   * [reqr.es clone](reqres-api.herokuapp.com)
 
 #### App
-* [Address Book](app-guides/08AddressBook.md)
+* [Address Book](app-guides/10AddressBook.md)
+
+---
+
+#### Final Project!!!
+#### App
+* [Gist Blog](app-guides/11GistBlog.md)
