@@ -7,10 +7,10 @@ So let's run through the API real quick. First, in your terminal, navigate to to
 After starting up a server in the app directory, navigate in your browser to `http://localhost:8080/api/gists.json`, here you will see the top level of the api, with all of the gists. In each gist, you will see a `"url"` key. Navigate to that URL. In that address you will see another JSON object. Look for a `"files"` key with an object containing a file. In that file you'll see the `"content"` of the file. Next look for a `"comments_url"`. A that address, you'll see a collection of comments, with keys such as `"user"` and `"body"`.
 
 ## Spec 1
-Using jQuery to make an AJAX call, insert a list of links into `#posts` using `_.each`, with the titles of each gist as the text.
+Using jQuery to make an AJAX call, insert a list of links into `#posts` using `_.each`, with the `"description"` of each gist as the text.
 
 ## Spec 2
-Using [`_.filter`](http://underscorejs.org/#filter), only display the gists that start with a `'#post'` in the title
+Using [`_.filter`](http://underscorejs.org/#filter), only display the gists that start with a `'#post'` in the `"description"`
 
 ### Spec 2.1
 After fitering, remove the `'#post '` from the title
