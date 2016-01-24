@@ -32,10 +32,15 @@ After inserting your content, make another ajax call using the `"comments_url"`,
 
 ## Spec 6
 Make it look nice! This is going to be YOUR blog! Take a look at some CSS frameworks, such as:
+
 [Materialize](http://materializecss.com/) - Framework based on Google's Material Design Guidelines
+
 [Material Design Lite](http://www.getmdl.io/) - Google's Official CSS Material Framework
+
 [Bootstrap](http://getbootstrap.com/) - Probably the most popular CSS framework on the web. Made by Twitter
-[Foundation](http://foundation.zurb.com/sites/docs/) - Industry standard of CSS Frameworks.
+
+[Foundation](http://foundation.zurb.com/sites/docs/) - Industry standard of CSS Frameworks
+
 [Skeleton](http://getskeleton.com/) - Beautifully simple CSS Framework
 
 ## Spec 7
