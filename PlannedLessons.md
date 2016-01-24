@@ -1,5 +1,5 @@
 ---
-#### [Lesson ___](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/Lesson___.md)
+#### [Lesson ___](lessons/Lesson__.md)
 * Recursion
 * Algorithms
   * Sorting

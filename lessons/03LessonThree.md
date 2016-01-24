@@ -46,17 +46,17 @@ function one() {
 
   var b = 'b';
   // b is available
-  
+
   function two() {
     // one() is available
     // two() is available
     // three() is available
     // a is available
     // b is available
-    
+
     var c = 'c';
     // c is available
-    
+
     function three() {
       // one() is available
       // two() is available
@@ -64,7 +64,7 @@ function one() {
       // a is available
       // b is available
       // c is available
-      
+
       var d = 'd';
       // d is available
     }
@@ -146,60 +146,4 @@ nestedArray[1][0] = "I've been reset!";
 
 console.log(nestedArray);
 //=> [ [ 'who', 'what'], [ 'I've been reset!', 'where' ] ]
-```
-
-## Tools
-### Prompting more than once
-```javascript
-'use strict';
-
-var prompt = require('prompt');
-prompt.start();
-
-prompt.get(['input'], function (error, result) {
-  console.log(result['input']);
-});
-```
-This will ask for input only once, but how do you ask for input multiple times? You can put the `prompt.get()` into it's own function, and have it call itself.
-
-```javascript
-'use strict';
-
-var prompt = require('prompt');
-prompt.start();
-
-// Here's our custom named function
-function getPrompt() {
-  // Here's where we grab our input  
-  prompt.get(['input'], function (error, result) {
-    console.log(result['input']);
-    getPrompt(); // then we call ourself again! and again! and again!
-  });
-}
-
-// Don't forget to get the ball running by calling our custom function once!
-getPrompt();
-```
-But this loop will continue forever! We can put in a "break condition", maybe by checking the input for a keyword like `exit`, to stop asking for input.
-
-```javascript
-'use strict';
-
-var prompt = require('prompt');
-prompt.start();
-
-function getPrompt() {
-  // Here's where we grab our input  
-  prompt.get(['input'], function (error, result) {
-    // if our input is 'exit'
-    if (result['input'] === 'exit') {
-      // since we are returning, we will break out of the function here
-      return false;
-    } // no need for an else statement, since the return above will break us out of the function if we hit it
-    console.log(result['input']);
-    getPrompt();
-  });
-}
-
-getPrompt();
 ```

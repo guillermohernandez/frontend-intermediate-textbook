@@ -1,20 +1,16 @@
-# Austin Coding Academy
-## Frontend Intermediate
-### Syllabus
-#### [Lesson Zero](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/00LessonZero.md)
-##### Familarity with Git/GitHub
-* creating/cloning a GitHub repository
-* navigating in the terninal using `cd`
-* creating/saving a file in Sublime Text 3
-* checking the status/staging/commtting changes using Git
-* pushing commits to GitHub
-* set up SSH keys
-
-##### Server-Side JavaScript
+![](http://static1.squarespace.com/static/538f3fcde4b05c5fecc7a40e/t/538f48a4e4b00d94e8c253b3/1453396632576/?format=400w)
+# Frontend Intermediate Textbook
+## Syllabus
+### [Lesson Zero](lessons/00LessonZero.md)
+#### Taking Notes on Tonic
+#### Server-Side JavaScript
 * using `node` to open REPL or load a script
 
+#### Set up your SSH Keys for GitHub
+## Using Node
+
 ---
-#### [Lesson One](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/01LessonOne.md)
+#### [Lesson One](lessons/01LessonOne.md)
 * "strict mode"
 * comments
 * logging output
@@ -31,17 +27,14 @@
 * Input Prompting
   * demonstrate use of "prompt" npm package
 
-##### Apps
-* [Pig Latin Generator](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/PigLatin.md)
+#### App
+* [Pig Latin](app-guides/01PigLatin.md)
 
-##### Homework
-
-
-##### Assessments
-* [Lesson One Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/01LessonOne/LessonOne.js)
+#### Test
+* [Lesson One Tests](https://github.com/AustinCodingAcademy/frontend-intermediate-workbook/blob/gh-pages/test/01LessonOneTest.js)
 
 ---
-#### [Lesson Two](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/02LessonTwo.md)
+#### [Lesson Two](lessons/02LessonTwo.md)
 * Conditionals
   * `if` / `else` pattern
   * `if`/ `else if`/ `else` pattern
@@ -50,38 +43,28 @@
 * Named functions
   * understand decomposition method
 
-##### Apps
-* [Three or Five?](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/ThreeOrFive.md)
-* [Rock, Paper, Scissors](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/RockPaperScissors.md)
+#### App
+* [Rock, Paper, Scissors](app-guides/02RockPaperScissors.md)
 
-##### Homework
-
-
-##### Assessments
-* [Lesson Two Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/02LessonTwo/LessonTwo.js)
+#### Test
+* [Lesson Two Tests](https://github.com/AustinCodingAcademy/frontend-intermediate-workbook/blob/gh-pages/test/02LessonTwoTest.js)
 
 ---
-#### [Lesson Three](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/03LessonThree.md)
+#### [Lesson Three](lessons/03LessonThree.md)
 * Scope
 * Ternary Operator
 * Arrays
   * Locating Items
   * Assigning and Replacing Items
 
-##### Tools
-* Prompting more than once.
+#### App
+* [Tic Tac Toe](app-guides/03TicTacToe.md)
 
-##### Apps
-* [Tic Tac Toe](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/TicTacToe.md)
-
-##### Homework
-
-
-##### Assessments
-* [Lesson Three Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/03LessonThree/LessonThree.js)
+#### Test
+* [Lesson Three Tests](https://github.com/AustinCodingAcademy/frontend-intermediate-workbook/blob/gh-pages/test/03LessonThreeTest.js)
 
 ---
-#### [Lesson Four](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons03/04LessonFour.md)
+#### [Lesson Four](lessons/04LessonFour.md)
 * Popular Array Methods
   * pop/push
   * shift/unshift
@@ -90,50 +73,41 @@
   * finding value by key
   * adding key/value
 
-##### Apps
-* [Towers of Hanoi](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/TowersOfHanoi.md)
+#### App
+* [Towers of Hanoi](app-guides/04TowersOfHanoi.md)
 
-##### Homework
-
-
-##### Assessments
-* [Lesson Four Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/04LessonFour/LessonFour.js)
+#### Test
+* [Lesson Four Tests](https://github.com/AustinCodingAcademy/frontend-intermediate-workbook/blob/gh-pages/test/04LessonFourTest.js)
 
 ---
-#### [Lesson Five](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/05LessonFive.md)
+#### [Lesson Five](lessons/05LessonFive.md)
 * More Operators
   * `++` / `--`
   * `+=`, `-=`, `*=`, `/=`
 * Loops
   * `for` / `while`
 
-##### Apps
-* [Mastermind](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/Mastermind.md)
+#### App
+* [Mastermind](app-guides/05Mastermind.md)
 
-##### Homework
-
-
-##### Assessments
-* [Lesson Five Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/05LessonFive/LessonFive.js)
+#### Test
+* [Lesson Five Tests](https://github.com/AustinCodingAcademy/frontend-intermediate-workbook/blob/gh-pages/test/05LessonFiveTest.js)
 
 ---
-#### [Lesson Six](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/06LessonSix.md)
+#### [Lesson Six](lessons/06LessonSix.md)
 * Object Oriented Programming (OOP)
   * Creating Classes using the Constructor Method
   * `this` context
   * passing in arguments to contructor
 
-##### Apps
- * Checkers
+#### App
+ * [Checkers](app-guides/06Checkers.md)
 
-##### Homework
-
-
-##### Assessements
-* [Lesson Six Tests](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2Tests/blob/master/06LessonSix/LessonSix.js)
+#### Test
+* [Lesson Six Tests](https://github.com/AustinCodingAcademy/frontend-intermediate-workbook/blob/gh-pages/test/06LessonSixTest.js)
 
 ---
-#### [Lesson Seven](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/07LessonSeven.md)
+#### [Lesson Seven](lessons/07LessonSeven.md)
 * Serving your app
 * jQuery
   * Asynchronous Programming
@@ -145,14 +119,11 @@
   * `data-` attribute
 * Hosting on GitHub Pages
 
-##### Apps
-* Tic Tac Toe (jQuery)
-
-##### Homework
-
+#### App
+* [Tic Tac Toe (jQuery)](app-guides/06Checkers.md)
 
 ---
-#### [Lesson Eight](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/08LessonEight.md)
+#### [Lesson Eight](lessons/08LessonEight.md)
 * Popular jQuery methods
   * `.detach()`
   * `.each()`
@@ -160,64 +131,27 @@
   * `.last()`
   * `.append() and .prepend()`
 
-##### Apps
-* [Towers of Hanoi (jQuery)](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/TowersOfHanoiGUI.md)
-
-##### Homework
+#### App
+* [Towers of Hanoi (jQuery)](app-guides/07TowersOfHanoi-jQuery.md)
 
 ---
-#### [Lesson Nine](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/10LessonTen.md)
-* jQuery
-  * `.ajax()`
-  * Working with JSON
-* API
-  * [reqr.es clone](reqres-api.herokuapp.com) 
-
-##### Apps
-* Business Cards (jQuery)
-
-##### Homework
-
-
----
-#### [Lesson Ten](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/09LessonNine.md)
+#### [Lesson Nine](lessons/10LessonTen.md)
 * jQuery
   * `.find()`
   * Preventing Default Event
 * jQuery UI
   * `.sortable()`
 
-##### Apps
-* [Todo (jQuery)](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/apps/Todo.md)
-
-##### Homework
+#### App
+* [Todo](app-guides/09Todo.md)
 
 ---
-#### [Lesson Eleven](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/11LessonEleven.md)
-* Backbone.js
-  * Models, Collections, Views
+#### [Lesson Ten](lessons/09LessonNine.md)
+* jQuery
+  * `.ajax()`
+  * Working with JSON
+* API
+  * [reqr.es clone](reqres-api.herokuapp.com)
 
-##### Apps
-* Todo (Backbone)
-
-##### Homework
-
----
-#### [Lesson Twelve](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/11LessonEleven.md)
-* Gulp + Browserify
-* Source Mapping
-
-##### Apps
-* TODO (Backbone + Gulp/Browserify)
-
-##### Homework
-
----
-#### [Lesson Thirteen](https://github.com/AustinCodingAcademy/HTMLIntermediateSection2/blob/master/lessons/12LessonTwelve.md)
-* Backbone Routing
-* Github API
-
-##### Apps
-* GistBlog (Backbone/Underscore Templates + Gulp/Browserify)
-
-##### Homework
+#### App
+* [Address Book](app-guides/08AddressBook.md)
