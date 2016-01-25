@@ -1,4 +1,6 @@
-# Lesson Eight
+![](http://static1.squarespace.com/static/538f3fcde4b05c5fecc7a40e/t/538f48a4e4b00d94e8c253b3/1453396632576/?format=400w)
+# Frontend Intermediate Textbook
+## Lesson Eight
 Here's some example HTML
 ```html
 <!DOCTYPE html>
@@ -12,8 +14,8 @@ Here's some example HTML
   </body>
 </html>
 ```
-## Popular jQuery methods
-### [`.detach()`](http://api.jquery.com/detach/)
+### Popular jQuery methods
+#### [`.detach()`](http://api.jquery.com/detach/)
 `.detach()` removes the element from the DOM and `return`s it, so that you may capture it with a variable.
 
 ```javascript
@@ -21,7 +23,7 @@ var $cat = $('#cat').detach();
 // <div id="cat"></div> is not removed from the DOM, but saved in the $cat variable
 ```
 
-### [`.append()`](http://api.jquery.com/append/) and [`.prepend()`](http://api.jquery.com/prepend/)
+#### [`.append()`](http://api.jquery.com/append/) and [`.prepend()`](http://api.jquery.com/prepend/)
 `.append()` will allow us to append an element inside another element as the last item.
 ```javascript
 $('#hat').append($cat);
@@ -36,7 +38,7 @@ Our divs in the DOM now look like
 
 `.prepend()` isused the same way, but puts the element as the first item.
 
-### [`.children()`](http://api.jquery.com/children/)
+#### [`.children()`](http://api.jquery.com/children/)
 `.children()` will return all the children of a DOM element.
 ```html
 <div id="box">
@@ -50,7 +52,7 @@ Our divs in the DOM now look like
 $toys = $('#box').children();
 ```
 
-### [`.last()`](http://api.jquery.com/last/)
+#### [`.last()`](http://api.jquery.com/last/)
 To get the last item in a collection of jQuery objects (such as `$toys` above).
 ```javascript
 $lastToy = $toys.last();
