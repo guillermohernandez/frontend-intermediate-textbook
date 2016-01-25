@@ -1,10 +1,12 @@
-# Lesson Two
+![](http://static1.squarespace.com/static/538f3fcde4b05c5fecc7a40e/t/538f48a4e4b00d94e8c253b3/1453396632576/?format=400w)
+# Frontend Intermediate Textbook
+## Lesson Two
 
 Let's be sure to add this to our notes repository. Navigate into your repository using `cd`, and create a new file titled something like _LessonTwoNotes.js_ by typing `subl LessonTwoNotes.js`. Type examples (and make comments) in here.
 
-## JavaScript
+### JavaScript
 
-### Conditionals
+#### Conditionals
 Conditionals are a cornerstone in the logic of programming. `if` something then, do this, `else` do something else, unless `if` something `else` is true. A conditional statement in JavaScript can read like this:
 ```javascript
 var year = 1975;
@@ -43,7 +45,7 @@ else {
 // do what's out here after the conditionals
 ```
 
-### Modulo (`%`) Operator
+#### Modulo (`%`) Operator
 We've seen before that Javascript does the basic mathmatical operators: `+`, `-`, `*`, `/`. But in most programming language, JavaScript included, you have a fifth operator, the modulo ('%'). The modulo will return the remainder of a division problem. For instance, 10 / 3 = 3 r 1, so using a modulo:
 ```javascript
 10 % 3;
@@ -63,7 +65,7 @@ if (num % 2 === 0) {
 ```
 In this example, it would not have been correct for us to log `"I'm Odd!"` if the first conditional was not true. That is becuase if `num` would have been `0` or a negative integer, `num % 2` would have returned `NaN` (not-a-number).
 
-### Named Functions
+#### Named Functions
 Programming, coding, and hacking, at their roots, are really just a bunch of problems waiting to be solved. Functions help us to break up our large problems into smaller, solveable problems. This is called the "Decomposition Method", and the better you are at this, the better programmer you'll be. In JavaScript, defining a function is as easy as:
 ```javascript
 function myCustomName(parameter1, parameter2) {
