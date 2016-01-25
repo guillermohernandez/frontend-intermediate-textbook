@@ -1,6 +1,8 @@
-# Lesson Nine
+![](http://static1.squarespace.com/static/538f3fcde4b05c5fecc7a40e/t/538f48a4e4b00d94e8c253b3/1453396632576/?format=400w)
+# Frontend Intermediate Textbook
+## Lesson Nine
 
-## jQuery, forms, and the [`.submit()`](https://api.jquery.com/submit/) method
+### jQuery, forms, and the [`.submit()`](https://api.jquery.com/submit/) method
 ```html
 <form>
   <input type="text" placeholder="Enter some text...">
@@ -50,7 +52,7 @@ The `.val` method also let's us set the value of an element by passing in a stri
 $(this).find('input[type="text"]').val('')
 ```
 
-## Interacting with the DOM with [jQuery UI](http://jqueryui.com/)
+### Interacting with the DOM with [jQuery UI](http://jqueryui.com/)
 jQuery UI is a library built on top of jQuery. It adds cool frontend [user interactions](http://jqueryui.com/demos/) to your projects. Let's play with one.
 
 Let's start with some base html.
