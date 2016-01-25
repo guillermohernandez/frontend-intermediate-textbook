@@ -1,7 +1,9 @@
-# Lesson Four
-## Javacript
-### Popular Array Methods
-#### pop
+![](http://static1.squarespace.com/static/538f3fcde4b05c5fecc7a40e/t/538f48a4e4b00d94e8c253b3/1453396632576/?format=400w)
+# Frontend Intermediate Textbook#
+## Lesson Four
+### Javacript
+#### Popular Array Methods
+##### pop
 [`[].pop()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop) removes the **last** item in an array, and returns that item.
 ```javascript
 var arr = [ 1, 2, 3, 4 ];
@@ -15,7 +17,7 @@ console.log(poppedItem);
 //=> 4
 ```
 
-#### push
+##### push
 [`[].push(item)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) attaches an item(s) to the **back** of an array. It returns the new length of the array.
 ```javascript
 var arr = [1];
@@ -29,7 +31,7 @@ console.log(arr);
 //=> [ 1, 2, 3, 4 ]
 ```
 
-#### shift
+##### shift
 [`[].shift()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift) removes the **first** item in an array, and returns that item.
 ```javascript
 var arr = [ 1, 2, 3, 4 ];
@@ -43,7 +45,7 @@ console.log(shiftedItem);
 //=> 1
 ```
 
-#### unshift
+##### unshift
 [`[].unshift(item)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift) attaches an item(s) to the **front** of an array. It returns the new length of that array.
 ```javascript
 var arr = [1];
@@ -57,7 +59,7 @@ console.log(arr);
 //=> [ 3, 4, 2, 1 ]
 ```
 
-### Associative Arrays (Objects)
+#### Associative Arrays (Objects)
 Associative arrays (also referred to as Objects) are similiar to arrays in that they are a collection of data. The big diffence is how it is organized. Arrays have an **implicit** index starting from 0. Objects have an **explicit** "index" called a _key_, with an associated _value_.
 ```javascript
 // Exampla A
