@@ -1,6 +1,8 @@
-# Lesson Ten
+![](http://static1.squarespace.com/static/538f3fcde4b05c5fecc7a40e/t/538f48a4e4b00d94e8c253b3/1453396632576/?format=400w)
+# Frontend Intermediate Textbook
+## Lesson Ten
 
-## The API
+### The API
 
 An application programming interface (API) is a way to talk to a backend application. If you say the magic words, give the correct parameters, and have the proper access, you can control an application and get results from it. Let's see what a sample JSON response looks like. In your browser, enter `http://jsonplaceholder.typicode.com/users/1`. You'll see something return that looks like this.
 
@@ -32,7 +34,7 @@ An application programming interface (API) is a way to talk to a backend applica
 
 This is a response. You can change the number on the end to get a different user, or even remove the number altogether to see a list of all the available users. This is a great example of a [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer#Example) backend.
 
-## AJAX requests
+### AJAX requests
 
 In our last lesson, we learned that submitting a form makes a call, or a request, to the backend and refreshes the page when it returns. We also learned that we can prevent that from happenening with jQuery by capturing the `event` and calling `.preventDefault()` on it.
 
@@ -79,7 +81,7 @@ $.ajax('http://jsonplaceholder.typicode.com/users', {
 
 Score!
 
-## [Underscore.js](http://underscorejs.org/)
+### [Underscore.js](http://underscorejs.org/)
 
 Uugghh!! I'm so tired of righting `for` loops. They are ugly, don't give much context to what is happening, and take too long to write.
 
