@@ -1,4 +1,5 @@
-# Prework
+![](http://static1.squarespace.com/static/538f3fcde4b05c5fecc7a40e/t/538f48a4e4b00d94e8c253b3/1453396632576/?format=400w)
+# Frontend Intermediate Prework
 
 ## Codecademy
 [Codecademy](https://www.codecademy.com/) is a great resource for learning the syntax of different popular laguages, as well as familiarizing yourself with important tools. Make an account and get started coding now. Try to do at lease little bit every day, but don't be afraid to go on a binge.
