@@ -1,13 +1,15 @@
-# Lesson Seven
-## Serving your app
+![](http://static1.squarespace.com/static/538f3fcde4b05c5fecc7a40e/t/538f48a4e4b00d94e8c253b3/1453396632576/?format=400w)
+# Frontend Intermediate Textbook
+## Lesson Seven
+### Serving your app
 When developing any app, you'll want to "serve" it local server. A local server is a like your own person internet, with only your application's files inside it. It's easy to set up.
 
 1. Install globally the npm package [http-server](https://www.npmjs.com/package/http-server): `sudo npm install -g http-server` note: you only have to do this once
 2. `cd` into your project directory and run `http-server`
 3. In your browser, navigate to `localhost:8080`. It will automatically load your `index.html` file
 
-## jQuery
-### Why do we have it?
+### jQuery
+#### Why do we have it?
 Every browser has an API, meaning that it has built in functions and methods for us to locate an element using JavaScript and be able to manipulate it, or add to it, or whatever. For instance, in Chrome I could have an `index.html` that looks something like this
 ```html
 <html>
@@ -59,7 +61,7 @@ So using jQuery, our file would look slightly different.
 ```
 So here, we wee that we are loading jQuery with a CDN, then running our modified script. 
 
-### Selecting an Element in the DOM
+#### Selecting an Element in the DOM
 What is the DOM? It's the Document Object Model. Duh. But in all practical matters, It's the window with all of your `<div>`s, `<span>`s, etc. Using jQuery, it's easy to add some extra cool features to them.
 To grab an element, you would target it like you would in CSS.
 ```html
@@ -70,7 +72,7 @@ You would grab this one with jQuery by
 
 Now, an HTML element that we got with `document.getElementById('counter');` has a few functions, but a jQuery object is like an HTML element on steriods. It comes with all kinds of methods that we can use to manipulate the element.
 
-### Maniplating a DOM Element
+#### Maniplating a DOM Element
 So now not only do we have our `<div>` to play with, we added a whole world of functionality to it.
 ```html
 <div id="box">I'm in a box.<div>
@@ -86,7 +88,7 @@ console.log($box.text());
 //=> "Where am I?";
 ```
 
-### Adding an attribute to the element
+#### Adding an attribute to the element
 We can add `data-` attribute to elements that we can utilize in apps.
 ```html
 <div id="box">I'm in a box.<div>
@@ -99,7 +101,7 @@ console.log($box.data('number'));
 //=> 1
 ```
 
-### Callbacks
+#### Callbacks
 One of the coolest (and sometimes most frustrating) things about JavaScript is that it is asynchronous. We use _callbacks_ to tell the code "once this thing finished, do this _callback_, but I am going to keep going." 
 
 We wrapped our script in a
