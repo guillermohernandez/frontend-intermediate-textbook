@@ -1,7 +1,9 @@
-# Lesson Five
-## Javacript
-### More Operators
-#### Increment (`++`) and Decrement (`--`)
+![](http://static1.squarespace.com/static/538f3fcde4b05c5fecc7a40e/t/538f48a4e4b00d94e8c253b3/1453396632576/?format=400w)
+# Frontend Intermediate Textbook
+## Lesson Five
+### Javacript
+#### More Operators
+##### Increment (`++`) and Decrement (`--`)
 In JavaScript, you can attach a `++` to the end of any variable assigned to a number to increment that variable by one.
 ```javascript
 var num = 55;
@@ -23,7 +25,7 @@ console.log(num);
 //=> 55
 ```
 
-#### Assignment Operators (`+=`, `-=`, `*=`, `/=`)
+##### Assignment Operators (`+=`, `-=`, `*=`, `/=`)
 [Assignment Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators) are also pretty handy. While the `++` and `--` let you increase and decrease by one, these can let you increase/decrease by anything.
 ```javascript
 var num = 3;
@@ -35,8 +37,8 @@ console.log(num);
 //=> 7
 ```
 
-### Loops
-#### `for` Loop
+#### Loops
+##### `for` Loop
 Loops are how you work things done. If I wanted to cycle through this array
 `var arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];`
 and return an array with all the items doubled without using a loop, it would end up looking like this
@@ -87,7 +89,7 @@ console.log(arr2);
 ```
 This is a **very common** pattern. First we assign `var i` as our iterator starting at 0, then our condition will limit use from going over the highest index in our array. This is an important concept. In `['a', 'b', 'c', 'd']`, we have an item at index 0, 1, 2, and 3, but we have a *length* of 4. So we use our `.length` propertie of an array to automatically determine the stopping place of our loop. If our array get's bigger or smaller, so will our condition. Then we finish with an iterator, which increases the value of `i` by 1 each time. The code inside pushes the item from `arra` at index `i` , multiplied by 2, into `arr2`.
 
-#### `while` Loop
+##### `while` Loop
 What if we want something to loop, but have a condition that isn't number based? We can use a while loop, but with more freedom comes more responsibility.
 ```javascript
 var colors = ['red', 'blue', 'green' 'yellow']
