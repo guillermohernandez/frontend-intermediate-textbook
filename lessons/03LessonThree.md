@@ -1,7 +1,9 @@
-# Lesson Three
-## Javascript
+![](http://static1.squarespace.com/static/538f3fcde4b05c5fecc7a40e/t/538f48a4e4b00d94e8c253b3/1453396632576/?format=400w)
+# Frontend Intermediate Textbook
+## Lesson Three
+### Javascript
 
-### Scope
+#### Scope
 An item's scope refers to where exactly it is accessible from. The rule of thumb is if it is defined immediately inside or outside of the current function, it is accessible.
 ```javascript
 var outsideVar = 'Hello';
@@ -73,7 +75,7 @@ function one() {
 ```
 note: You can see a function is allowed to refer to itself from within!
 
-### Ternary Operator
+#### Ternary Operator
 Conditional statements are great, but sometimes are more "syntax-y" that we would like for simple statements.
 For instance, if I want to toggle a value (meaning switch back and forth, like a light switch), a conditional statment may look like this:
 ```javascript
@@ -102,7 +104,7 @@ toggleLight();
 ```
 This ternary expression is equivalent in functionality to the conditional statement above.
 
-### Arrays
+#### Arrays
 The array is one of the most popular data structures in most programming languages. In the most simplest case, they are simply a list of items.
 ```javascript
 var arr = [ 1, 2, 3, 4, 5, 6 ];
@@ -117,7 +119,7 @@ var nestedArray = [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ];
 // whoa
 ```
 
-#### Accessing/Setting items in an array
+##### Accessing/Setting items in an array
 The positions in an array probably the most important attribute of the array. The "index" starts at 0, so
 ```javascript
 var indicesArr = [ "I'm at index 0!", "I'm at index 1!", "I'm at index 2!", "I'm at index 3!" ];
