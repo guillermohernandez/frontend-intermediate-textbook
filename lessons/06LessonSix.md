@@ -1,6 +1,8 @@
-# Lesson Six
-## Object Oriented Programming (OOP)
-### The object
+![](http://static1.squarespace.com/static/538f3fcde4b05c5fecc7a40e/t/538f48a4e4b00d94e8c253b3/1453396632576/?format=400w)
+# Frontend Intermediate Textbook
+## Lesson Six
+### Object Oriented Programming (OOP)
+#### The object
 Object oriented programming is the "real deal" of programming. It's a little weird to wrap yor head around at first, and the syntax, reserved words, and vocabulary can be a little intimidating. But once you "get it", your ability to program and pick up new skills and tools will skyrocket. Let's get started with a simple example:
 
 A human is a **class**. There is not physical example of a human, just a list of charastics that, if an **object** has these characteristics, it is considered to be of **class** human. Some general characteristics of a human could be:
