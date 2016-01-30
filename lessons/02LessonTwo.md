@@ -1,9 +1,6 @@
 ![](http://static1.squarespace.com/static/538f3fcde4b05c5fecc7a40e/t/538f48a4e4b00d94e8c253b3/1453396632576/?format=400w)
 # Frontend Intermediate Textbook
 ## Lesson Two
-
-Let's be sure to add this to our notes repository. Navigate into your repository using `cd`, and create a new file titled something like _LessonTwoNotes.js_ by typing `subl LessonTwoNotes.js`. Type examples (and make comments) in here.
-
 ### JavaScript
 
 #### Conditionals
