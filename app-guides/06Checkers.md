@@ -75,7 +75,7 @@ Our board so far:
 ```
 
 ### Spec 2.1 - Let's create some checkers put them on the board
-In your `Checker` class, create an attribute called `this.checkers` and assign it to an empty array. This will be your repository of checker pieces. Now create a method called `this.createCheckers`. In it, let's define our starting positions of the checkers on the grid. In local `var`iables, define `whitePositions` and `blackPositions` as array of `[row, column]` coordinates:
+In your `Board` class, create an attribute called `this.checkers` and assign it to an empty array. This will be your repository of checker pieces. Now create a method called `this.createCheckers`. In it, let's define our starting positions of the checkers on the grid. In local `var`iables, define `whitePositions` and `blackPositions` as array of `[row, column]` coordinates:
 ```
 White positions:
 [0, 1], [0, 3], [0, 5], [0, 7],
