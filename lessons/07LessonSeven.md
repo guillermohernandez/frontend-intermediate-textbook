@@ -72,7 +72,7 @@ You would grab this one with jQuery by
 
 Now, an HTML element that we got with `document.getElementById('counter');` has a few functions, but a jQuery object is like an HTML element on steriods. It comes with all kinds of methods that we can use to manipulate the element.
 
-#### Maniplating a DOM Element
+#### Manipulating a DOM Element
 So now not only do we have our `<div>` to play with, we added a whole world of functionality to it.
 ```html
 <div id="box">I'm in a box.<div>
