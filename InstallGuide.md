@@ -14,15 +14,8 @@
 1. Restart your terminal
 1. Type `git --version`, you should see a version number.
 
-## Sublime Text 3
-1. You do not have to use this text editor, but it is industry level with a great [plugin community](https://packagecontrol.io/).
-1. Download and install from http://www.sublimetext.com/3
-1. Add Sublime Text shortcut
-  * (Mac) run `echo "alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'" >> ~/.bash_profile`
-  * (Windows) run  `echo "alias subl='/c/Program\ Files/Sublime\ Text\ 3/subl'" >> ~/.bash_profile`
-1. Restart your terminal.
-1. You should be able to access Sublime Text from the command line by typing `subl`.
-  * If not, we will troubleshoot the first day of class.
+### Atom Text Editor
+1. Download and install from https://atom.io/
 
 ## Node.js
 1. Download and install from https://nodejs.org/
