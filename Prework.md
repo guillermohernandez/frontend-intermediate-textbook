@@ -13,7 +13,7 @@ For your prework (**work done before class starts**) you are to do:
 Without these skills you will fall behind not only in class, but in any developer position anywhere. Complete the
 `Navigation` and `Manipulation` lessons.
 
-### 2. [Codecademy: Javacript](https://www.codecademy.com/tracks/javascript)
+### 2. [Codecademy: JavaScript](https://www.codecademy.com/tracks/javascript)
 Your future bread and butter.
 
 ### 3. [Code School: Try Git](https://try.github.io)
