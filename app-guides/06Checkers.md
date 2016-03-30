@@ -27,20 +27,20 @@ The [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concern
 
 * The `Board` class will be concerned about
   * *attributes*
-    * A grid layout `this.grid = ...`. See it [here](https://github.com/AustinCodingAcademy/frontend-intermediate-workbook/blob/master/apps/06Checkers.js#L13)
+    * A grid layout `this.grid = ...`. See it [here](https://github.com/AustinCodingAcademy/frontend-intermediate-workbook/blob/gh-pages/apps/06Checkers.js#L13)
     * "In play" checkers `this.checkers = ...`.
   * *methods*
-    * Creating the grid `this.createGrid = function() { ...`. View it [here](https://github.com/AustinCodingAcademy/frontend-intermediate-workbook/blob/master/apps/06Checkers.js#L15)
-    * Viewing the grid `this.viewGrid = function() { ...`. View it [here](https://github.com/AustinCodingAcademy/frontend-intermediate-workbook/blob/master/apps/06Checkers.js#L27)
+    * Creating the grid `this.createGrid = function() { ...`. View it [here](https://github.com/AustinCodingAcademy/frontend-intermediate-workbook/blob/gh-pages/apps/06Checkers.js#L15)
+    * Viewing the grid `this.viewGrid = function() { ...`. View it [here](https://github.com/AustinCodingAcademy/frontend-intermediate-workbook/blob/gh-pages/apps/06Checkers.js#L27)
     * Creating the checker instances `this.createCheckers = function() { ...`
     * Selecting a particular checker `this.selectChecker (position) { ...`
     * Killing a checker `this.killChecker = function(position) {...`
 
 * `Game` class will be concerned about
   * *attributes*
-    * A game board `this.board = new Board();` See it [here](https://github.com/AustinCodingAcademy/frontend-intermediate-workbook/blob/master/apps/06Checkers.js#L56)
+    * A game board `this.board = new Board();` See it [here](https://github.com/AustinCodingAcademy/frontend-intermediate-workbook/blob/gh-pages/apps/06Checkers.js#L56)
   * *methods*
-    * Starting a game `this.start = function() { ...`. See it [here](https://github.com/AustinCodingAcademy/frontend-intermediate-workbook/blob/master/apps/06Checkers.js#L58)
+    * Starting a game `this.start = function() { ...`. See it [here](https://github.com/AustinCodingAcademy/frontend-intermediate-workbook/blob/gh-pages/apps/06Checkers.js#L58)
 
 ## Spec 1 - Build the `Checker` class
 A `Checker` piece has one concern, its symbol. We can use [unicode characters](http://jrgraphix.net/r/Unicode/25A0-25FF) with the JavaScript `String.fromCharCode(0x1<unicode>)` method. The symbol that is assigned is based on what color (`'white'` or `'black'`) the checker will be. Let's pass in the `color` as an argument, `function Checker(color) { ... ` and set the `Checker` instance's `this.symbol`. `if` the `color` is `'white`, set `this.symbol` equal to `String.fromCharCode(0x125CB)`, otherwise set it equal to `String.fromCharCode(0x125CF)`.
