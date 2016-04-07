@@ -135,7 +135,7 @@
 * [Towers of Hanoi (jQuery)](app-guides/07TowersOfHanoi-jQuery.md)
 
 ---
-#### [Lesson Nine](lessons/10LessonTen.md)
+#### [Lesson Nine](lessons/09LessonNine.md)
 * jQuery
   * `.find()`
   * Preventing Default Event
@@ -146,7 +146,7 @@
 * [Todo](app-guides/09Todo.md)
 
 ---
-#### [Lesson Ten](lessons/09LessonNine.md)
+#### [Lesson Ten](lessons/10LessonTen.md)
 * jQuery
   * `.ajax()`
   * Working with JSON
